@@ -55,6 +55,8 @@ Durante la planificación deberán priorizar la seguridad, privacidad, dignidad 
 * **Respeto por los espacios:** Las actividades realizadas en parques, barrios, instituciones, establecimientos o espacios culturales deberán respetar las normas del lugar y no interferir con sus actividades habituales.
 * **Fuentes externas y derechos de autor:** Cuando se utilicen imágenes, textos, mapas, estadísticas u otros recursos que no hayan sido producidos por el grupo, deberá identificarse su procedencia y respetarse las condiciones de uso y autoría.
 
+**Evidencia:** Generen un documento que contenga la planificación de la actividad, incluyendo las medidas de seguridad, privacidad y ética que se aplicarán durante la recopilación de datos.
+
 Referencias
 ===========
 
