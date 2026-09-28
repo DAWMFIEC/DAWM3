@@ -12,7 +12,7 @@ El proyecto se desarrolla en fases consecutivas. Cada fase produce una evidencia
 Fase 1: Análisis
 ================
 
-En esta fase, descubrirán antes de construir, qué necesita comunicar la actividad y qué buscan sus visitantes, y convertirán estos resultados en los requerimientos que guiarán las fases siguientes.
+En grupos de dos personas, descubrirán antes de construir, qué necesita comunicar la actividad y qué buscan sus visitantes, y convertirán estos resultados en los requerimientos que guiarán las fases siguientes.
 
 **Perfiles de referencia.** 
 
