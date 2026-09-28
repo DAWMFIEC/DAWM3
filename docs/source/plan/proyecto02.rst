@@ -18,7 +18,7 @@ En grupos de dos personas, descubrirán antes de construir, qué necesita comuni
 
 Elijan una actividad social, cultural, artística o deportiva de su comunidad y justifiquen su elección en un párrafo. Revisen sus redes sociales para conocer qué hacen, quiénes participan y cómo se comunican hoy. Como referencia pueden considerar los siguientes ejemplos de actividades, aunque no se limitan, en Guayaquil:
 
-* Actividades sociales: [Comité del Barrio Chino](https://www.instagram.com/comitebarriochino.gyq/) , [Épico](https://www.instagram.com/epicogye/) y [Malecón 2000](https://www.instagram.com/malecon2000/).
+* Actividades sociales: `Comité del Barrio Chino <https://www.instagram.com/comitebarriochino.gyq/>`_ , `Épico <https://www.instagram.com/epicogye/>`_ y `Malecón 2000 <https://www.instagram.com/malecon2000/>`_.
 * Actividades artísticas: [Semanartte](https://www.instagram.com/semanartte/) y [Plaza Guayarte](https://www.instagram.com/plazaguyarte/).
 * Actividades culturales: [Museo Nahim Isaías](https://www.instagram.com/museonahimisaias/), [Museo Presley Norton](https://www.instagram.com/m.presleynorton/), [Museo del Cacao](https://www.instagram.com/museocacao/), [Teatro Centro de Arte](https://www.instagram.com/tcagye/), [Museo Antropológico y de Arte Contemporáneo](https://www.instagram.com/maacec/) y [Red de museos de la Dirección de](https://www.instagram.com/museos.gye/).
 
