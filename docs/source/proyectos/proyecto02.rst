@@ -22,5 +22,6 @@ Proyecto 02: Explorando la cultura con la web
 
 .. toctree::
   :maxdepth: 1
+  :caption: Contenido
   
   ../plan/proyecto02.rst

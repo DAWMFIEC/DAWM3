@@ -22,5 +22,6 @@ Proyecto 01: Portafolio de identidad digital
 
 .. toctree::
   :maxdepth: 1
+  :caption: Contenido
   
   ../plan/proyecto01.rst
