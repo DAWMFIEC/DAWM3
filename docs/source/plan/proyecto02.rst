@@ -40,7 +40,7 @@ En esta fase, el grupo debe diseñar la entrevista o encuesta que se aplicará a
 Fase 3: Planificación
 ==================
 
-Durante la planificación deberán actuar de manera responsable, segura y ética, especialmente cuando las actividades involucren interacción con personas o espacios de la comunidad.
+Durante la planificación deberán priorizar la seguridad, privacidad, dignidad y bienestar de las personas sobre la obtención de datos o evidencias para el proyecto. Para esto, deberán actuar de manera responsable, segura y ética, especialmente cuando las actividades involucren interacción con personas o espacios de la comunidad.
 
 * **Seguridad personal:** No realizar actividades que impliquen ingresar a lugares peligrosos, restringidos o desconocidos. Evitar horarios, zonas o situaciones que puedan representar un riesgo. Ninguna evidencia o dato justifica poner en riesgo la integridad de los integrantes del grupo o de terceros.
 * **Privacidad:** Recopilar únicamente los datos necesarios para cumplir con el objetivo del proyecto. Evitar solicitar o publicar nombres completos, números de identificación, direcciones, teléfonos, correos electrónicos u otra información que permita identificar innecesariamente a una persona.
