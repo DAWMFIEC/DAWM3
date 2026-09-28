@@ -1,13 +1,18 @@
-========================================
-Desarrollo de Aplicaciones Web y Móviles
-========================================
+..
+   Copyright (c) 2025 Allan Avendaño Sudario
+   Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
+   SPDX-License-Identifier: CC-BY-SA-4.0
 
-**Desarrollo de Aplicaciones Web y Móviles** (/DAWM/)  es una `asignatura <http://www.gestioncurso.espol.edu.ec/wr-resource/Contenidocurso/Archivos/Spa/2034/solicitudaprobadacpEspanol.pdf>`_ del programa de las carreras de `Computación <https://www.fiec.espol.edu.ec/es/carreras-de-grado/computacion>`_ y de `Ciencia de Datos e Inteligencia Artificial <https://www.fiec.espol.edu.ec/es/carreras-de-grado/ciencia-de-datos-e-inteligencia-artificial-hibrida>`_, de la `Escuela Superior Politécnica del Litoral (ESPOL) <https://www.espol.edu.ec/es>`_, cuyo propósito es diseñar e implementar aplicaciones web y
-móviles cumpliendo con los estándares actuales y las buenas prácticas de programación. 
+==================
+Plan de desarrollo
+==================
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Proyectos
-  :glob:
+El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo que el historial de commits cuente cómo se construyó el perfil.
 
-  proyectos/proyecto01.rst
+Fase 1: Análisis
+================
+
+En esta fase, observa antes de construir. Estudia cómo otros desarrolladores presentan su identidad en GitHub y qué características tiene un proyecto bien versionado, para decidir con criterio qué incluir en tu propio perfil y cómo documentar los proyectos que vas a destacar.
+
+Tareas
+------

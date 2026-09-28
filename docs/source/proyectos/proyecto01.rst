@@ -12,10 +12,7 @@ Proyecto 01: Repositorio del desarrollador
 
     Desarrollar un medio que refleje la identidad digital del desarrollador, facilitando la presentación de sus habilidades y proyectos de manera clara y accesible.
 
-Introducción
-=====================
-
-.. admonition:: 
+.. admonition:: Prompt
 
     Como desarrollador, ¿De qué manera puedo compartir mis proyectos técnicos-tecnológicos con el mundo de forma accesible y profesional?
 
@@ -25,6 +22,6 @@ Introducción
 
 .. toctree::
   :maxdepth: 1
-  :caption: Plan de Desarrollo
+  :caption: Recursos
   
   ../plan/proyecto01.rst
