@@ -27,10 +27,10 @@ Elijan una actividad social, cultural, artística o deportiva de su comunidad y 
 Referencias
 ===========
 
-Comité del Barrio Chino - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/comitebarriochino.gyq/
-Épico - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/epicogye/
-Malecón 2000 - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/malecon2000/
-SEMANARTE - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/semanartte/
-Museo Nahim Isaías - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/museonahimisaias/
-Museo Presley Norton - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/m.presleynorton/
-Museo del cacaco - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/museocacao/
+- Comité del Barrio Chino - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/comitebarriochino.gyq/
+- Épico - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/epicogye/
+- Malecón 2000 - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/malecon2000/
+- SEMANARTE - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/semanartte/
+- Museo Nahim Isaías - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/museonahimisaias/
+- Museo Presley Norton - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/m.presleynorton/
+- Museo del cacaco - Instagram. (n.d.). Retrieved September 28, 2026 from https://www.instagram.com/museocacao/
