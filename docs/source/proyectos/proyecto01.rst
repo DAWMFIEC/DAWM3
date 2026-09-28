@@ -3,9 +3,9 @@
   Licensed under Creative Commons Attribution-ShareAlike 4.0 International License
   SPDX-License-Identifier: CC-BY-SA-4.0
 
-==========================================
-Proyecto 01: Repositorio del desarrollador
-==========================================
+============================================
+Proyecto 01: Portafolio de identidad digital
+============================================
 
 .. topic:: Objetivo general
     :class: objetivo
@@ -22,6 +22,5 @@ Proyecto 01: Repositorio del desarrollador
 
 .. toctree::
   :maxdepth: 1
-  :caption: Recursos
   
   ../plan/proyecto01.rst
