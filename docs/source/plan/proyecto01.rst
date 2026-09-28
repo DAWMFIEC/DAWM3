@@ -39,11 +39,11 @@ Elige dos o tres repositorios fijados en los perfiles analizados y verifica qué
 
 **Requisitos de tu perfil.** 
 
-A partir de los hallazgos, redacta los requisitos funcionales (qué debe mostrar el perfil) y no funcionales (legibilidad, accesibilidad, mantenibilidad) que guiarán el diseño.
+Con estos resultados, redacta los requisitos funcionales (qué debe mostrar el perfil) y no funcionales (legibilidad, accesibilidad, mantenibilidad) que guiarán el diseño.
 
 Aplica la misma lista de verificación a tus repositorios que piensas destacar e identifica qué les falta.
 
-**Evidencia:** Genera una tabla comparativa de perfiles, la lista de verificación de proyectos versionados, el diagnóstico de tus repositorios y los requisitos definidos.
+**Evidencia:** Genera una tabla comparativa de perfiles, la lista de verificación de proyectos, el diagnóstico de tus repositorios y los requisitos definidos.
 
 Referencias
 ===========
