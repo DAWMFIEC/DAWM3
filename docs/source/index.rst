@@ -11,28 +11,3 @@ móviles cumpliendo con los estándares actuales y las buenas prácticas de prog
   :glob:
 
   proyectos/proyecto01.rst
-  proyectos/proyecto02.rst
-  proyectos/proyecto03.rst
-  proyectos/proyecto04.rst
-  proyectos/proyecto05.rst
-  proyectos/proyecto06.rst
-
-
-.. toctree::
-  :maxdepth: 1
-  :caption: Extras
-  :glob:
-
-  guias/extra/*
-
-.. toctree::
-  :maxdepth: 1
-  :caption: Información importante
-  :glob:
-
-  informacion/*
-
-
-.. note::
-
-   Puedes consultar el `sitio web anterior <https://dawmfiec.github.io/DAWM/>`_.
