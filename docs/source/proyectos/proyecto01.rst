@@ -15,7 +15,7 @@ Proyecto 01: Repositorio del desarrollador
 Introducción
 =====================
 
-.. admonition:: Prompt
+.. admonition:: 
 
     Como desarrollador, ¿De qué manera puedo compartir mis proyectos técnicos-tecnológicos con el mundo de forma accesible y profesional?
 
