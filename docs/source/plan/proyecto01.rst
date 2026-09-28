@@ -20,22 +20,22 @@ Tareas
 1. **Selecciona perfiles de referencia.** 
 
 Elige al menos tres perfiles de GitHub, por ejemplo, de la lista Abhisheknaiidu (n.d.) y analiza cada perfil con los mismos criterios. Registra en una tabla comparativa:
-    
-  ◦ Presentación: qué se entiende del desarrollador en los primeros 10 segundos.
-  ◦ Estructura: secciones, orden y jerarquía visual.
-  ◦ Habilidades: cómo se muestran (texto, insignias, iconos) y si son verificables.
-  ◦ Proyectos: cuáles se fijan y cómo se describen.
-  ◦ Contacto: canales disponibles y su visibilidad.
-  ◦ Accesibilidad y lectura en móvil: texto alternativo, contraste, dependencia de imágenes externas.
+
+  * Presentación: qué se entiende del desarrollador en los primeros 10 segundos.
+  * Estructura: secciones, orden y jerarquía visual.
+  * Habilidades: cómo se muestran (texto, insignias, iconos) y si son verificables.
+  * Proyectos: cuáles se fijan y cómo se describen.
+  * Contacto: canales disponibles y su visibilidad.
+  * Accesibilidad y lectura en móvil: texto alternativo, contraste, dependencia de imágenes externas.
 
 Elige dos o tres repositorios fijados en los perfiles analizados y verifica qué características tienen:
 
-  ◦ Descripción corta, temas (topics) y enlace a demo o sitio.
-  ◦ README con propósito, tecnologías, instrucciones de instalación y uso, y capturas.
-  ◦ Licencia y archivo .gitignore.
-  ◦ Historial de commits: frecuencia y calidad de los mensajes.
-  ◦ Uso de Issues, Pull Requests, ramas y Releases.
-  ◦ Estructura de carpetas ordenada.
+  * Descripción corta, temas (topics) y enlace a demo o sitio.
+  * README con propósito, tecnologías, instrucciones de instalación y uso, y capturas.
+  * Licencia y archivo .gitignore.
+  * Historial de commits: frecuencia y calidad de los mensajes.
+  * Uso de Issues, Pull Requests, ramas y Releases.
+  * Estructura de carpetas ordenada.
 
 2. **Define los requisitos de tu perfil.** 
 
