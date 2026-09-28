@@ -10,7 +10,7 @@ Proyecto 01: Portafolio de identidad digital
 .. topic:: Objetivo general
     :class: objetivo
 
-    Desarrollar un medio que refleje la identidad digital del desarrollador, facilitando la presentación de sus habilidades y proyectos de manera clara y accesible.
+    Implementar un medio que refleje la identidad digital del desarrollador, facilitando la presentación de sus habilidades y proyectos de manera clara y accesible.
 
 .. admonition:: Prompt
 

@@ -16,7 +16,7 @@ En grupos de dos personas, descubrirán antes de construir, qué necesita comuni
 
 **Perfiles de referencia.** 
 
-Elijan una actividad social, cultural, artística o deportiva de su comunidad y justifiquen su elección en un párrafo. Revisen sus redes sociales para conocer qué hacen, quiénes participan y cómo se comunican hoy. Algunos ejemplos de Guayaquil:
+Elijan una actividad social, cultural, artística o deportiva de su comunidad y justifiquen su elección en un párrafo. Revisen sus redes sociales para conocer qué hacen, quiénes participan y cómo se comunican hoy. Como referencia, pueden considerar los siguientes ejemplos de actividades en Guayaquil:
 
 * Actividades sociales: Comité del Barrio Chino (Comité del Barrio Chino - Instagram. n.d.), Épico (Épico - Instagram. n.d.) y Malecón 2000 (Malecón 2000 - Instagram. n.d.).
 * Actividades artísticas: Semanartte (SEMANARTE - Instagram. n.d.).

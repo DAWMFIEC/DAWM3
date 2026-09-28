@@ -10,7 +10,7 @@ Proyecto 02: Explorando la cultura con la web
 .. topic:: Objetivo general
     :class: objetivo
 
-    Desarrollar un sitio web con tecnologías nativas de la web que comunique la interacción entre la comunidad y una actividad social, cultural, artística o deportiva.
+    Desarrollar un sitio web que comunique la interacción entre la comunidad y una actividad social, cultural, artística o deportiva mediante el uso de tecnologías nativas de la web.
 
 .. admonition:: Prompt
 
