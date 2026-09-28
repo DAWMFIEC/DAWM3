@@ -37,6 +37,24 @@ En esta fase, el grupo debe diseñar la entrevista o encuesta que se aplicará a
 
 **Evidencia:** Generen un documento que contenga la entrevista o encuesta diseñada, incluyendo las preguntas abiertas y cerradas.
 
+Fase 3: Planificación
+==================
+
+Durante la planificación deberán actuar de manera responsable, segura y ética, especialmente cuando las actividades involucren interacción con personas o espacios de la comunidad.
+
+* **Seguridad personal:** No realizar actividades que impliquen ingresar a lugares peligrosos, restringidos o desconocidos. Evitar horarios, zonas o situaciones que puedan representar un riesgo. Ninguna evidencia o dato justifica poner en riesgo la integridad de los integrantes del grupo o de terceros.
+* **Privacidad:** Recopilar únicamente los datos necesarios para cumplir con el objetivo del proyecto. Evitar solicitar o publicar nombres completos, números de identificación, direcciones, teléfonos, correos electrónicos u otra información que permita identificar innecesariamente a una persona.
+* **Consentimiento:** Informar a las personas participantes sobre el propósito académico de la actividad. Antes de realizar entrevistas, fotografías, grabaciones o recopilar testimonios, solicitar la autorización correspondiente.
+* **Protección de menores:** No recopilar ni publicar fotografías, testimonios o información identificable de niños, niñas o adolescentes sin las autorizaciones correspondientes. Se recomienda utilizar datos anónimos o agregados.
+* **Fotografías y material audiovisual:** Priorizar fotografías de espacios, objetos, actividades o resultados. Cuando aparezcan personas identificables, deberá contarse con su autorización antes de utilizar el material en el sitio web.
+* **Ubicación:** Evitar publicar información que revele domicilios particulares, rutinas personales o ubicaciones precisas que puedan generar riesgos para las personas participantes.
+* **Ética en la recopilación:** Las encuestas, entrevistas y observaciones deben realizarse con respeto. No se deben formular preguntas discriminatorias, invasivas, ofensivas o ajenas al propósito del proyecto.
+* **Integridad de los datos:** Los datos presentados deben corresponder a la actividad efectivamente realizada. No se deberán inventar, modificar o eliminar registros con el propósito de obtener determinados resultados.
+* **Anonimización:** Cuando sea posible, reemplazar la identidad de los participantes por códigos como `P01`, `P02` o `Participante 1`. Los resultados publicados deberían presentarse preferentemente de forma agrupada.
+* **Uso responsable de la información:** Los datos recopilados serán utilizados exclusivamente para los fines académicos definidos en el proyecto. El sitio no deberá exponer información que pueda perjudicar, ridiculizar, discriminar o generar riesgos para personas o comunidades.
+* **Respeto por los espacios:** Las actividades realizadas en parques, barrios, instituciones, establecimientos o espacios culturales deberán respetar las normas del lugar y no interferir con sus actividades habituales.
+* **Fuentes externas y derechos de autor:** Cuando se utilicen imágenes, textos, mapas, estadísticas u otros recursos que no hayan sido producidos por el grupo, deberá identificarse su procedencia y respetarse las condiciones de uso y autoría.
+
 Referencias
 ===========
 
