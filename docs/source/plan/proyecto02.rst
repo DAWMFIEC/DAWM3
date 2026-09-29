@@ -9,26 +9,27 @@ Plan de desarrollo
 
 En grupos de dos personas, seleccionen una problemática, manifestación cultural, actividad recreativa o aspecto de interés de su comunidad que pueda ser estudiado mediante la recopilación de datos y exposición de los resultados en un sitio web.
 
-Fase 1: Análisis
-================
 
-**Perfiles de referencia.** 
+.. dropdown:: Fase 1: Análisis
+   :color: success
 
-Elijan una actividad social, cultural, artística o deportiva de su comunidad y justifiquen su elección en un párrafo.
+   **Perfiles de referencia.** 
 
-La actividad seleccionada debe ser de interés para la comunidad y debe permitir la recopilación de datos, como ejemplo:
+   Elijan una actividad social, cultural, artística o deportiva de su comunidad y justifiquen su elección en un párrafo.
 
-* **Nuestro parque, nuestra comunidad.** El grupo selecciona un parque o espacio público y realiza observaciones en diferentes días u horarios.
-* **Arte urbano de mi comunidad.** El grupo realiza un recorrido por un sector de Guayaquil para identificar murales, grafitis, esculturas u otras manifestaciones artísticas.
-* **Juegos de antes y de ahora.** El grupo entrevista a personas de diferentes rangos de edad para identificar los juegos que practicaban durante su infancia.
+   La actividad seleccionada debe ser de interés para la comunidad y debe permitir la recopilación de datos, como ejemplo:
 
-Pueden obtener otras ideas de actividades, a partir de las redes sociales de instituciones de la ciudad, como:
+   * **Nuestro parque, nuestra comunidad.** El grupo selecciona un parque o espacio público y realiza observaciones en diferentes días u horarios.
+   * **Arte urbano de mi comunidad.** El grupo realiza un recorrido por un sector de Guayaquil para identificar murales, grafitis, esculturas u otras manifestaciones artísticas.
+   * **Juegos de antes y de ahora.** El grupo entrevista a personas de diferentes rangos de edad para identificar los juegos que practicaban durante su infancia.
 
-* Actividades sociales: `Comité del Barrio Chino <https://www.instagram.com/comitebarriochino.gyq/>`_ , `Épico <https://www.instagram.com/epicogye/>`_ y `Malecón 2000 <https://www.instagram.com/malecon2000/>`_.
-* Actividades artísticas: `Semanartte <https://www.instagram.com/semanartte/>`_ y `Plaza Guayarte <https://www.instagram.com/plazaguyarte/>`_.
-* Actividades culturales: `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_ y `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_.
+   Pueden obtener otras ideas de actividades, a partir de las redes sociales de instituciones de la ciudad, como:
 
-**Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada.
+   * Actividades sociales: `Comité del Barrio Chino <https://www.instagram.com/comitebarriochino.gyq/>`_ , `Épico <https://www.instagram.com/epicogye/>`_ y `Malecón 2000 <https://www.instagram.com/malecon2000/>`_.
+   * Actividades artísticas: `Semanartte <https://www.instagram.com/semanartte/>`_ y `Plaza Guayarte <https://www.instagram.com/plazaguyarte/>`_.
+   * Actividades culturales: `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_ y `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_.
+
+   **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada.
 
 Fase 2: Diseño
 ==============
