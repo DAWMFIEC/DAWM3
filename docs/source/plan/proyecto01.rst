@@ -9,41 +9,38 @@ Plan de desarrollo
 
 El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo que el historial de commits cuente cómo se construyó el perfil.
 
-Fase 1: Análisis
-================
+.. dropdown:: Fase 1: Análisis
+   :color: info
 
-En esta fase, observa antes de construir. Estudia cómo otros desarrolladores presentan su identidad en GitHub y qué características tiene un proyecto bien versionado, para decidir con criterio qué incluir en tu propio perfil y cómo documentar los proyectos que vas a destacar.
+   En esta fase, observa antes de construir. Estudia cómo otros desarrolladores presentan su identidad en GitHub y qué características tiene un proyecto bien versionado, para decidir con criterio qué incluir en tu propio perfil y cómo documentar los proyectos que vas a destacar.
 
-Tareas
-------
+   **Perfiles de referencia.** 
 
-**Perfiles de referencia.** 
+   Elige al menos tres perfiles de GitHub, por ejemplo, de la lista Abhisheknaiidu (n.d.) y analiza cada perfil con los mismos criterios. Registra en una tabla comparativa:
 
-Elige al menos tres perfiles de GitHub, por ejemplo, de la lista Abhisheknaiidu (n.d.) y analiza cada perfil con los mismos criterios. Registra en una tabla comparativa:
+   * Presentación: qué se entiende del desarrollador en los primeros 10 segundos.
+   * Estructura: secciones, orden y jerarquía visual.
+   * Habilidades: cómo se muestran (texto, insignias, iconos) y si son verificables.
+   * Proyectos: cuáles se fijan y cómo se describen.
+   * Contacto: canales disponibles y su visibilidad.
+   * Accesibilidad y lectura en móvil: texto alternativo, contraste, dependencia de imágenes externas.
 
-* Presentación: qué se entiende del desarrollador en los primeros 10 segundos.
-* Estructura: secciones, orden y jerarquía visual.
-* Habilidades: cómo se muestran (texto, insignias, iconos) y si son verificables.
-* Proyectos: cuáles se fijan y cómo se describen.
-* Contacto: canales disponibles y su visibilidad.
-* Accesibilidad y lectura en móvil: texto alternativo, contraste, dependencia de imágenes externas.
+   Elige dos o tres repositorios fijados en los perfiles analizados y verifica qué características tienen:
 
-Elige dos o tres repositorios fijados en los perfiles analizados y verifica qué características tienen:
+   * Descripción corta, temas (topics) y enlace a demo o sitio.
+   * README con propósito, tecnologías, instrucciones de instalación y uso, y capturas.
+   * Licencia y archivo .gitignore.
+   * Historial de commits: frecuencia y calidad de los mensajes.
+   * Uso de Issues, Pull Requests, ramas y Releases.
+   * Estructura de carpetas ordenada.
 
-* Descripción corta, temas (topics) y enlace a demo o sitio.
-* README con propósito, tecnologías, instrucciones de instalación y uso, y capturas.
-* Licencia y archivo .gitignore.
-* Historial de commits: frecuencia y calidad de los mensajes.
-* Uso de Issues, Pull Requests, ramas y Releases.
-* Estructura de carpetas ordenada.
+   **Requisitos de tu perfil.** 
 
-**Requisitos de tu perfil.** 
+   Con estos resultados, redacta los requisitos funcionales (qué debe mostrar el perfil) y no funcionales (legibilidad, accesibilidad, mantenibilidad) que guiarán el diseño.
 
-Con estos resultados, redacta los requisitos funcionales (qué debe mostrar el perfil) y no funcionales (legibilidad, accesibilidad, mantenibilidad) que guiarán el diseño.
+   Aplica la misma lista de verificación a tus repositorios que piensas destacar e identifica qué les falta.
 
-Aplica la misma lista de verificación a tus repositorios que piensas destacar e identifica qué les falta.
-
-**Evidencia:** Genera una tabla comparativa de perfiles, la lista de verificación de proyectos, el diagnóstico de tus repositorios y los requisitos definidos.
+   **Evidencia:** Genera una tabla comparativa de perfiles, la lista de verificación de proyectos, el diagnóstico de tus repositorios y los requisitos definidos.
 
 Referencias
 ===========
