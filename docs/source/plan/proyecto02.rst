@@ -12,6 +12,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
 
 .. dropdown:: Fase 1: Análisis
    :color: info
+   :disabled:
 
    **Perfiles de referencia.** 
 
@@ -23,16 +24,19 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    * **Arte urbano de mi comunidad.** El grupo realiza un recorrido por un sector de Guayaquil para identificar murales, grafitis, esculturas u otras manifestaciones artísticas.
    * **Juegos de antes y de ahora.** El grupo entrevista a personas de diferentes rangos de edad para identificar los juegos que practicaban durante su infancia.
 
-   Pueden obtener otras ideas de actividades, en las redes sociales de instituciones de la ciudad, como:
+   ESPOL ofrece una lista de actividades culturales y artísticas que pueden ser seleccionadas para el proyecto, en `ESPOL Cultural <https://www.instagram.com/espolcultural/>`_.
+   
+   Guayaquil cuenta con una amplia oferta de actividades culturales, artísticas y sociales que pueden ser seleccionadas para el proyecto, como:
 
    * Actividades sociales: `Comité del Barrio Chino <https://www.instagram.com/comitebarriochino.gyq/>`_ , `Épico <https://www.instagram.com/epicogye/>`_ y `Malecón 2000 <https://www.instagram.com/malecon2000/>`_.
    * Actividades artísticas: `Semanartte <https://www.instagram.com/semanartte/>`_ y `Plaza Guayarte <https://www.instagram.com/plazaguyarte/>`_.
-   * Actividades culturales: `ESPOL Cultural <https://www.instagram.com/espolcultural/>`_, `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_ y `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_.
+   * Actividades culturales: `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_ y `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_.
 
    **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada.
 
 .. dropdown:: Fase 2: Diseño
    :color: info
+   :disabled:
 
    En esta fase, el grupo debe diseñar la entrevista o encuesta que se aplicará a los participantes de la actividad seleccionada. La entrevista o encuesta debe contener preguntas abiertas y cerradas, y debe ser diseñada de manera que permita recopilar información relevante sobre la actividad (Oas.org/juridico/PDFs/mesicic4_ven_rec_gen_rea_entrev.pdf, n.d.).
 
@@ -40,6 +44,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
 
 .. dropdown:: Fase 3: Planificación
    :color: info
+   :disabled:
    
    Durante la planificación deberán priorizar la seguridad, privacidad, dignidad y bienestar de las personas sobre la obtención de datos o evidencias para el proyecto. Para esto, deberán actuar de manera responsable, segura y ética, especialmente cuando las actividades involucren interacción con personas o espacios de la comunidad.
 
