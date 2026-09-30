@@ -177,6 +177,21 @@ Preguntas guía y de reflexión
      -
      -
 
+2. A partir de lo observado, complete el siguiente esquema:
+
+.. figure:: ../img/solicitud.png
+   :alt: url
+   :align: center
+
+
+Identifique:
+- ¿Quién realiza la solicitud?
+- ¿Quién recibe la solicitud?
+- ¿Qué recurso se solicita?
+- ¿Qué método se utiliza?
+- ¿Cómo informa el servidor que la solicitud fue exitosa?
+
+
 Referencias
 ============
 
