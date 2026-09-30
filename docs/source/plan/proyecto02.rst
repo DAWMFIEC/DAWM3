@@ -31,19 +31,17 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    * Actividades artísticas: `Semanartte <https://www.instagram.com/semanartte/>`_ y `Plaza Guayarte <https://www.instagram.com/plazaguyarte/>`_.
    * Actividades culturales: `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_ y `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_.
 
-   **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada y respondan a la actividad en el AulaVirtual.
+   **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada.
 
 .. dropdown:: Fase 2: Diseño
    :color: info
-   :disabled:
 
    En esta fase, el grupo debe diseñar la entrevista o encuesta que se aplicará a los participantes de la actividad seleccionada. La entrevista o encuesta debe contener preguntas abiertas y cerradas, y debe ser diseñada de manera que permita recopilar información relevante sobre la actividad (Oas.org/juridico/PDFs/mesicic4_ven_rec_gen_rea_entrev.pdf, n.d.).
 
    **Evidencia:** Generen un documento que contenga la entrevista o encuesta diseñada, incluyendo las preguntas abiertas y cerradas.
 
 .. dropdown:: Fase 3: Planificación
-   :color: info
-   :disabled:
+   :color: alert
    
    Durante la planificación deberán priorizar la seguridad, privacidad, dignidad y bienestar de las personas sobre la obtención de datos o evidencias para el proyecto. Para esto, deberán actuar de manera responsable, segura y ética, especialmente cuando las actividades involucren interacción con personas o espacios de la comunidad.
 
@@ -59,8 +57,6 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    * **Uso responsable de la información:** Los datos recopilados serán utilizados exclusivamente para los fines académicos definidos en el proyecto. El sitio no deberá exponer información que pueda perjudicar, ridiculizar, discriminar o generar riesgos para personas o comunidades.
    * **Respeto por los espacios:** Las actividades realizadas en parques, barrios, instituciones, establecimientos o espacios culturales deberán respetar las normas del lugar y no interferir con sus actividades habituales.
    * **Fuentes externas y derechos de autor:** Cuando se utilicen imágenes, textos, mapas, estadísticas u otros recursos que no hayan sido producidos por el grupo, deberá identificarse su procedencia y respetarse las condiciones de uso y autoría.
-
-   **Evidencia:** Generen un documento que contenga la planificación de la actividad, incluyendo las medidas de seguridad, privacidad y ética que se aplicarán durante la recopilación de datos.
 
 Referencias
 ===========
