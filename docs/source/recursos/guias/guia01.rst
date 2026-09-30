@@ -140,6 +140,43 @@ Con la información investigada y la experiencia anterior, construya una definic
 
     <p>Visita nuestra <a href="contacto.html">página de contacto</a>.</p>
 
+5. ¿Qué información necesita el navegador para localizar un recurso?
+6. ¿Qué partes permanecen iguales en las URL utilizadas y cuáles cambian?
+
+HTTP: La comunicación entre el navegador y el servidor
+------------------------------------------------------
+
+Considerando el ejercicio anterior, revisa la terminal donde se ejecuta el servidor y observa los mensajes que aparecen cuando se solicita un recurso. 
+
+.. figure:: ../img/terminal.png
+   :alt: url
+   :align: center
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Formule una hipótesis sobre el significado de cada componente.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 35 45
+
+   * - Componente
+     - ¿Qué cree que significa?
+     - Definición después de investigar
+   * - ``GET``
+     -
+     -
+   * - ``/acerca.html``
+     -
+     -
+   * - ``HTTP/1.1``
+     -
+     -
+   * - ``200``
+     -
+     -
+
 Referencias
 ============
 
