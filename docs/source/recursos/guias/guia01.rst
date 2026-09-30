@@ -18,7 +18,7 @@ Actividades en clases
 ¿Quién es el cliente y quién el servidor cuando usas WhatsApp Web, Netflix y una impresora de red?
 --------------------------------------------------------------------------------------------------
 
-Copia el siguiente código en tu editor de texto y guárdalo como `index.html`:
+1. Copia el siguiente código en tu editor de texto y guárdalo como `index.html`:
 
 .. code-block:: html
     
@@ -35,7 +35,7 @@ Copia el siguiente código en tu editor de texto y guárdalo como `index.html`:
     </body>
     </html>
 
-Desde el directorio donde se encuentra `index.html`, ejecuta el siguiente comando en la terminal para iniciar un servidor web local:
+2. Desde el directorio donde se encuentra `index.html`, ejecuta el siguiente comando en la terminal para iniciar un servidor web local:
 
 .. code-block:: bash
     
@@ -58,8 +58,62 @@ Preguntas guía y de reflexión
 ¿Qué ocurre cuando escribo una URL?
 -----------------------------------
 
+1. Dentro de la misma carpeta donde se encuentra `index.html`, cree un segundo archivo llamado `acerca.html` con el siguiente contenido:
+
+.. code-block:: html
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acerca de</title>
+    </head>
+    <body>
+        <h1>Acerca de</h1>
+        <p>Esta es la página acerca de mi sitio web.</p>
+    </body>
+    </html>
+
+2. Sin detener el servidor, pruebe las siguientes direcciones en el navegador:
+
+.. code-block:: text
+
+    http://localhost:8000/index.html
+    http://localhost:8000/acerca.html
+    http://localhost:8000/noexiste.html
+
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Para cada URL, registre qué observa en el navegador y qué aparece en la terminal del servidor.
+
+| URL | Protocolo | Servidor | Puerto | Recurso solicitado | Resultado |
+|---|---|---|---|---|---|
+| `http://localhost:8000` | | | | | |
+| `http://localhost:8000/index.html` | | | | | |
+| `http://localhost:8000/acerca.html` | | | | | |
+| `http://localhost:8000/contacto.html` | | | | | |
+
+2. A partir de sus observaciones, proponga una explicación para cada componente:
+
+http://localhost:8000/acerca.html
+────    ───────── ──── ───────────
+  ?         ?       ?        ?
+
+3. Realice una búsqueda breve sobre el significado de **URL**. No copie textualmente la definición encontrada.
+Con la información investigada y la experiencia anterior, construya una definición propia que complete:
+
+Una URL es ____________________________________________________________ y permite ____________________________________________________________.
+
+4. Cree una tercera página llamada `contacto.html` y modifique `index.html` agregando:
+
+.. code-block:: html
+
+    <p>Visita nuestra <a href="contacto.html">página de contacto</a>.</p>
+
+¿Qué es HTTP?
+-----------------------------------
 
 1. ¿Qué representa ::1 al inicio de cada línea? ¿Qué relación tiene con localhost?
 2. ¿Qué indica el método GET en "GET / HTTP/1.1"?
@@ -70,9 +124,6 @@ Preguntas guía y de reflexión
     - "GET / HTTP/1.1" 200
     - "GET / HTTP/1.1" 304
     ¿Qué diferencia existe entre los códigos 200 y 304?
-
-¿Qué es HTTP?
------------------------------------
 
 Referencias
 ============
