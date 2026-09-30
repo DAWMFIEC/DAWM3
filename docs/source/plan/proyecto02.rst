@@ -12,7 +12,6 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
 
 .. dropdown:: Fase 1: Análisis
    :color: info
-   :disabled:
 
    **Perfiles de referencia.** 
 
@@ -32,7 +31,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    * Actividades artísticas: `Semanartte <https://www.instagram.com/semanartte/>`_ y `Plaza Guayarte <https://www.instagram.com/plazaguyarte/>`_.
    * Actividades culturales: `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_ y `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_.
 
-   **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada.
+   **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada y respondan a la actividad en el AulaVirtual.
 
 .. dropdown:: Fase 2: Diseño
    :color: info
