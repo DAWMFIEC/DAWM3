@@ -125,9 +125,9 @@ Preguntas guía y de reflexión
 
 2. A partir de sus observaciones, proponga una explicación para cada componente:
 
-http://localhost:8000/acerca.html
-────    ───────── ──── ───────────
-  ?         ?       ?        ?
+.. figure:: ../img/url.png
+   :alt: url
+   :align: center
 
 3. Realice una búsqueda breve sobre el significado de **URL**. No copie textualmente la definición encontrada.
 Con la información investigada y la experiencia anterior, construya una definición propia que complete:
@@ -139,19 +139,6 @@ Una URL es ____________________________________________________________ y permit
 .. code-block:: html
 
     <p>Visita nuestra <a href="contacto.html">página de contacto</a>.</p>
-
-¿Qué es HTTP?
------------------------------------
-
-1. ¿Qué representa ::1 al inicio de cada línea? ¿Qué relación tiene con localhost?
-2. ¿Qué indica el método GET en "GET / HTTP/1.1"?
-3. ¿Qué recurso está solicitando el navegador cuando aparece GET /?
-4. ¿Qué significa HTTP/1.1 en el registro de la solicitud?
-5. ¿Qué significa el código de estado 200? ¿Qué ocurrió con la solicitud?
-6. Compare estas dos respuestas:
-    - "GET / HTTP/1.1" 200
-    - "GET / HTTP/1.1" 304
-    ¿Qué diferencia existe entre los códigos 200 y 304?
 
 Referencias
 ============
