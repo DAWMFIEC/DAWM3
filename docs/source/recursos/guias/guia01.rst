@@ -88,12 +88,40 @@ Preguntas guía y de reflexión
 
 1. Para cada URL, registre qué observa en el navegador y qué aparece en la terminal del servidor.
 
-| URL | Protocolo | Servidor | Puerto | Recurso solicitado | Resultado |
-|---|---|---|---|---|---|
-| `http://localhost:8000` | | | | | |
-| `http://localhost:8000/index.html` | | | | | |
-| `http://localhost:8000/acerca.html` | | | | | |
-| `http://localhost:8000/contacto.html` | | | | | |
+.. list-table::
+   :header-rows: 1
+   :widths: 35 12 15 10 25 15
+
+   * - URL
+     - Protocolo
+     - Servidor
+     - Puerto
+     - Recurso solicitado
+     - Resultado
+   * - ``http://localhost:8000``
+     -
+     -
+     -
+     -
+     -
+   * - ``http://localhost:8000/index.html``
+     -
+     -
+     -
+     -
+     -
+   * - ``http://localhost:8000/acerca.html``
+     -
+     -
+     -
+     -
+     -
+   * - ``http://localhost:8000/contacto.html``
+     -
+     -
+     -
+     -
+     -
 
 2. A partir de sus observaciones, proponga una explicación para cada componente:
 
