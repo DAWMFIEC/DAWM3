@@ -191,6 +191,25 @@ Identifique:
 - ¿Qué método se utiliza?
 - ¿Cómo informa el servidor que la solicitud fue exitosa?
 
+3. Investigue brevemente el significado de los códigos 200, 304 y 404 y complete:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 15 45 40
+
+   * - Código
+     - ¿Qué ocurrió?
+     - ¿El recurso existe?
+   * - ``200``
+     -
+     -
+   * - ``304``
+     -
+     -
+   * - ``404``
+     -
+     -
+
 
 Referencias
 ============
