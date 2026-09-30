@@ -185,11 +185,11 @@ Preguntas guía y de reflexión
 
 
 Identifique:
-- ¿Quién realiza la solicitud?
-- ¿Quién recibe la solicitud?
-- ¿Qué recurso se solicita?
-- ¿Qué método se utiliza?
-- ¿Cómo informa el servidor que la solicitud fue exitosa?
+    - ¿Quién realiza la solicitud?
+    - ¿Quién recibe la solicitud?
+    - ¿Qué recurso se solicita?
+    - ¿Qué método se utiliza?
+    - ¿Cómo informa el servidor que la solicitud fue exitosa?
 
 3. Investigue brevemente el significado de los códigos 200, 304 y 404 y complete:
 
