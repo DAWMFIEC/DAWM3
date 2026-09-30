@@ -25,4 +25,3 @@ Proyecto 01: Portafolio de identidad digital
   :caption: Contenido
   
   ../plan/proyecto01.rst
-  ../recursos/proyecto02.rst

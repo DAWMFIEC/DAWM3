@@ -11,4 +11,4 @@ Recursos
   :maxdepth: 1
   :caption: Guías
   
-  ../guias/guia01.rst
+  ./guias/guia01.rst
