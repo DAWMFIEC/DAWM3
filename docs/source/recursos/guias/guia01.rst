@@ -132,7 +132,7 @@ Preguntas guía y de reflexión
 3. Realice una búsqueda breve sobre el significado de **URL**. No copie textualmente la definición encontrada.
 Con la información investigada y la experiencia anterior, construya una definición propia que complete:
 
-Una URL es ____________________________________________________________ y permite ____________________________________________________________.
+.. centered:: Una URL es ___________________ y permite ______________________________.
 
 4. Cree una tercera página llamada `contacto.html` y modifique `index.html` agregando:
 
