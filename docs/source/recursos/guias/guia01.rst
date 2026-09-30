@@ -21,6 +21,7 @@ Actividades en clases
 Copia el siguiente código en tu editor de texto y guárdalo como `index.html`:
 
 .. code-block:: html
+    
     <!DOCTYPE html>
     <html lang="es">
     <head>
@@ -37,9 +38,15 @@ Copia el siguiente código en tu editor de texto y guárdalo como `index.html`:
 Desde el directorio donde se encuentra `index.html`, ejecuta el siguiente comando en la terminal para iniciar un servidor web local:
 
 .. code-block:: bash
+    
     python -m http.server 8000
 
 Luego, abre tu navegador web y visita `http://localhost:8000` para ver tu sitio web en acción.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. 
 
 ¿Qué ocurre cuando escribo una URL?
 -----------------------------------
