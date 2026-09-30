@@ -4,13 +4,13 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ========================================================
-Guía 01: Fundamentos web y herramientas 
+Guía 01: Cliente y servidor en la web 
 ========================================================
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Desarrollar habilidades fundamentales para la creación de sitios web mediante la integración de conocimientos básicos y herramientas de desarrollo para la creación de soluciones web básicas.
+    Comprender el modelo cliente-servidor en la Web, identificando el rol del navegador y del servidor durante el proceso de solicitud y respuesta de recursos, mediante la ejecución, observación y análisis de aplicaciones web sencillas.
 
 Actividades en clases
 =====================
@@ -46,31 +46,36 @@ Luego, abre tu navegador web y visita `http://localhost:8000` para ver tu sitio 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. 
+1. ¿Quién cumple el rol de cliente y quién el de servidor?
+2. En la actividad realizada, ¿qué programa está actuando como cliente?
+3. ¿Qué elemento está actuando como servidor web?
+4. ¿Qué representa localhost en la dirección http://localhost:8000?
+5. ¿Qué representa el número 8000?
+6. ¿Qué ocurre desde que escribe http://localhost:8000 en el navegador hasta que aparece “¡Hola, mundo!”?
+7. ¿Cuál es la diferencia entre abrir directamente index.html y acceder a él mediante http://localhost:8000?
+8. En esta actividad, ¿el cliente y el servidor están en la misma computadora? ¿Podrían encontrarse en computadoras diferentes?
 
 ¿Qué ocurre cuando escribo una URL?
 -----------------------------------
 
-1. Versione local y remotamente el repositorio *XXXXXX*.
-2. Compruebe el resultado en el navegador.
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Conclusiones
+1. ¿Qué representa ::1 al inicio de cada línea? ¿Qué relación tiene con localhost?
+2. ¿Qué indica el método GET en "GET / HTTP/1.1"?
+3. ¿Qué recurso está solicitando el navegador cuando aparece GET /?
+4. ¿Qué significa HTTP/1.1 en el registro de la solicitud?
+5. ¿Qué significa el código de estado 200? ¿Qué ocurrió con la solicitud?
+6. Compare estas dos respuestas:
+    - "GET / HTTP/1.1" 200
+    - "GET / HTTP/1.1" 304
+    ¿Qué diferencia existe entre los códigos 200 y 304?
+
+¿Qué es HTTP?
+-----------------------------------
+
+Referencias
 ============
 
-.. topic:: Preguntas de cierre
-
-    ¿Qué?
-
-Actividades autónomas
-=====================
-
-Recursos extras
-------------------------------
-
-En redes:
-
-.. raw:: html
-
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/deepanshusharmx/status/1708118904391053714">Tweet from @deepanshusharmx</a>
-    <img alt="" src="https://pbs.twimg.com/ext_tw_video_thumb/1708115269187710976/pu/img/316z8sA74Czf1nR6.jpg" width="65%" height="auto" class="align-center"><source type="video/mp4" src="blob:https://x.com/e7c71b7e-0d51-4f41-8e56-28a08cc675fa"></p>
-    </blockquote>
+* 3.14.7 Documentation. (n.d.). Python Documentation. Retrieved September 30, 2026 from https://docs.python.org/es/3/
+* HTTP | MDN. (n.d.). Retrieved September 30, 2026 from https://developer.mozilla.org/es/docs/Web/HTTP
