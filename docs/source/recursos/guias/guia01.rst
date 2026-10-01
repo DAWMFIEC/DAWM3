@@ -143,8 +143,8 @@ Con la información investigada y la experiencia anterior, construya una definic
 5. ¿Qué información necesita el navegador para localizar un recurso?
 6. ¿Qué partes permanecen iguales en las URL utilizadas y cuáles cambian?
 
-HTTP: La comunicación entre el navegador y el servidor
-------------------------------------------------------
+¿Cómo funciona la comunicación entre el cliente y el servidor?
+----------------------------------------------------------------
 
 Considerando el ejercicio anterior, revisa la terminal donde se ejecuta el servidor y observa los mensajes que aparecen cuando se solicita un recurso. 
 
