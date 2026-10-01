@@ -46,14 +46,12 @@ Luego, abre tu navegador web y visita `http://localhost:8000` para ver tu sitio 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. ¿Quién cumple el rol de cliente y quién el de servidor?
-2. En la actividad realizada, ¿qué programa está actuando como cliente?
-3. ¿Qué elemento está actuando como servidor web?
-4. ¿Qué representa localhost en la dirección http://localhost:8000?
-5. ¿Qué representa el número 8000?
-6. ¿Qué ocurre desde que escribe http://localhost:8000 en el navegador hasta que aparece “¡Hola, mundo!”?
-7. ¿Cuál es la diferencia entre abrir directamente index.html y acceder a él mediante http://localhost:8000?
-8. En esta actividad, ¿el cliente y el servidor están en la misma computadora? ¿Podrían encontrarse en computadoras diferentes?
+1. En la actividad realizada, ¿Quién cumple el rol de cliente y quién el de servidor?
+2. ¿Qué representa localhost en la dirección http://localhost:8000?
+3. ¿Qué representa el número 8000?
+4. ¿Qué ocurre desde que escribe http://localhost:8000 en el navegador hasta que aparece “¡Hola, mundo!”?
+5. ¿Cuál es la diferencia entre abrir directamente index.html y acceder a él mediante http://localhost:8000?
+6. En esta actividad, ¿el cliente y el servidor están en la misma computadora? ¿Podrían encontrarse en computadoras diferentes?
 
 ¿Qué ocurre cuando escribo una URL?
 -----------------------------------
@@ -143,7 +141,7 @@ Con la información investigada y la experiencia anterior, construya una definic
 5. ¿Qué información necesita el navegador para localizar un recurso?
 6. ¿Qué partes permanecen iguales en las URL utilizadas y cuáles cambian?
 
-¿Cómo funciona la comunicación entre el cliente y el servidor?
+¿Cómo ocurre la comunicación entre el cliente y el servidor?
 ----------------------------------------------------------------
 
 Considerando el ejercicio anterior, revisa la terminal donde se ejecuta el servidor y observa los mensajes que aparecen cuando se solicita un recurso. 

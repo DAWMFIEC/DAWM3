@@ -27,9 +27,9 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    
    Guayaquil cuenta con una amplia oferta de actividades culturales, artísticas y sociales que pueden ser seleccionadas para el proyecto, como:
 
-   * Actividades sociales: `Comité del Barrio Chino <https://www.instagram.com/comitebarriochino.gyq/>`_ , `Épico <https://www.instagram.com/epicogye/>`_ y `Malecón 2000 <https://www.instagram.com/malecon2000/>`_.
+   * Actividades sociales: `Municipalidad De Guayaquil <https://www.instagram.com/municipiogye/>`_, `Comité del Barrio Chino <https://www.instagram.com/comitebarriochino.gyq/>`_ , `Épico <https://www.instagram.com/epicogye/>`_ y `Malecón 2000 <https://www.instagram.com/malecon2000/>`_.
    * Actividades artísticas: `Semanartte <https://www.instagram.com/semanartte/>`_ y `Plaza Guayarte <https://www.instagram.com/plazaguyarte/>`_.
-   * Actividades culturales: `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_ y `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_.
+   * Actividades culturales: `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_, `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_ y `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_.
 
    **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada.
 
