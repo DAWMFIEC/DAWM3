@@ -25,4 +25,4 @@ Proyecto 02: Explorando la cultura con la web
   :caption: Contenido
   
   ../plan/proyecto02.rst
-  ../recursos/proyecto02.rst
+  ../recursos/guias_proyecto02.rst
