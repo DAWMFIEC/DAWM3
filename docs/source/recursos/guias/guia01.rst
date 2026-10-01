@@ -114,7 +114,7 @@ Preguntas guía y de reflexión
      -
      -
      -
-   * - ``http://localhost:8000/contacto.html``
+   * - ``http://localhost:8000/noexiste.html``
      -
      -
      -
@@ -135,8 +135,15 @@ Con la información investigada y la experiencia anterior, construya una definic
 4. Cree una tercera página llamada `contacto.html` y modifique `index.html` agregando:
 
 .. code-block:: html
-
-    <p>Visita nuestra <a href="contacto.html">página de contacto</a>.</p>
+    :emphasize-lines: 4
+    
+      ...
+      
+      <p>Este es mi primer sitio web.</p>
+      <p>Visita nuestra <a href="contacto.html">página de contacto</a>.</p>
+      
+    </body>
+    </html>
 
 5. ¿Qué información necesita el navegador para localizar un recurso?
 6. ¿Qué partes permanecen iguales en las URL utilizadas y cuáles cambian?
