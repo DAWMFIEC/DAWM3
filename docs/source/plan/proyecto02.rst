@@ -41,7 +41,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    **Evidencia:** Contextualice la plantilla de la entrevista o encuesta diseñada, incluyendo las preguntas abiertas y cerradas, de acuerdo con su la actividad seleccionada.
 
 .. dropdown:: Fase 3: Planificación
-   :color: warning
+   :color: info
 
    Durante la planificación deberán priorizar la seguridad, privacidad, dignidad y bienestar de las personas sobre la obtención de datos o evidencias para el proyecto. Para esto, deberán actuar de manera responsable, segura y ética, especialmente cuando las actividades involucren interacción con personas o espacios de la comunidad.
 
@@ -57,6 +57,11 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    * **Uso responsable de la información:** Los datos recopilados serán utilizados exclusivamente para los fines académicos definidos en el proyecto. El sitio no deberá exponer información que pueda perjudicar, ridiculizar, discriminar o generar riesgos para personas o comunidades.
    * **Respeto por los espacios:** Las actividades realizadas en parques, barrios, instituciones, establecimientos o espacios culturales deberán respetar las normas del lugar y no interferir con sus actividades habituales.
    * **Fuentes externas y derechos de autor:** Cuando se utilicen imágenes, textos, mapas, estadísticas u otros recursos que no hayan sido producidos por el grupo, deberá identificarse su procedencia y respetarse las condiciones de uso y autoría.
+
+.. dropdown:: Fase 4: Desarrollo
+   :color: warning
+
+   En esta fase, el grupo debe recopilar los datos de la actividad seleccionada mediante la aplicación de la entrevista o encuesta diseñada. Posteriormente, deberán analizar los resultados y presentarlos en un sitio web que cumpla con los requisitos de accesibilidad, usabilidad y diseño.
 
 Referencias
 ===========
