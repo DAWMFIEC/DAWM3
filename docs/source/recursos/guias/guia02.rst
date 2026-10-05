@@ -25,7 +25,6 @@ Actividades en clases
     <!DOCTYPE html>
     <html lang="es">
         <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="description" content="Currículum vitae de Ana Pérez, estudiante de Computación en ESPOL">
             <title>Ana Pérez | Currículum vitae</title>
         </head>
@@ -46,11 +45,18 @@ Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Abra las Herramientas para desarrolladores (**DevTools**) del navegador (`F12` o clic derecho → *Inspeccionar*) y seleccione la pestaña *Elements/Elementos*. ¿La estructura que muestra DevTools es similar al código fuente que escribió? ¿Qué observa?
-2. ¿Se visualizan correctamente estos caracteres? Dentro del `<head>`, agregue `<meta charset=\"UTF-8\">`, guarde el archivo y recargue la página. ¿Observa algún cambio?
-3. ¿Qué diferencia identifica entre <head> y <body>?
-4. ¿Dónde aparece el texto "Ana Pérez" y dónde aparece el texto "Ana Pérez | Currículum vitae"? 
-5. Si el usuario no la ve como parte de la página, ¿para quién o para qué podría resultar útil esta información? ¿Qué diferencia encuentra entre un **metadato** y el **contenido visible**?
-6. Después de realizar los experimentos anteriores, clasifique los siguientes elementos según su función:
+2. ¿Se visualizan correctamente estos caracteres? 
+
+   Dentro del `<head>`, agregue `<meta charset=\"UTF-8\">`, guarde el archivo y recargue la página. ¿Observa algún cambio?
+
+3. Utilice el DevTools y active el modo de diseño adaptable (*Responsive Design Mode*). ¿Qué observa al cambiar el tamaño de la ventana del navegador?
+
+   Dentro del `<head>`, agregue `<meta name="viewport" content="width=device-width, initial-scale=1.0">`. Guarde el archivo y recargue la página. ¿Observa algún cambio? 
+
+4. ¿Qué diferencia identifica entre <head> y <body>?
+5. ¿Dónde aparece el texto "Ana Pérez" y dónde aparece el texto "Ana Pérez | Currículum vitae"? 
+6. Si el usuario no la ve como parte de la página, ¿para quién o para qué podría resultar útil esta información? ¿Qué diferencia encuentra entre un **metadato** y el **contenido visible**?
+7. Después de realizar los experimentos anteriores, clasifique los siguientes elementos según su función:
 
 ```{list-table}
 :header-rows: 1
