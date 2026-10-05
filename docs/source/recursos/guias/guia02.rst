@@ -46,56 +46,61 @@ Preguntas guía y de reflexión
 
 1. Abra las Herramientas para desarrolladores (**DevTools**) del navegador (`F12` o clic derecho → *Inspeccionar*) y seleccione la pestaña *Elements/Elementos*. ¿La estructura que muestra DevTools es similar al código fuente que escribió? ¿Qué observa?
 2. ¿Se visualizan correctamente estos caracteres? 
-3. Dentro del `<head>`, agregue `<meta charset=\"UTF-8\">`, guarde el archivo y recargue la página. ¿Observa algún cambio?
-4. Investigue qué significa *charset* y cómo afecta la visualización de la página web en diferentes dispositivos.
-5. Utilice el DevTools y active el modo de diseño adaptable (*Responsive Design Mode*). ¿Qué observa al cambiar el tamaño de la ventana del navegador?
-6. Dentro del `<head>`, agregue `<meta name="viewport" content="width=device-width, initial-scale=1.0">`. Guarde el archivo y recargue la página. ¿Observa algún cambio? 
-7. Investigue qué significa *viewport* y cómo afecta la visualización de la página web en diferentes dispositivos.
-8. ¿Qué diferencia identifica entre <head> y <body>?
-9. ¿Dónde aparece el texto "Ana Pérez" y dónde aparece el texto "Ana Pérez | Currículum vitae"? 
-10. Si el usuario no la ve como parte de la página, ¿para quién o para qué podría resultar útil esta información? ¿Qué diferencia encuentra entre un **metadato** y el **contenido visible**?
-11. Después de realizar los experimentos anteriores, clasifique los siguientes elementos según su función:
+   - Dentro del `<head>`, agregue `<meta charset=\"UTF-8\">`, guarde el archivo y recargue la página. ¿Observa algún cambio?
+   - Investigue qué significa *charset* y cómo afecta la visualización de la página web en diferentes dispositivos.
+3. Utilice el DevTools y active el modo de diseño adaptable (*Responsive Design Mode*). ¿Qué observa al cambiar el tamaño de la ventana del navegador?
+   - Dentro del `<head>`, agregue `<meta name="viewport" content="width=device-width, initial-scale=1.0">`. Guarde el archivo y recargue la página. ¿Observa algún cambio? 
+   - Investigue qué significa *viewport* y cómo afecta la visualización de la página web en diferentes dispositivos.
+4. ¿Para qué sirve la etiqueta `<meta name="description">`? ¿Por qué podría ser importante describir correctamente el contenido de una página web?
+5. ¿Qué diferencia identifica entre <head> y <body>?
+6. ¿Dónde aparece el texto "Ana Pérez" y dónde aparece el texto "Ana Pérez | Currículum vitae"? 
+7. Si el usuario no la ve como parte de la página, ¿para quién o para qué podría resultar útil esta información? ¿Qué diferencia encuentra entre un **metadato** y el **contenido visible**?
+8. Después de realizar los experimentos anteriores, clasifique los siguientes elementos según su función:
 
 .. list-table::
-    :header-rows: 1
-    :widths: 30 15 30 20
+   :header-rows: 1
+   :widths: 30 15 30 20
 
-    * - Elemento
-    - Estructura
-    - Metadato/configuración
-    - Contenido visible
-    * - `<!DOCTYPE html>`
-    -
-    -
-    -
-    * - `<html lang="es">`
-    -
-    -
-    -
-    * - `<meta charset="UTF-8">`
-    -
-    -
-    -
-    * - `<meta name="viewport">`
-    -
-    -
-    -
-    * - `<meta name="description">`
-    -
-    -
-    -
-    * - `<title>`
-    -
-    -
-    -
-    * - `<body>`
-    -
-    -
-    -
-    * - `<h1>`
-    -
-    -
-    -
+   * - Elemento
+     - Estructura
+     - Metadato/configuración
+     - Contenido visible
+   * - `<!DOCTYPE html>`
+     -
+     -
+     -
+   * - `<html lang="es">`
+     -
+     -
+     -
+   * - `<head>`
+     -
+     -
+     -
+   * - `<meta charset="UTF-8">`
+     -
+     -
+     -
+   * - `<meta name="viewport">`
+     -
+     -
+     -
+   * - `<meta name="description">`
+     -
+     -
+     -
+   * - `<title>`
+     -
+     -
+     -
+   * - `<body>`
+     -
+     -
+     -
+   * - `<h1>`
+     -
+     -
+     -
 
 Subtítulo 2
 -----------------------------------
