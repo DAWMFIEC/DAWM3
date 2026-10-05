@@ -69,7 +69,7 @@ Preguntas guía y de reflexión
      -
      -
      -
-   * - `<html lang="es">`
+   * - `<html lang=\"es\">`
      -
      -
      -
@@ -77,15 +77,15 @@ Preguntas guía y de reflexión
      -
      -
      -
-   * - `<meta charset="UTF-8">`
+   * - `<meta charset=\"UTF-8\">`
      -
      -
      -
-   * - `<meta name="viewport">`
+   * - `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">`
      -
      -
      -
-   * - `<meta name="description">`
+   * - `<meta name=\"description\">`
      -
      -
      -
