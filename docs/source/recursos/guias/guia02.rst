@@ -194,7 +194,7 @@ Preguntas guía y de reflexión
 6. Si visualmente el resultado pudiera ser similar, ¿por qué cree que existen estas etiquetas?
 7. ¿Qué ventaja podría tener esta estructura para una persona que posteriormente necesite modificar la página?
 8. ¿Qué característica tienen en común los contenidos agrupados dentro de cada `<section>`? ¿Qué elemento se utiliza como título de cada sección?
-9. ¿Para qué cree que sirven valores como `id="perfil"` o `id="experiencia"`?
+9. ¿Para qué cree que sirven valores como `id=\"perfil\"` o `id=\"experiencia\"`?
 10. En DevTools, modifique temporalmente `<h2>Perfil</h2>` por `<h1>Sobre mi</h1>`
     
     ¿El cambio realizado desde DevTools modifica permanentemente el archivo HTML? ¿Qué sucede al recargar la página?
@@ -248,8 +248,8 @@ Preguntas guía y de reflexión
 
 4. En la etiqueta `<video>`, ¿qué cree que significa el atributo **controls** y qué función parece cumplir **poster**?
 
-¿Qué ocurre cuando agrego imágenes y videos a la página web?
--------------------------------------------------------------
+¿Cómo se integran los formularios en una página web?
+----------------------------------------------------
 
 1. Modifique la sección de **Proyectos** con el siguiente código:
 
@@ -283,8 +283,16 @@ Preguntas guía y de reflexión
         </form>
     </section>
 
+2. Guarde el archivo y recargue la página en el navegador.
+
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. ¿Qué elementos están contenidos dentro de `<form>` y qué relación existe entre `<label>` y los elementos de entrada?
+2. ¿Qué diferencia encuentra entre `<input>`, `<select>` y `<textarea>`?
+3. ¿Qué diferencia encuentra entre los atributos **type** y **name** de `<input>`?
+4. ¿Qué diferencia encuentra entre los atributos **required** y **autocomplete** de `<input>`?
+5. ¿Qué ocurre con los datos después de enviar el formulario?
 
 Referencias
 ============
