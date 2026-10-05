@@ -46,11 +46,15 @@ Preguntas guía y de reflexión
 
 1. Abra las Herramientas para desarrolladores (**DevTools**) del navegador (`F12` o clic derecho → *Inspeccionar*) y seleccione la pestaña *Elements/Elementos*. ¿La estructura que muestra DevTools es similar al código fuente que escribió? ¿Qué observa?
 2. ¿Se visualizan correctamente estos caracteres? 
+
    - Dentro del `<head>`, agregue `<meta charset=\"UTF-8\">`, guarde el archivo y recargue la página. ¿Observa algún cambio?
    - Investigue qué significa *charset* y cómo afecta la visualización de la página web en diferentes dispositivos.
+
 3. Utilice el DevTools y active el modo de diseño adaptable (*Responsive Design Mode*). ¿Qué observa al cambiar el tamaño de la ventana del navegador?
+
    - Dentro del `<head>`, agregue `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">`. Guarde el archivo y recargue la página. ¿Observa algún cambio? 
    - Investigue qué significa *viewport* y cómo afecta la visualización de la página web en diferentes dispositivos.
+
 4. ¿Para qué sirve la etiqueta `<meta name=\"description\">`? ¿Por qué podría ser importante describir correctamente el contenido de una página web?
 5. ¿Qué diferencia identifica entre <head> y <body>?
 6. ¿Dónde aparece el texto "Ana Pérez" y dónde aparece el texto "Ana Pérez | Currículum vitae"? 
