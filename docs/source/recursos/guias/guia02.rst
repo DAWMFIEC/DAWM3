@@ -224,29 +224,36 @@ Subtítulo 2
     <section id="proyectos">
         <h2>Proyectos</h2>
         <figure>
-            <img src="img/proyecto.png" alt="Captura de la aplicación de tareas" width="640" height="360">
+            <img src="https://placehold.co/640x360" alt="Captura de la aplicación de tareas" width="640" height="360">
             <figcaption>Aplicación de tareas con HTML, CSS y una API REST.</figcaption>
         </figure>
         <figure>
-            <video controls width="640" poster="img/proyecto.png">
-            <source src="media/presentacion.mp4" type="video/mp4">
+            <video controls width="640" poster="https://placehold.co/640x360">
+            <source src="https://placeholdervideo.dev/640x360" type="video/mp4">
             Tu navegador no puede reproducir video. <a href="media/presentacion.mp4">Descárgalo aquí</a>.
             </video>
             <figcaption>Video de presentación (1 minuto).</figcaption>
         </figure>
     </section>
 
-Preguntas guía y de reflexión
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Subtítulo 2
------------------------------------
+2. Guarde el archivo y recargue la página en el navegador.
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. ¿Qué elementos están contenidos dentro de `<figure>` y qué relación existe entre la imagen y `<figcaption>`?
+2. En la etiqueta `<img>`, ¿qué cree que significa el atributo **src** y qué función parece cumplir **alt**?
+3. Utilice DevTools → Network, recargue la página y localice la solicitud correspondiente a la imagen.
+
+   - ¿Qué información le proporciona DevTools sobre la solicitud de la imagen?
+   - ¿Qué diferencia encuentra entre la solicitud de la imagen y la solicitud del video?
+
+4. En la etiqueta `<video>`, ¿qué cree que significa el atributo **controls** y qué función parece cumplir **poster**?
 
 Referencias
 ============
 
 * HTML: lenguaje de marcado de hipertexto | MDN. (2026, 30 septiembre). https://developer.mozilla.org/es/docs/Web/HTML
 * Especificación HTML | WHATWG. (2026, 5 octubre). https://html.spec.whatwg.org/
+* Placehold | A simple, fast and free image placeholder service. (2024). Placehold.Co. https://placehold.co/
+* Gianito. (2026, May 23). Placeholder Video Generator. Placeholder Video Generator. https://placeholdervideo.dev
