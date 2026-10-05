@@ -12,3 +12,4 @@ Guías
   :caption: Guías
   
   ./guias/guia01.rst
+  ./guias/guia02.rst
