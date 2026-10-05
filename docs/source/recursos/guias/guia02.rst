@@ -108,75 +108,78 @@ Preguntas guía y de reflexión
 1. Dentro de `<body>`, reemplace el `<h1>` por:
 
 .. code-block:: html
+    :emphasize-lines: 2-69
 
-    <header class="cabecera">
-    <div>
-        <h1>Ana Pérez</h1>
-        <p class="cargo">Estudiante de Computación · Desarrolladora web junior</p>
-    </div>
-    <nav aria-label="Secciones del CV">
-        <ul>
-        <li><a href="#perfil">Perfil</a></li>
-        <li><a href="#experiencia">Experiencia</a></li>
-        <li><a href="#educacion">Educación</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-    </header>
+    <body>
+        <header class="cabecera">
+        <div>
+            <h1>Ana Pérez</h1>
+            <p class="cargo">Estudiante de Computación · Desarrolladora web junior</p>
+        </div>
+        <nav aria-label="Secciones del CV">
+            <ul>
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
 
-    <main>
-    <section id="perfil">
-        <h2>Perfil</h2>
-        <p>Estudiante de <strong>Ingeniería en Computación</strong> interesada en el desarrollo de
-        aplicaciones web accesibles. Me gusta <em>aprender haciendo</em> y trabajar en equipo.</p>
-    </section>
+        <main>
+        <section id="perfil">
+            <h2>Perfil</h2>
+            <p>Estudiante de <strong>Ingeniería en Computación</strong> interesada en el desarrollo de
+            aplicaciones web accesibles. Me gusta <em>aprender haciendo</em> y trabajar en equipo.</p>
+        </section>
 
-    <section id="experiencia">
-        <h2>Experiencia</h2>
-        <article class="item">
-        <h3>Ayudante de laboratorio</h3>
-        <p class="meta">ESPOL · <time datetime="2025-05">mayo 2025</time> – actualidad</p>
-        <ul>
-            <li>Apoyo en prácticas de programación para 40 estudiantes.</li>
-            <li>Preparación de guías de laboratorio en HTML.</li>
-        </ul>
-        </article>
-    </section>
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+            <article class="item">
+            <h3>Ayudante de laboratorio</h3>
+            <p class="meta">ESPOL · <time datetime="2025-05">mayo 2025</time> – actualidad</p>
+            <ul>
+                <li>Apoyo en prácticas de programación para 40 estudiantes.</li>
+                <li>Preparación de guías de laboratorio en HTML.</li>
+            </ul>
+            </article>
+        </section>
 
-    <section id="educacion">
-        <h2>Educación</h2>
-        <article class="item">
-        <h3>Ingeniería en Computación</h3>
-        <p class="meta">ESPOL · <time datetime="2023">2023</time> – en curso</p>
-        </article>
-    </section>
+        <section id="educacion">
+            <h2>Educación</h2>
+            <article class="item">
+            <h3>Ingeniería en Computación</h3>
+            <p class="meta">ESPOL · <time datetime="2023">2023</time> – en curso</p>
+            </article>
+        </section>
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul class="etiquetas">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git y GitHub</li>
-        <li>Python</li>
-        <li>Trabajo en equipo</li>
-        </ul>
-    </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul class="etiquetas">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git y GitHub</li>
+            <li>Python</li>
+            <li>Trabajo en equipo</li>
+            </ul>
+        </section>
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-    </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+        </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-    </section>
-    </main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+        </section>
+        </main>
 
-    <footer>
-    <p>&copy; <time datetime="2026">2026</time> Ana Pérez ·
-        <a href="https://github.com/usuario">GitHub</a></p>
-    </footer>
+        <footer>
+        <p>&copy; <time datetime="2026">2026</time> Ana Pérez ·
+            <a href="https://github.com/usuario">GitHub</a></p>
+        </footer>
+    </body>
 
 2. Guarde el archivo y recargue la página en el navegador. 
 
@@ -208,9 +211,30 @@ Preguntas guía y de reflexión
 15. Si Ana tuviera tres experiencias laborales, ¿qué elemento repetiría: `<section>` o `<article>`?
 16. ¿Qué representa el `<section id="experiencia">` completo y qué representa el `<article class="item">` dentro de esa sección?
 17. ¿Qué efecto visual observa al utilizar `<strong>` y `<em>`? ¿Qué información ve el usuario en el elemento `<time>`?
+18. Compare estos los enlaces `<a href="#contacto">Contacto</a>` y `<a href="https://github.com/usuario">GitHub</a>`. ¿Cuál permite navegar dentro del mismo documento y cuál dirige hacia un recurso externo?
 
 Subtítulo 2
 -----------------------------------
+
+1. Modifique la sección de **Proyectos** con el siguiente código:
+
+.. code-block:: html
+    :emphasize-lines: 2-11
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <figure>
+            <img src="img/proyecto.png" alt="Captura de la aplicación de tareas" width="640" height="360">
+            <figcaption>Aplicación de tareas con HTML, CSS y una API REST.</figcaption>
+        </figure>
+        <figure>
+            <video controls width="640" poster="img/proyecto.png">
+            <source src="media/presentacion.mp4" type="video/mp4">
+            Tu navegador no puede reproducir video. <a href="media/presentacion.mp4">Descárgalo aquí</a>.
+            </video>
+            <figcaption>Video de presentación (1 minuto).</figcaption>
+        </figure>
+    </section>
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
