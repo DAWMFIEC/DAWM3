@@ -56,46 +56,46 @@ Preguntas guía y de reflexión
 10. Si el usuario no la ve como parte de la página, ¿para quién o para qué podría resultar útil esta información? ¿Qué diferencia encuentra entre un **metadato** y el **contenido visible**?
 11. Después de realizar los experimentos anteriores, clasifique los siguientes elementos según su función:
 
-```{list-table}
-:header-rows: 1
-:widths: 30 15 30 20
+.. list-table::
+    :header-rows: 1
+    :widths: 30 15 30 20
 
-* - Elemento
-  - Estructura
-  - Metadato/configuración
-  - Contenido visible
-* - `<!DOCTYPE html>`
-  -
-  -
-  -
-* - `<html lang="es">`
-  -
-  -
-  -
-* - `<meta charset="UTF-8">`
-  -
-  -
-  -
-* - `<meta name="viewport">`
-  -
-  -
-  -
-* - `<meta name="description">`
-  -
-  -
-  -
-* - `<title>`
-  -
-  -
-  -
-* - `<body>`
-  -
-  -
-  -
-* - `<h1>`
-  -
-  -
-  -
+    * - Elemento
+    - Estructura
+    - Metadato/configuración
+    - Contenido visible
+    * - `<!DOCTYPE html>`
+    -
+    -
+    -
+    * - `<html lang="es">`
+    -
+    -
+    -
+    * - `<meta charset="UTF-8">`
+    -
+    -
+    -
+    * - `<meta name="viewport">`
+    -
+    -
+    -
+    * - `<meta name="description">`
+    -
+    -
+    -
+    * - `<title>`
+    -
+    -
+    -
+    * - `<body>`
+    -
+    -
+    -
+    * - `<h1>`
+    -
+    -
+    -
 
 Subtítulo 2
 -----------------------------------
