@@ -55,7 +55,7 @@ Preguntas guía y de reflexión
 5. ¿Qué diferencia identifica entre <head> y <body>?
 6. ¿Dónde aparece el texto "Ana Pérez" y dónde aparece el texto "Ana Pérez | Currículum vitae"? 
 7. Si el usuario no la ve como parte de la página, ¿para quién o para qué podría resultar útil esta información? ¿Qué diferencia encuentra entre un **metadato** y el **contenido visible**?
-8. Después de realizar los experimentos anteriores, clasifique los siguientes elementos según su función:
+8. Después de realizar los experimentos anteriores, marque los siguientes elementos según su función:
 
 .. list-table::
    :header-rows: 1
@@ -81,7 +81,7 @@ Preguntas guía y de reflexión
      -
      -
      -
-   * - `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">`
+   * - `<meta name=\"viewport\">`
      -
      -
      -
@@ -182,6 +182,24 @@ Preguntas guía y de reflexión
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. ¿Qué tipo de página web parece representar el contenido? ¿Qué información permite identificar rápidamente a Ana Pérez?
+2. Si tuviera que dividir la página en **inicio**, **contenido principal** y **cierre**, ¿qué información colocaría en cada parte?
+3. ¿Qué grandes bloques de información puede reconocer visualmente?
+4. ¿Qué contenido se encuentra dentro de `<header>`, `<main>` y `<footer>`?
+5. Reemplace la etiqueta `<header> por `<div>` y recargue la página. ¿Qué diferencia observa en la visualización de la página? ¿Qué diferencia encuentra entre `<header>` y `<div>`?
+6. Si visualmente el resultado pudiera ser similar, ¿por qué cree que existen estas etiquetas?
+7. ¿Qué ventaja podría tener esta estructura para una persona que posteriormente necesite modificar la página?
+8. ¿Qué característica tienen en común los contenidos agrupados dentro de cada `<section>`? ¿Qué elemento se utiliza como título de cada sección?
+9. ¿Para qué cree que sirven valores como `id="perfil"` o `id="experiencia"`?
+10. En DevTools, modifique temporalmente:
+
+    - `<h2>Perfil</h2>` por `<h1>Sobre mi</h1>`
+    
+    ¿El cambio realizado desde DevTools modifica permanentemente el archivo HTML? ¿Qué sucede al recargar la página?
+
+11. Haga clic en el enlace **Experiencia**. ¿Qué sucede? ¿Qué relación encuentra entre `href="#experiencia"` e `id="experiencia"`?
+
 
 Subtítulo 2
 -----------------------------------
