@@ -248,6 +248,44 @@ Preguntas guía y de reflexión
 
 4. En la etiqueta `<video>`, ¿qué cree que significa el atributo **controls** y qué función parece cumplir **poster**?
 
+¿Qué ocurre cuando agrego imágenes y videos a la página web?
+-------------------------------------------------------------
+
+1. Modifique la sección de **Proyectos** con el siguiente código:
+
+.. code-block:: html
+    :emphasize-lines: 2-23
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form method="get" class="formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required autocomplete="name">
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required autocomplete="email">
+
+            <label for="motivo">Motivo</label>
+            <select id="motivo" name="motivo">
+            <option value="empleo">Oferta de empleo</option>
+            <option value="proyecto">Proyecto</option>
+            <option value="otro">Otro</option>
+            </select>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" minlength="10" required></textarea>
+
+            <label class="casilla">
+            <input type="checkbox" name="acepto" required> Acepto ser contactado por correo
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Referencias
 ============
 
