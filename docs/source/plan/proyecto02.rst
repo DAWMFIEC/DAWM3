@@ -60,6 +60,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
 
 .. dropdown:: Fase 4: Desarrollo
    :color: warning
+   :disabled: True
 
    En esta fase, el grupo debe recopilar los datos de la actividad seleccionada mediante la aplicación de la entrevista o encuesta diseñada. Posteriormente, deberán analizar los resultados y presentarlos en un sitio web que cumpla con los requisitos de accesibilidad, usabilidad y diseño.
 
