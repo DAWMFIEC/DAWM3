@@ -4,13 +4,13 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ========================================================
-Guía 02: Estructura y estilo de páginas web 
+Guía 02: Estructura de un sitio web
 ========================================================
 
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Comprender el modelo cliente-servidor en la Web, identificando el rol del navegador y del servidor durante el proceso de solicitud y respuesta de recursos, mediante la ejecución, observación y análisis de aplicaciones web sencillas.
+    Comprender la estructura de un sitio web mediante la ejecución, observación y análisis de elementos HTML que componen un documento.
 
 Actividades en clases
 =====================
@@ -199,7 +199,15 @@ Preguntas guía y de reflexión
     ¿El cambio realizado desde DevTools modifica permanentemente el archivo HTML? ¿Qué sucede al recargar la página?
 
 11. Haga clic en el enlace **Experiencia**. ¿Qué sucede? ¿Qué relación encuentra entre `href="#experiencia"` e `id="experiencia"`?
+12. ¿Qué tipo de contenido se encuentra dentro de `<nav>`?
+13. Si eliminamos `aria-label="Secciones del CV"`, ¿observamos algún cambio visual inmediato? 
+    
+    - Si no produce un cambio visual, ¿significa que el atributo aria-label no tiene utilidad?
 
+14. ¿Por qué Ayudante de laboratorio utiliza `<h3>` y no `<h2>`? ¿Qué relación jerárquica existe entre *h1*, *h2* y *h3*?
+15. Si Ana tuviera tres experiencias laborales, ¿qué elemento repetiría: `<section>` o `<article>`?
+16. ¿Qué representa el `<section id="experiencia">` completo y qué representa el `<article class="item">` dentro de esa sección?
+17. ¿Qué efecto visual observa al utilizar `<strong>` y `<em>`? ¿Qué información ve el usuario en el elemento `<time>`?
 
 Subtítulo 2
 -----------------------------------
