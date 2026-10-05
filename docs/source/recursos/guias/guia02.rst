@@ -102,8 +102,83 @@ Preguntas guía y de reflexión
      -
      -
 
-Subtítulo 2
------------------------------------
+¿Cómo le decimos al navegador qué significa cada parte del documento HTML?
+--------------------------------------------------------------------------
+
+1. Dentro de `<body>`, reemplace el `<h1>` por:
+
+.. code-block:: html
+
+    <header class="cabecera">
+    <div>
+        <h1>Ana Pérez</h1>
+        <p class="cargo">Estudiante de Computación · Desarrolladora web junior</p>
+    </div>
+    <nav aria-label="Secciones del CV">
+        <ul>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+    <section id="perfil">
+        <h2>Perfil</h2>
+        <p>Estudiante de <strong>Ingeniería en Computación</strong> interesada en el desarrollo de
+        aplicaciones web accesibles. Me gusta <em>aprender haciendo</em> y trabajar en equipo.</p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiencia</h2>
+        <article class="item">
+        <h3>Ayudante de laboratorio</h3>
+        <p class="meta">ESPOL · <time datetime="2025-05">mayo 2025</time> – actualidad</p>
+        <ul>
+            <li>Apoyo en prácticas de programación para 40 estudiantes.</li>
+            <li>Preparación de guías de laboratorio en HTML.</li>
+        </ul>
+        </article>
+    </section>
+
+    <section id="educacion">
+        <h2>Educación</h2>
+        <article class="item">
+        <h3>Ingeniería en Computación</h3>
+        <p class="meta">ESPOL · <time datetime="2023">2023</time> – en curso</p>
+        </article>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul class="etiquetas">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git y GitHub</li>
+        <li>Python</li>
+        <li>Trabajo en equipo</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+    </section>
+    </main>
+
+    <footer>
+    <p>&copy; <time datetime="2026">2026</time> Ana Pérez ·
+        <a href="https://github.com/usuario">GitHub</a></p>
+    </footer>
+
+2. Guarde el archivo y recargue la página en el navegador. 
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
