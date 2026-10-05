@@ -254,7 +254,7 @@ Preguntas guía y de reflexión
 1. Modifique la sección de **Proyectos** con el siguiente código:
 
 .. code-block:: html
-    :emphasize-lines: 2-23
+    :emphasize-lines: 2-25
 
     <section id="contacto">
         <h2>Contacto</h2>
