@@ -194,7 +194,7 @@ Preguntas guía y de reflexión
 2. Si tuviera que dividir la página en **inicio**, **contenido principal** y **cierre**, ¿qué información colocaría en cada parte?
 3. ¿Qué grandes bloques de información puede reconocer visualmente?
 4. ¿Qué contenido se encuentra dentro de `<header>`, `<main>` y `<footer>`?
-5. Reemplace la etiqueta `<header> por `<div>` y recargue la página. ¿Qué diferencia observa en la visualización de la página? ¿Qué diferencia encuentra entre `<header>` y `<div>`?
+5. Reemplace la etiqueta `<header>` por `<div>` y recargue la página. ¿Qué diferencia observa en la visualización de la página? ¿Qué diferencia encuentra entre `<header>` y `<div>`?
 6. Si visualmente el resultado pudiera ser similar, ¿por qué cree que existen estas etiquetas?
 7. ¿Qué ventaja podría tener esta estructura para una persona que posteriormente necesite modificar la página?
 8. ¿Qué característica tienen en común los contenidos agrupados dentro de cada `<section>`? ¿Qué elemento se utiliza como título de cada sección?
