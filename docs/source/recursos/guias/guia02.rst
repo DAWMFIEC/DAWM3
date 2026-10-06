@@ -211,7 +211,7 @@ Preguntas guía y de reflexión
 
 14. ¿Por qué Ayudante de laboratorio utiliza `<h3>` y no `<h2>`? ¿Qué relación jerárquica existe entre *h1*, *h2* y *h3*?
 15. Si Ana tuviera tres experiencias laborales, ¿qué elemento repetiría: `<section>` o `<article>`?
-16. ¿Qué representa el `<section id="experiencia">` completo y qué representa el `<article class=\"item\">` dentro de esa sección?
+16. ¿Qué representa el `<section id=\"experiencia\">` completo y qué representa el `<article class=\"item\">` dentro de esa sección?
 17. ¿Qué efecto visual observa al utilizar `<strong>` y `<em>`? ¿Qué información ve el usuario en el elemento `<time>`?
 18. Compare estos los enlaces `<a href=\"#contacto\">Contacto</a>` y `<a href=\"https://github.com/usuario\">GitHub</a>`. ¿Cuál permite navegar dentro del mismo documento y cuál dirige hacia un recurso externo?
 
@@ -255,7 +255,7 @@ Preguntas guía y de reflexión
 ¿Cómo se integran los formularios en una página web?
 ----------------------------------------------------
 
-1. Modifique la sección de **Proyectos** con el siguiente código:
+1. Modifique la sección de **Contacto** con el siguiente código:
 
 .. code-block:: html
     :emphasize-lines: 2-25
