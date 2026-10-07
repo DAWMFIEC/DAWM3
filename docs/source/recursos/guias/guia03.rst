@@ -169,7 +169,7 @@ Preguntas guía y de reflexión
 2. ¿Qué efecto tiene la propiedad `max-width: 100%` en las imágenes y videos?
 3. ¿Por qué es importante usar `display: block` para las imágenes y videos?
 4. ¿Qué efecto tiene la propiedad `height: auto` en las imágenes y videos?
-5. Quita `height: auto` y prueba a `375 px`. ¿Qué le pasa a la proporción de la imagen? ¿Por qué ocurre si el HTML trae `height="360"`?
+5. Quita `height: auto` y prueba a `375 px`. ¿Qué le pasa a la proporción de la imagen? ¿Por qué ocurre si el HTML trae `height=\"360\"`?
 
 ¿Cómo le doy estilo solo a algunos párrafos y no a todos?
 ---------------------------------------------------------
@@ -405,20 +405,36 @@ Si mañana cambia el color institucional, ¿cuántas líneas debo editar?
 
 2. Reemplaza cada valor literal por su variable con `var()`, usando Buscar y reemplazar (Ctrl+H) revisando cada coincidencia:
 
-| Valor literal | Reemplazar por |
-| --- | --- |
-| `#1f3a5f` | `var(--color-primario)` |
-| `#4f6d8a` | `var(--color-secundario)` |
-| `#2f80a3` | `var(--color-acento)` |
-| `#f4f6f8` | `var(--color-fondo)` |
-| `#ffffff` | `var(--color-superficie)` |
-| `#263238` | `var(--color-texto)` |
-| `#66727c` | `var(--color-texto-suave)` |
-| `#d9e0e6` | `var(--color-borde)` |
-| `10px` | `var(--radio)` |
-| `0 4px 14px rgba(0, 0, 0, 0.08)` | `var(--sombra)` |
-| `8px` / `16px` / `32px` | `var(--espacio-pequeno)` / `var(--espacio-medio)` / `var(--espacio-grande)` |
-| `1000px` | `var(--ancho-maximo)` |
+.. list-table::
+   :header-rows: 1
+   :widths: 30 30
+
+   * - Valor literal
+     - Reemplazar por
+   * - ``#1f3a5f``
+     - ``var(--color-primario)``
+   * - ``#4f6d8a``
+     - ``var(--color-secundario)``
+   * - ``#2f80a3``
+     - ``var(--color-acento)``
+   * - ``#f4f6f8``
+     - ``var(--color-fondo)``
+   * - ``#ffffff``
+     - ``var(--color-superficie)``
+   * - ``#263238``
+     - ``var(--color-texto)``
+   * - ``#66727c``
+     - ``var(--color-texto-suave)``
+   * - ``#d9e0e6``
+     - ``var(--color-borde)``
+   * - ``10px``
+     - ``var(--radio)``
+   * - ``0 4px 14px rgba(0, 0, 0, 0.08)``
+     - ``var(--sombra)``
+   * - ``8px`` / ``16px`` / ``32px``
+     - ``var(--espacio-pequeno)`` / ``var(--espacio-medio)`` / ``var(--espacio-grande)``
+   * - ``1000px``
+     - ``var(--ancho-maximo)``
 
 por ejemplo:
 
@@ -436,6 +452,9 @@ por ejemplo:
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. ¿Cuántas líneas habría que editar para cambiar el color primario antes y después de las variables? ¿Por qué es peligroso usar **“Reemplazar todo** con `8px` o `6px`? **Pista:** busca 16px.
+2. ¿Qué nombre es mejor, `--color-primario` o `--azul-oscuro`? ¿Qué pasa con el segundo si la marca cambia a verde?
 
 Referencias
 ============
