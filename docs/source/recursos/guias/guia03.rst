@@ -50,7 +50,7 @@ Preguntas guía y de reflexión
 1. Si mañana el CV tuviera 5 páginas, ¿qué ventaja concreta te da tener los estilos en un archivo aparte?
 2. ¿Qué nombre y ubicación del archivo CSS ayudarían a otra persona a encontrar los estilos sin preguntarte?
 3. Utilice el **DevTools** para cambiar el *href* a `css/estilo.css` (sin la s). ¿Qué código de estado HTTP mostró **Network** cuando la ruta estaba mal? ¿Por qué la página se sigue viendo, aunque sin estilos?
-4. ¿Qué es CSS?
+4. ¿Qué es CSS? ¿Qué significa la sigla? ¿Qué es un *stylesheet*? ¿Qué es una *rule*? ¿Qué es un *selector*? ¿Qué es una *declaration*? ¿Qué es una *property*? ¿Qué es un *value*?
 
 ¿Por qué mi caja mide más de lo que le dije?
 -------------------------------------------------
@@ -171,11 +171,46 @@ Preguntas guía y de reflexión
 4. ¿Qué efecto tiene la propiedad `height: auto` en las imágenes y videos?
 5. Quita `height: auto` y prueba a `375 px`. ¿Qué le pasa a la proporción de la imagen? ¿Por qué ocurre si el HTML trae `height="360"`?
 
-sb1
--------------------------------------------------
+¿Cómo le doy estilo solo a algunos párrafos y no a todos?
+---------------------------------------------------------
+
+1. Ubica en index.html los atributos class: cabecera, cargo, item, meta, etiquetas.
+2. Agrega la siguiente regla al final de `estilos.css`:
+
+.. code-block:: css
+
+    .cabecera { text-align: center; }
+
+    .cargo {
+        margin-bottom: 0;
+        color: #dce6ef;
+        font-size: 1.1rem;
+    }
+
+    .item {
+        padding: 16px;
+        border-left: 4px solid #2f80a3;
+        background-color: #f4f6f8;
+        border-radius: 10px;
+    }
+
+    .meta {
+        color: #66727c;
+        font-size: 0.9rem;
+    }
+
+    .etiquetas {
+        list-style: none;
+        padding: 0;
+    }
+
+3. Guarda los cambios y recarga la página en el navegador. Observa cómo cambia la apariencia del sitio web.
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. ¿Qué efecto tiene la propiedad `text-align: center` en el párrafo con clase `cabecera`?
+2. Observa que .item se aplica a dos artículos distintos (Experiencia y Educación) con una sola regla. ¿Qué efecto tiene la propiedad `border-left: 4px solid #2f80a3` en los párrafos con clase `item`? 
 
 sb1
 -------------------------------------------------
