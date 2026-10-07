@@ -211,31 +211,231 @@ Preguntas guía y de reflexión
 
 1. ¿Qué efecto tiene la propiedad `text-align: center` en el párrafo con clase `cabecera`?
 2. Observa que .item se aplica a dos artículos distintos (Experiencia y Educación) con una sola regla. ¿Qué efecto tiene la propiedad `border-left: 4px solid #2f80a3` en los párrafos con clase `item`? 
+3. `.meta` es un `<p>`, así que recibe reglas de *p* y de *.meta*. En DevTools → Styles, ¿qué propiedades vienen de cada selector? ¿Alguna aparece tachada?
+4. ¿Por qué no estilizar directamente `<article>` en lugar de `.item`? Piensa qué pasaría si mañana agregas un <article> de blog con otro diseño.
 
-sb1
+¿Cómo distingo una sección única del resto?
 -------------------------------------------------
+
+1. Agrega las siguientes reglas al final de `estilos.css`:
+
+.. code-block:: css
+
+    #perfil      { border-top: 4px solid #2f80a3; }
+    #experiencia { border-top: 4px solid #4f6d8a; }
+    #educacion   { border-top: 4px solid #4f6d8a; }
+    #habilidades { border-top: 4px solid #2f80a3; }
+    #proyectos   { border-top: 4px solid #4f6d8a; }
+    #contacto    { border-top: 4px solid #2f80a3; }
+
+2. Guarda los cambios y recarga la página en el navegador. Observa cómo cambia la apariencia del sitio web.
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-sb1
+1. ¿Qué efecto tiene la propiedad `border-top` en las secciones con id `perfil`, `experiencia`, `educacion`, `habilidades`, `proyectos` y `contacto`?
+2. ¿Por qué es importante usar id para secciones únicas en lugar de clases?
+3. Prueba la **especificidad**: agrega al final del archivo `section { border-top: 4px solid red; }`. ¿Cambia algo? Después bórrala.
+4. ¿Qué es la especificidad en CSS y cómo afecta la aplicación de estilos?
+
+¿Qué hace que un formulario invite a ser llenado?
 -------------------------------------------------
+
+1. Agrega las siguientes reglas al final de `estilos.css`:
+
+.. code-block:: css
+
+    form        { max-width: 650px; }
+    .formulario { margin: auto; }
+
+    label {
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #d9e0e6;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #d9e0e6;
+        border-radius: 10px;
+        background-color: white;
+        font-size: 1rem;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #d9e0e6;
+        border-radius: 10px;
+        font-family: inherit;
+        font-size: 1rem;
+        resize: vertical;
+    }
+
+    button {
+        margin-top: 16px;
+        padding: 12px 24px;
+        border: 0;
+        border-radius: 10px;
+        background-color: #1f3a5f;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .casilla { font-weight: normal; }
+
+2. Guarda los cambios y recarga la página en el navegador. Observa cómo cambia la apariencia del sitio web.
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-sb1
--------------------------------------------------
+1. ¿Qué efecto tiene la propiedad `display: block` en los elementos `<label>`?
+2. ¿Qué efecto tiene la propiedad `width: 100%` en los elementos `<input>`, `<select>` y `<textarea>`?
+3. ¿Qué efecto tiene la propiedad `cursor: pointer` en el elemento `<button>`?
+
+¿Cómo estilizo los enlaces del menú sin cambiar los del pie de página?
+----------------------------------------------------------------------
+
+1. Agrega las siguientes reglas al final de `estilos.css`:
+
+.. code-block:: css
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        list-style: none;
+        padding: 0;
+    }
+
+    nav li { margin: 0; }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+    }
+
+2. Guarda los cambios y recarga la página en el navegador. Observa cómo cambia la apariencia del sitio web.
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-sb1
+1. ¿Qué efecto tiene la propiedad `display: flex` en el elemento `<ul>` dentro de `<nav>`?
+2. ¿Qué efecto tiene la propiedad `justify-content: center` en el elemento `<ul>` dentro de `<nav>`?
+3. ¿Qué efecto tiene la propiedad `gap: 16px` en el elemento `<ul>` dentro de `<nav>`?
+4. ¿Qué efecto tiene la propiedad `text-decoration: none` en los elementos `<a>` dentro de `<nav>`?
+
+¿Cómo sabe el usuario que algo es clicable?
 -------------------------------------------------
+
+1. Agrega las siguientes reglas al final de `estilos.css`:
+
+.. code-block:: css
+
+    nav a:hover {
+        color: #2f80a3;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    button:hover { background-color: #2f80a3; }
+
+    nav a:focus-visible,
+    button:focus-visible {
+        outline: 3px solid #2f80a3;
+        outline-offset: 2px;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline: none;
+        border-color: #2f80a3;
+        box-shadow: 0 0 0 3px rgba(47, 128, 163, 0.25);
+    }
+
+2. Guarda los cambios y recarga la página en el navegador. Observa cómo cambia la apariencia del sitio web.
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1. ¿Qué efecto tiene la propiedad `:hover` en los elementos `<a>` dentro de `<nav>` y en el elemento `<button>`?
+2. ¿Qué efecto tiene la propiedad `:focus-visible` en los elementos `<a>` dentro de `<nav>` y en el elemento `<button>`?
+3. En *DevTools → Styles* usa el botón **:hov** para forzar *:hover* y *:focus* sin mover el mouse. ¿Qué reglas se activan?
+
+Si mañana cambia el color institucional, ¿cuántas líneas debo editar?
+---------------------------------------------------------------------
+
+1. Agrega la siguiente regla al inicio de `estilos.css`:
+
+.. code-block:: css
+
+    :root {
+        --color-primario: #1f3a5f;
+        --color-secundario: #4f6d8a;
+        --color-acento: #2f80a3;
+
+        --color-fondo: #f4f6f8;
+        --color-superficie: #ffffff;
+        --color-texto: #263238;
+        --color-texto-suave: #66727c;
+        --color-borde: #d9e0e6;
+
+        --radio: 10px;
+        --sombra: 0 4px 14px rgba(0, 0, 0, 0.08);
+
+        --espacio-pequeno: 8px;
+        --espacio-medio: 16px;
+        --espacio-grande: 32px;
+
+        --ancho-maximo: 1000px;
+    }
+
+2. Reemplaza cada valor literal por su variable con `var()`, usando Buscar y reemplazar (Ctrl+H) revisando cada coincidencia:
+
+| Valor literal | Reemplazar por |
+| --- | --- |
+| `#1f3a5f` | `var(--color-primario)` |
+| `#4f6d8a` | `var(--color-secundario)` |
+| `#2f80a3` | `var(--color-acento)` |
+| `#f4f6f8` | `var(--color-fondo)` |
+| `#ffffff` | `var(--color-superficie)` |
+| `#263238` | `var(--color-texto)` |
+| `#66727c` | `var(--color-texto-suave)` |
+| `#d9e0e6` | `var(--color-borde)` |
+| `10px` | `var(--radio)` |
+| `0 4px 14px rgba(0, 0, 0, 0.08)` | `var(--sombra)` |
+| `8px` / `16px` / `32px` | `var(--espacio-pequeno)` / `var(--espacio-medio)` / `var(--espacio-grande)` |
+| `1000px` | `var(--ancho-maximo)` |
+
+por ejemplo:
+
+.. code-block:: css
+
+    section {
+        background-color: var(--color-superficie);
+        margin-bottom: var(--espacio-grande);
+        padding: var(--espacio-grande);
+        border-radius: var(--radio);
+        box-shadow: var(--sombra);
+    }
+
+3. Guarda los cambios y recarga la página en el navegador. Observa cómo cambia la apariencia del sitio web.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Referencias
 ============
