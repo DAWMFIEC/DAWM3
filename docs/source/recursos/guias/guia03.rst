@@ -455,6 +455,8 @@ Preguntas guía y de reflexión
 
 1. ¿Cuántas líneas habría que editar para cambiar el color primario antes y después de las variables? ¿Por qué es peligroso usar **“Reemplazar todo** con `8px` o `6px`? **Pista:** busca 16px.
 2. ¿Qué nombre es mejor, `--color-primario` o `--azul-oscuro`? ¿Qué pasa con el segundo si la marca cambia a verde?
+3. ¿Por qué es importante mantener los nombres de las variables descriptivos y no solo basados en colores o tamaños?
+4. ¿Qué ventajas tiene el uso de variables CSS en lugar de valores literales?
 
 Referencias
 ============
