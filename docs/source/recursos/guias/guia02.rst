@@ -298,7 +298,7 @@ Preguntas guía y de reflexión
 4. ¿Qué diferencia encuentra entre los atributos **required** y **autocomplete** de `<input>`?
 5. ¿Qué ocurre con los datos después de enviar el formulario?
 
-.. button-link:: ../codigo/guia02.zip
+.. button-link:: ./codigo/guia02.zip
     :color: primary
 
     Descargar el archivo con la solución.
