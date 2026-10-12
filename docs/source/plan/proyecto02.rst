@@ -64,14 +64,12 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    En esta fase, el grupo debe recopilar los datos de la actividad seleccionada mediante la aplicación de la entrevista o encuesta diseñada. Posteriormente, deberán analizar los resultados y presentarlos en un sitio web que cumpla con los requisitos de accesibilidad, usabilidad y diseño.
 
    **Sprint 1 – Organización del contenido y selección de la plantilla**
-   -----------------------------------------------------------------
-
+   
    El trabajo se centrará en organizar el contenido del sitio web, identificar las secciones necesarias y establecer su propósito. Posteriormente, explorarán las plantillas gratuitas disponibles en HTML5 UP, compararán tres alternativas y seleccionarán la más adecuada, justificando su elección en función de las necesidades del evento.
 
    Finalmente, crearán un repositorio público en GitHub e incorporarán un archivo README.md que documente el análisis del contenido, la comparación de plantillas y las decisiones tomadas durante el sprint.
 
    **Sprint 2 – Implementación, personalización y despliegue de la landing page**
-   --------------------------------------------------------------------------
 
    El trabajo se centrará en implementar el contenido del sitio web, modificando la estructura HTML para incorporar la información real del evento, incluyendo títulos, descripciones, imágenes y enlaces de navegación. Se deberá mantener una estructura semántica adecuada y eliminar los elementos de demostración que no correspondan al evento.
 
