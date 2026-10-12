@@ -113,6 +113,7 @@ Preguntas guía y de reflexión
 2. ¿Por qué Git utiliza un área de preparación intermedia en lugar de confirmar directamente todos los archivos modificados? Proponga un escenario donde esto sea útil.
 3. ¿Por qué se recomienda hacer commits pequeños y atómicos (un cambio lógico por commit) en vez de un único commit al final del día?
 4. Antes del `git push`, ¿dónde existían sus commits? ¿Qué habría pasado con ellos si el Codespace se eliminaba en ese momento?
+5. ¿Qué convenciones de nomenclatura existen para los mensajes de commit? ¿Qué significa el mensaje de commit que escribió? 
 
 ¿Cómo comparto mi sitio web con el mundo sin pagar un servidor?
 ---------------------------------------------------------------
@@ -142,3 +143,4 @@ Referencias
 * Git. (s. f.). Git reference documentation. Recuperado el 11 de octubre de 2026, de https://git-scm.com/docs
 * GitHub. (s. f.-a). Acerca de GitHub Pages. GitHub Docs. Recuperado el 11 de octubre de 2026, de https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages
 * GitHub. (s. f.-c). Documentación de GitHub Codespaces. GitHub Docs. Recuperado el 11 de octubre de 2026, de https://docs.github.com/es/codespaces
+* Commits Convencionales. (n.d.). Commits Convencionales. https://www.conventionalcommits.org/es/v1.0.0-beta.2/.
