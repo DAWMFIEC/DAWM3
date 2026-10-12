@@ -122,10 +122,10 @@ Preguntas guía y de reflexión
     
    * **Source:** Deploy from a branch
    * **Branch:** main
-   * **Folder:** /
+   * **Folder:** / (root)
    * Haga clic en **Save**.
 
-3. Abra la pestaña Actions del repositorio y observe el flujo *pages build and deployment*.
+3. Abra la pestaña **Actions** del repositorio y observe el flujo *pages build and deployment*.
 4. Cuando termine (ícono verde), regrese a *Settings → Pages* y abra la URL publicada `https://<usuario>.github.io/dawm-cv/`
 
 Preguntas guía y de reflexión
