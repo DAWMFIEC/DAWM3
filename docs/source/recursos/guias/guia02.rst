@@ -301,11 +301,10 @@ Preguntas guía y de reflexión
 Resultado
 =========
 
-.. button-link:: ../codigo/guia02.zip
-    :color: secondary
-    :expand:
+.. button-link:: ./codigo/guia02.zip
+    :color: primary
 
-    :octicon:`download;1em;sd-text-info` descargar el archivo.
+    Descargar el archivo con la solución.
 
 Referencias
 ============
