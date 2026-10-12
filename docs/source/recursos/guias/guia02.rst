@@ -303,11 +303,6 @@ Solución
 
 Descargue el archivo con la :download:`solución <./codigo/guia02.zip>`.
 
-.. button-link:: ./codigo/guia02.zip
-    :color: primary
-
-    Descargar el archivo con la :download:`solución <./codigo/guia02.zip>`.
-
 Referencias
 ============
 

@@ -463,11 +463,6 @@ Solución
 
 Descargue el archivo con la :download:`solución <./codigo/guia03.zip>`.
 
-.. button-link:: ./codigo/guia03.zip
-    :color: primary
-
-    Descargue el archivo con la solución.
-
 Referencias
 ============
 
