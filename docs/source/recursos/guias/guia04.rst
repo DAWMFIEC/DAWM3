@@ -44,12 +44,14 @@ Paso 3. Reconocer el entorno
 
 1. Abra la terminal integrada ({kbd}Ctrl + {kbd}ñ o menú **Terminal** → **New Terminal**)
 2. Ejecute los siguientes comandos para explorar el entorno del Codespace:
- 
-   - Con `pwd` para imprimir el directorio de trabajo actual
-   - Use `ls -la` para listar los archivos (incluyendo ocultos)
-   - Use `git --version` para ver la versión de Git instalada
-   - Con `git status` para ver el estado del repositorio Git
-   - Utilice `git remote -v` para ver la URL del repositorio remoto.
+
+.. code-block:: bash
+
+    pwd # para imprimir el directorio de trabajo actual
+    ls -la # para listar los archivos (incluyendo ocultos)
+    git --version # para ver la versión de Git instalada
+    git status # para ver el estado del repositorio Git
+    git remote -v # para ver la URL del repositorio remoto
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

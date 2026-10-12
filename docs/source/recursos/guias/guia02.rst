@@ -301,7 +301,14 @@ Preguntas guía y de reflexión
 Resultado
 =========
 
-Descargar `guia02.zip` y descomprimirlo. 
+.. button-link:: https://example.com
+
+    Button text
+
+Descargar :octicon:`download;1em;sd-text-info`, some more text.
+
+
+`Descargar <../codigo/guia02.zip>`_. 
 
 Referencias
 ============
