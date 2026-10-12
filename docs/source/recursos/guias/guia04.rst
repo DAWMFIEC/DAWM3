@@ -10,7 +10,7 @@ Guía 03: Estilo de un sitio web
 .. topic:: Objetivo específico
     :class: objetivo
 
-    Comprender la importancia del estilo en un sitio web mediante la ejecución, observación y análisis de elementos CSS que afectan la apariencia de un documento.
+    Aplicar el control de versiones para la gestión de la historia de un sitio web estático, mediante la aplicación de buenas prácticas de desarrollo.
 
 Actividades en clases
 =====================
