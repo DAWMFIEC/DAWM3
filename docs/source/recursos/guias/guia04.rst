@@ -39,26 +39,26 @@ Paso 2. Abrir un Codespace
 2. Seleccione la pestaña **Codespaces** y luego **Create codespace on main**.
 3. Espere a que cargue el editor (*Visual Studio Code* en el navegador).
 
+Paso 3. Reconocer el entorno
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Abra la terminal integrada ({kbd}Ctrl + {kbd}ñ o menú **Terminal** → **New Terminal**)
+2. Ejecute los siguientes comandos para explorar el entorno del Codespace:
+ 
+   - Con `pwd` para imprimir el directorio de trabajo actual
+   - Use `ls -la` para listar los archivos (incluyendo ocultos)
+   - Use `git --version` para ver la versión de Git instalada
+   - Con `git status` para ver el estado del repositorio Git
+   - Utilice `git remote -v` para ver la URL del repositorio remoto.
+
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:caption: Explorar el entorno del Codespace
-
-# ¿En qué carpeta estoy?
-pwd
-
-# ¿Qué archivos hay? (incluye ocultos)
-ls -la
-
-# ¿Qué versión de Git está instalada?
-git --version
-
-# ¿Quién soy para Git? (el Codespace lo configura con su cuenta de GitHub)
-git config --global user.name
-git config --global user.email
-
-# ¿A qué repositorio remoto está conectada esta carpeta?
-git remote -v
+1. ¿Cuál es la diferencia entre Git y GitHub? ¿Podría usar Git sin GitHub? ¿Y GitHub sin Git?
+2. El comando *git remote -v* mostró una URL llamada *origin*. ¿Qué representa ese nombre y por qué existen dos líneas (*fetch* y *push*)?
+3. Usted no instaló Python, Git ni un editor de código. ¿Dónde se están ejecutando realmente? Compare un Codespace con trabajar en el laboratorio o en su laptop: ventajas, desventajas y costos (investigue la cuota mensual gratuita de Codespaces).
+4. La URL de previsualización del puerto 8000 es privada por defecto. ¿Por qué es una buena práctica de seguridad? ¿En qué caso la haría pública?
+5. ¿Qué ocurre si cierra la pestaña del navegador sin detener el Codespace? ¿Por qué conviene detenerlo o eliminarlo cuando no se usa?
 
 Sb1
 ---------------------------------------------------------------
@@ -111,4 +111,6 @@ Preguntas guía y de reflexión
 Referencias
 ============
 
-* CSS | MDN. (n.d.). Retrieved October 07, 2026 from https://developer.mozilla.org/es/docs/Web/CSS
+* Git. (s. f.). Git reference documentation. Recuperado el 11 de octubre de 2026, de https://git-scm.com/docs
+* GitHub. (s. f.-a). Acerca de GitHub Pages. GitHub Docs. Recuperado el 11 de octubre de 2026, de https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages
+* GitHub. (s. f.-c). Documentación de GitHub Codespaces. GitHub Docs. Recuperado el 11 de octubre de 2026, de https://docs.github.com/es/codespaces
