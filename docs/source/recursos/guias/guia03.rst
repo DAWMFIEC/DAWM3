@@ -458,10 +458,11 @@ Preguntas guía y de reflexión
 3. ¿Por qué es importante mantener los nombres de las variables descriptivos y no solo basados en colores o tamaños?
 4. ¿Qué ventajas tiene el uso de variables CSS en lugar de valores literales?
 
-Resultado
-=========
+.. button-link:: ../codigo/guia03.zip
+    :color: primary
 
-Descargar `guia03.zip` y descomprimirlo. 
+    Descargar el archivo con la solución.
+
 
 Referencias
 ============
