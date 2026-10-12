@@ -301,14 +301,11 @@ Preguntas guía y de reflexión
 Resultado
 =========
 
-.. button-link:: https://example.com
+.. button-link:: ../codigo/guia02.zip
+    :color: secondary
+    :expand:
 
-    Button text
-
-Descargar :octicon:`download;1em;sd-text-info`, some more text.
-
-
-`Descargar <../codigo/guia02.zip>`_. 
+    :octicon:`download;1em;sd-text-info` descargar el archivo.
 
 Referencias
 ============
