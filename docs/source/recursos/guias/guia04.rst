@@ -106,6 +106,15 @@ Preguntas guía y de reflexión
     # Confirmar los cambios con un mensaje descriptivo
     git commit -m "feat: agrega página principal y hoja de estilos del currículum"
 
+    # Vuelva a revisar el estado: ¿qué cambió?
+    git status
+
+    # Enviar los cambios al repositorio remoto
+    git push origin main
+
+    # Vuelva a revisar el estado: ¿qué cambió?
+    git status
+
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
