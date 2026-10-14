@@ -107,7 +107,10 @@ Preguntas guía y de reflexión
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.
+1. ¿Qué efecto produce `display: flex` sobre los elementos hijos de `.cabecera`?
+2. En `css/flexbox.css`, ¿qué efecto produce `align-items: center;` sobre los elementos hijos de `.cabecera`?
+3. En `css/grid.css`, ¿qué significa `grid-template-columns: auto auto` y cómo se determina el ancho de cada columna?
+4. En `css/grid.css`, ¿qué efecto produce `place-items: center;` sobre los elementos hijos de `.hero`?
 
 ¿Cómo logramos tarjetas de igual ancho e igual altura?
 ------------------------------------------------------
@@ -153,7 +156,11 @@ Preguntas guía y de reflexión
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. 
+1. En `css/flexbox.css`, `flex: 1` es una forma abreviada. ¿Qué valores de `flex-grow`, `flex-shrink` y `flex-basis` representa? Verifíquelo en el panel *Computed*.
+2. En `css/flexbox.css`, ¿Por qué se utiliza `flex-direction: column` dentro de `.tarjeta` si el contenedor `.tarjetas` ya utiliza Flexbox?
+3. En `css/flexbox.css`, ¿Qué función cumple `margin-top: auto` en `.enlace` y cómo afecta su posición cuando las tarjetas tienen contenido de diferente longitud?
+4. En `css/grid.css`, ¿qué significa `grid-template-columns: repeat(3, 1fr)` y cómo se determina el ancho de cada columna?
+5. En `css/grid.css`, ¿qué significa `grid-template-rows: auto 1fr auto` y cómo se determina la altura de cada fila?
 
 ¿Cómo describimos la estructura general de la página?
 -----------------------------------------------------
@@ -203,6 +210,14 @@ Preguntas guía y de reflexión
 
 2. Compare ambas ventanas: el esqueleto de dos columnas deben verse igual.
 
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Quite temporalmente `align-items` en ambas versiones. ¿Qué le sucede a la altura de la barra lateral?
+2. En `css/flexbox.css`, ¿Qué diferencias existen entre asignar `flex: 1` a `.principal` y `flex: 0 0 260px` a `.lateral`?
+3. En `css/grid.css`, ¿Qué significa `grid-template-columns: 1fr 260px` y cómo se determina el ancho de cada columna?
+4. En `css/grid.css`, ¿Qué función cumple `grid-template-areas: "principal lateral"` en la organización del contenedor? ¿Cómo se relacionan `grid-area: principal` y `grid-area: lateral` con las áreas definidas en `.contenedor`?
+
 ¿Qué ocurre cuando los elementos deben ocupar varias filas?
 -----------------------------------------------------------
 
@@ -235,6 +250,14 @@ Preguntas guía y de reflexión
             }
 
 2. Compare ambas ventanas: las galerías deben verse igual.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. ¿Qué efecto produce `display: flex` y `display: grid` sobre las imágenes contenidas en `.galeria`?
+2. En `css/flexbox.css`, ¿Qué función cumple `flex-wrap: wrap` y qué ocurriría si se eliminara esta propiedad?
+3. En `css/flexbox.css`, ¿Qué significa `flex: 0 0 calc((100% - 2 * 1rem) / 3)` y cómo se determina el ancho de cada imagen?
+4. En `css/grid.css`, ¿Qué significa `grid-template-columns: repeat(3, 1fr)` y cómo se determina el ancho de cada columna?
 
 ¿Cómo se adapta cada versión a una pantalla pequeña?
 ----------------------------------------------------
@@ -281,7 +304,13 @@ Preguntas guía y de reflexión
 
             
 
-2. Compare ambas ventanas: las galerías deben verse igual.
+2. Compare ambas ventanas: las versiones para pantallas pequeñas deben verse igual.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. ¿Qué función cumple `@media (max-width: 768px)` y bajo qué condiciones se aplican las reglas CSS que contiene? ¿Qué ocurre cuando el ancho de la ventana del navegador cambia de *800px* a *768px*?
+2. ¿Por qué es necesario modificar algunas propiedades de Flexbox y Grid para adaptar el diseño a pantallas pequeñas?
 
 ¿Cuándo Flexbox, cuándo Grid?
 -----------------------------
