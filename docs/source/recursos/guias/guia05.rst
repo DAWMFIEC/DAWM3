@@ -52,9 +52,7 @@ Preguntas guía y de reflexión
 1. Con DevTools abierto (`F12` → *Elements*), seleccione el elemento `<article>`. ¿Por qué los elementos `<article>` aparecen uno debajo de otro?
 2. La hoja `base.css` no contiene ninguna regla de ubicación. ¿Qué ventaja tiene separar los estilos **visuales** de los estilos de **distribución** en archivos distintos?
 
-.. admonition:: 
-
-    Durante toda la clase:
+.. admonition:: Durante toda la clase:
 
     - Abra `flexbox.html` y `grid.html` en **dos ventanas lado a lado** en el navegador. 
     - Edite las hojas `css/flexbox.css` y `css/grid.css` en el editor de código.
@@ -112,8 +110,7 @@ Cabecera, menú y *hero*
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. En `flexbox.html`, ¿Qué propiedad centra verticalmente `justify-content` o `align-items`?
-2. Para la cabecera, Flexbox necesitó solo `display: flex`, mientras que Grid necesitó **declarar las columnas** (`grid-template-columns: auto auto`). ¿Qué dice esto sobre quién decide el tamaño: el **contenido** (Flexbox) o el **contenedor** (Grid)?
+1.
 
 ¿Cómo logramos tarjetas de igual ancho e igual altura?
 ------------------------------------------------------
@@ -159,13 +156,86 @@ Preguntas guía y de reflexión
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. En `flexbox.html`, `flex: 1` es una forma abreviada. ¿Qué valores de `flex-grow`, `flex-shrink` y `flex-basis` representa? Verifíquelo en el panel *Computed*.
+1. 
 
 ¿Cómo describimos la estructura general de la página?
 -----------------------------------------------------
 
+1. Agregue las siguientes reglas a las hojas de estilo correspondientes
+
+.. tab-set::
+
+    .. tab-item:: Hoja de estilo `css/flexbox.css`
+
+        .. code-block:: css
+
+            /* Actividad 3: estructura y pie */
+            .contenedor {
+                display: flex;
+                gap: 2rem;
+                align-items: flex-start;   
+            }
+            .principal { flex: 1; min-width: 0; }   
+            .lateral { flex: 0 0 260px; }           
+
+            .pie-columnas { display: flex; gap: 2rem; }
+            .columna { flex: 1; }
+
+    .. tab-item:: Hoja de estilo `css/grid.css`
+
+        .. code-block:: css
+
+            /* Actividad 3: estructura y pie */
+            .contenedor {
+                display: grid;
+                grid-template-columns: 1fr 260px;
+                grid-template-areas: "principal lateral";   
+                gap: 2rem;
+                align-items: start;
+            }
+            .principal { grid-area: principal; min-width: 0; }
+            .lateral { grid-area: lateral; }
+
+            .pie-columnas {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 2rem;
+            }
+
+2. Compare ambas ventanas: el esqueleto de dos columnas deben verse igual.
+
 ¿Qué ocurre cuando los elementos deben ocupar varias filas?
 -----------------------------------------------------------
+
+1. Agregue las siguientes reglas a las hojas de estilo correspondientes
+
+.. tab-set::
+
+    .. tab-item:: Hoja de estilo `css/flexbox.css`
+
+        .. code-block:: css
+
+            /* Actividad 4: galería */
+
+            .galeria { display: flex; flex-wrap: wrap; gap: 1rem; }
+            .galeria img {
+                flex: 0 0 calc((100% - 2 * 1rem) / 3);   /* (ancho − 2 huecos) ÷ 3 columnas */
+                min-width: 0;   /* evita que la imagen imponga su ancho natural (400 px) */
+            }
+
+    .. tab-item:: Hoja de estilo `css/grid.css`
+
+        .. code-block:: css
+
+            /* Actividad 4: galería */
+
+            .galeria {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1rem;
+            }
+
+2. Compare ambas ventanas: las galerías deben verse igual.
 
 ¿Cómo se adapta cada versión a una pantalla pequeña?
 ----------------------------------------------------
