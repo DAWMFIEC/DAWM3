@@ -40,15 +40,73 @@ A partir de esa página, deberás construir **dos versiones** sin modificar el H
 ¿Qué hace el navegador cuando no le damos instrucciones de distribución?
 ------------------------------------------------------------------------
 
-Paso 1. Haz un fork del repositorio en tu cuenta de GitHub y prepara tu Codespace
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 1. Haz un fork del `repositorio EcoRuta <https://github.com/aavendan/ecoruta>`_ en tu cuenta de GitHub.
 2. Abre un Codespace en tu fork y explora el entorno de trabajo.
-3. Crea una rama llamada `flexbox` y otra llamada `grid` para trabajar en cada versión por separado.
+3. Crea una rama llamada `flexbox-grid` para trabajar.
+4. Levanta el servidor de desarrollo con `python -m http.server 8000`.
+5. Abra las páginas `flexbox.html` y `grid.html` en el navegador.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Con DevTools abierto (`F12` → *Elements*), seleccione el elemento `<article>`. ¿Por qué los elementos `<article>` aparecen uno debajo de otro?
+2. La hoja `base.css` no contiene ninguna regla de ubicación. ¿Qué ventaja tiene separar los estilos **visuales** de los estilos de **distribución** en archivos distintos?
 
 ¿Cómo alineamos y centramos elementos en uno o en dos ejes?
 -----------------------------------------------------------
+
+Cabecera, menú y *hero*
+^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Edite las hojas `css/flexbox.css` y `css/grid.css` en el editor de código.
+2. Agregue las siguientes reglas a las hojas de estilo correspondientes
+
+.. tab-set::
+
+    .. tab-item:: Hoja de estilo `css/flexbox.css`
+
+        .. code-block:: css
+
+            /* Actividad 1: cabecera y hero */
+
+            .cabecera {
+                display: flex;                   
+                justify-content: space-between;  
+                align-items: center;             
+            }
+            .menu ul { display: flex; gap: 1.5rem; }
+
+            .hero {
+                display: flex;
+                justify-content: center;   
+                align-items: center;       
+            }
+    
+    .. tab-item:: Hoja de estilo `css/grid.css`
+
+        .. code-block:: css
+
+            /* Actividad 1: cabecera y hero */
+
+            .cabecera {
+                display: grid;
+                grid-template-columns: auto auto;  
+                justify-content: space-between;
+                align-items: center;
+            }
+            .menu ul { display: grid; grid-auto-flow: column; gap: 1.5rem; }
+
+            .hero {
+                display: grid;
+                place-items: center;
+            }
+
+3. Compare ambas ventanas: la cabecera debe verse igual.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 
 ¿Cómo logramos tarjetas de igual ancho e igual altura?
 ------------------------------------------------------
