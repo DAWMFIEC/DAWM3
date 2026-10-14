@@ -44,7 +44,7 @@ A partir de esa página, deberás construir **dos versiones** sin modificar el H
 2. Abre un Codespace en tu fork y explora el entorno de trabajo.
 3. Crea una rama llamada `flexbox-grid` para trabajar.
 4. Levanta el servidor de desarrollo con `python -m http.server 8000`.
-5. Abra las páginas `flexbox.html` y `grid.html` en el navegador.
+5. Abra la página `index.html` en el navegador.
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,8 +52,8 @@ Preguntas guía y de reflexión
 1. Con DevTools abierto (`F12` → *Elements*), seleccione el elemento `<article>`. ¿Por qué los elementos `<article>` aparecen uno debajo de otro?
 2. La hoja `base.css` no contiene ninguna regla de ubicación. ¿Qué ventaja tiene separar los estilos **visuales** de los estilos de **distribución** en archivos distintos?
 
-.. admonition:: Durante toda la clase:
-
+.. attention:: Durante toda la clase
+    
     - Abra `flexbox.html` y `grid.html` en **dos ventanas lado a lado** en el navegador. 
     - Modifique **ambas hojas de estilo** `css/flexbox.css` y `css/grid.css` en el editor de código.
 
