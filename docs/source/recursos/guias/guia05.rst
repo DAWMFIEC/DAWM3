@@ -54,7 +54,7 @@ Preguntas guía y de reflexión
 
 .. admonition:: 
 
-   Durante toda la clase:
+    Durante toda la clase:
 
     - Abra `flexbox.html` y `grid.html` en **dos ventanas lado a lado** en el navegador. 
     - Edite las hojas `css/flexbox.css` y `css/grid.css` en el editor de código.
@@ -129,30 +129,37 @@ Preguntas guía y de reflexión
            /* Actividad 2: tarjetas */
            
            .tarjetas { display: flex; gap: 1.5rem; }
-           .tarjeta { flex: 1; }   /* las tres tarjetas reparten el espacio por igual */
-
+           
            .tarjeta {
-                flex: 1;
                 display: flex;
-                flex-direction: column;   /* h3, p y enlace se apilan en vertical */
+                flex: 1;
+                flex-direction: column;   
            }
-           .enlace { margin-top: auto; }   /* el margen automático absorbe el espacio libre */
+           .enlace { margin-top: auto; }
     
     .. tab-item:: Hoja de estilo `css/grid.css`
 
         .. code-block:: css
 
            /* Actividad 2: tarjetas */
+
            .tarjetas {
                 display: grid;
-                grid-template-columns: repeat(3, 1fr);   /* tres columnas de igual fracción */
+                grid-template-columns: repeat(3, 1fr);  
                 gap: 1.5rem;
            }
 
            .tarjeta {
                 display: grid;
-                grid-template-rows: auto 1fr auto;   /* título | párrafo flexible | enlace */
+                grid-template-rows: auto 1fr auto;
            }
+
+2. Compare ambas ventanas: las tarjetas deben verse igual.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. En `flexbox.html`, `flex: 1` es una forma abreviada. ¿Qué valores de `flex-grow`, `flex-shrink` y `flex-basis` representa? Verifíquelo en el panel *Computed*.
 
 ¿Cómo describimos la estructura general de la página?
 -----------------------------------------------------
