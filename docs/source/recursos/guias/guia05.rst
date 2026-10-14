@@ -55,13 +55,10 @@ Preguntas guía y de reflexión
 .. admonition:: Durante toda la clase:
 
     - Abra `flexbox.html` y `grid.html` en **dos ventanas lado a lado** en el navegador. 
-    - Edite las hojas `css/flexbox.css` y `css/grid.css` en el editor de código.
+    - Modifique **ambas hojas de estilo** `css/flexbox.css` y `css/grid.css` en el editor de código.
 
 ¿Cómo alineamos y centramos elementos en uno o en dos ejes?
 -----------------------------------------------------------
-
-Cabecera, menú y *hero*
-^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Agregue las siguientes reglas a las hojas de estilo correspondientes
 
@@ -170,6 +167,7 @@ Preguntas guía y de reflexión
         .. code-block:: css
 
             /* Actividad 3: estructura y pie */
+
             .contenedor {
                 display: flex;
                 gap: 2rem;
@@ -186,6 +184,7 @@ Preguntas guía y de reflexión
         .. code-block:: css
 
             /* Actividad 3: estructura y pie */
+
             .contenedor {
                 display: grid;
                 grid-template-columns: 1fr 260px;
@@ -240,8 +239,58 @@ Preguntas guía y de reflexión
 ¿Cómo se adapta cada versión a una pantalla pequeña?
 ----------------------------------------------------
 
+1. Agregue las siguientes reglas a las hojas de estilo correspondientes
+
+.. tab-set::
+
+    .. tab-item:: Hoja de estilo `css/flexbox.css`
+
+        .. code-block:: css
+
+            /* Actividad 5: adaptación a pantallas pequeñas */
+
+            @media (max-width: 768px) {
+                .cabecera { flex-direction: column; gap: .5rem; padding: .5rem 1rem; }
+                .contenedor { flex-direction: column; align-items: stretch; }
+                .lateral { flex: none; }   /* sin esto, 260px se aplicaría a la ALTURA */
+                .tarjetas, .pie-columnas { flex-direction: column; gap: 1rem; }
+                .galeria img { flex-basis: calc((100% - 1rem) / 2); }
+            }
+
+    .. tab-item:: Hoja de estilo `css/grid.css`
+
+        .. code-block:: css
+
+            /* Actividad 5: adaptación a pantallas pequeñas */
+
+            @media (max-width: 768px) {
+                .cabecera {
+                    grid-template-columns: auto;
+                    justify-content: center;
+                    justify-items: center;
+                    gap: .5rem;
+                    padding: .5rem 1rem;
+                }
+                .contenedor {
+                    grid-template-columns: 1fr;
+                    grid-template-areas: "principal" "lateral";
+                }
+                .tarjetas, .pie-columnas { grid-template-columns: 1fr; gap: 1rem; }
+                .galeria { grid-template-columns: repeat(2, 1fr); }
+            }
+
+            
+
+2. Compare ambas ventanas: las galerías deben verse igual.
+
 ¿Cuándo Flexbox, cuándo Grid?
 -----------------------------
+
+.. admonition:: Reflexión final
+
+    **Flexbox** trabaja de **adentro hacia afuera**: el contenido de los elementos determina cómo se reparte el espacio en **un eje**. 
+    
+    **Grid** trabaja de **afuera hacia adentro**: el contenedor define una estructura de **filas y columnas**, y los elementos se ubican en ella. No compiten entre sí, sino que se complementan.
 
 Referencias
 ============
