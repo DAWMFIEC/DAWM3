@@ -24,18 +24,18 @@ Sitio original y diseño objetivo
 .. dropdown:: Página original de EcoRuta sin reglas de distribución
    :color: primary
    
-    .. figure:: ../img/ecoruta_inicial.png
-        :alt: Página original de EcoRuta sin reglas de distribución
-        :align: center
+   .. figure:: ../img/ecoruta_base.png
+      :alt: Página original de EcoRuta sin reglas de distribución
+      :align: center
 
 A partir de esa página, deberás construir **dos versiones** sin modificar el HTML ni la hoja de estilos `base.css`. La meta es que **ambas versiones se vean exactamente iguales** al diseño objetivo. 
 
 .. dropdown:: Diseño objetivo en escritorio, ambas versiones deben producir exactamente la misma imagen.
    :color: primary
    
-    .. figure:: ../img/ecoruta_objetivo.png
-        :alt: Diseño objetivo de EcoRuta en escritorio
-        :align: center
+   .. figure:: ../img/ecoruta_objetivo_escritorio.png
+      :alt: Diseño objetivo de EcoRuta en escritorio
+      :align: center
 
 ¿Qué hace el navegador cuando no le damos instrucciones de distribución?
 ------------------------------------------------------------------------
@@ -55,7 +55,7 @@ A partir de esa página, deberás construir **dos versiones** sin modificar el H
 ¿Cómo se adapta cada versión a una pantalla pequeña?
 ----------------------------------------------------
 
-¿cuándo Flexbox, cuándo Grid?
+¿Cuándo Flexbox, cuándo Grid?
 -----------------------------
 
 Referencias
