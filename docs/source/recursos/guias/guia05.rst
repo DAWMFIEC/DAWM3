@@ -52,9 +52,9 @@ Preguntas guía y de reflexión
 1. Con DevTools abierto (`F12` → *Elements*), seleccione el elemento `<article>`. ¿Por qué los elementos `<article>` aparecen uno debajo de otro?
 2. La hoja `base.css` no contiene ninguna regla de ubicación. ¿Qué ventaja tiene separar los estilos **visuales** de los estilos de **distribución** en archivos distintos?
 
- .. admonition:: 
+.. admonition:: 
 
-    Durante toda la clase:
+   Durante toda la clase:
 
     - Abra `flexbox.html` y `grid.html` en **dos ventanas lado a lado** en el navegador. 
     - Edite las hojas `css/flexbox.css` y `css/grid.css` en el editor de código.
@@ -117,6 +117,42 @@ Preguntas guía y de reflexión
 
 ¿Cómo logramos tarjetas de igual ancho e igual altura?
 ------------------------------------------------------
+
+1. Agregue las siguientes reglas a las hojas de estilo correspondientes
+
+.. tab-set::
+
+    .. tab-item:: Hoja de estilo `css/flexbox.css`
+
+        .. code-block:: css
+
+           /* Actividad 2: tarjetas */
+           
+           .tarjetas { display: flex; gap: 1.5rem; }
+           .tarjeta { flex: 1; }   /* las tres tarjetas reparten el espacio por igual */
+
+           .tarjeta {
+                flex: 1;
+                display: flex;
+                flex-direction: column;   /* h3, p y enlace se apilan en vertical */
+           }
+           .enlace { margin-top: auto; }   /* el margen automático absorbe el espacio libre */
+    
+    .. tab-item:: Hoja de estilo `css/grid.css`
+
+        .. code-block:: css
+
+           /* Actividad 2: tarjetas */
+           .tarjetas {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);   /* tres columnas de igual fracción */
+                gap: 1.5rem;
+           }
+
+           .tarjeta {
+                display: grid;
+                grid-template-rows: auto 1fr auto;   /* título | párrafo flexible | enlace */
+           }
 
 ¿Cómo describimos la estructura general de la página?
 -----------------------------------------------------
