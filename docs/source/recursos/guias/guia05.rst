@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 =============================================================================================
-Guía 05: Un diseño, dos caminos de implementación para la misma página con Flexbox y con Grid
+Guía 05: Flexbox versus Grid
 =============================================================================================
 
 .. topic:: Objetivo específico
@@ -21,11 +21,11 @@ Sitio original y diseño objetivo
 **EcoRuta** es un sitio *ficticio* de turismo sostenible que solo tiene colores, tipografía y espaciado. **No tiene ninguna regla de distribución de contenidos**, como se muestra en la siguiente imagen. 
 
 
-.. dropdown:: Página original de EcoRuta sin reglas de distribución; todos los elementos aparecen apilados
-    :color: primary
+.. dropdown:: Página original de EcoRuta sin reglas de distribución
+   :color: primary
    
     .. figure:: ../img/ecoruta_inicial.png
-        :alt: Página original de EcoRuta sin reglas de distribución; todos los elementos aparecen apilados
+        :alt: Página original de EcoRuta sin reglas de distribución
         :align: center
 
 A partir de esa página, deberás construir **dos versiones** sin modificar el HTML ni la hoja de estilos `base.css`. La meta es que **ambas versiones se vean exactamente iguales** al diseño objetivo. 
@@ -34,9 +34,29 @@ A partir de esa página, deberás construir **dos versiones** sin modificar el H
    :color: primary
    
     .. figure:: ../img/ecoruta_objetivo.png
-        :alt: Diseño objetivo de EcoRuta en escritorio, con cabecera, hero centrado, tres tarjetas, barra lateral, galería de 3 columnas y pie de 3 columnas
+        :alt: Diseño objetivo de EcoRuta en escritorio
         :align: center
 
+¿Qué hace el navegador cuando no le damos instrucciones de distribución?
+------------------------------------------------------------------------
+
+¿Cómo alineamos y centramos elementos en uno o en dos ejes?
+-----------------------------------------------------------
+
+¿Cómo logramos tarjetas de igual ancho e igual altura?
+------------------------------------------------------
+
+¿Cómo describimos la estructura general de la página?
+-----------------------------------------------------
+
+¿Qué ocurre cuando los elementos deben ocupar varias filas?
+-----------------------------------------------------------
+
+¿Cómo se adapta cada versión a una pantalla pequeña?
+----------------------------------------------------
+
+¿cuándo Flexbox, cuándo Grid?
+-----------------------------
 
 Referencias
 ============
