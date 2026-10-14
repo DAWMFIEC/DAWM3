@@ -52,14 +52,20 @@ Preguntas guía y de reflexión
 1. Con DevTools abierto (`F12` → *Elements*), seleccione el elemento `<article>`. ¿Por qué los elementos `<article>` aparecen uno debajo de otro?
 2. La hoja `base.css` no contiene ninguna regla de ubicación. ¿Qué ventaja tiene separar los estilos **visuales** de los estilos de **distribución** en archivos distintos?
 
+ .. admonition:: 
+
+    Durante toda la clase:
+
+    - Abra `flexbox.html` y `grid.html` en **dos ventanas lado a lado** en el navegador. 
+    - Edite las hojas `css/flexbox.css` y `css/grid.css` en el editor de código.
+
 ¿Cómo alineamos y centramos elementos en uno o en dos ejes?
 -----------------------------------------------------------
 
 Cabecera, menú y *hero*
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Edite las hojas `css/flexbox.css` y `css/grid.css` en el editor de código.
-2. Agregue las siguientes reglas a las hojas de estilo correspondientes
+1. Agregue las siguientes reglas a las hojas de estilo correspondientes
 
 .. tab-set::
 
@@ -101,12 +107,13 @@ Cabecera, menú y *hero*
                 place-items: center;
             }
 
-3. Compare ambas ventanas: la cabecera debe verse igual.
+2. Compare ambas ventanas: la cabecera debe verse igual.
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
+1. En `flexbox.html`, ¿Qué propiedad centra verticalmente `justify-content` o `align-items`?
+2. Para la cabecera, Flexbox necesitó solo `display: flex`, mientras que Grid necesitó **declarar las columnas** (`grid-template-columns: auto auto`). ¿Qué dice esto sobre quién decide el tamaño: el **contenido** (Flexbox) o el **contenedor** (Grid)?
 
 ¿Cómo logramos tarjetas de igual ancho e igual altura?
 ------------------------------------------------------
