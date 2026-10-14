@@ -37,6 +37,15 @@ A partir de esa página, deberás construir **dos versiones** sin modificar el H
       :alt: Diseño objetivo de EcoRuta en escritorio
       :align: center
 
+Y, adaptar el diseño a pantallas pequeñas, como se muestra en la siguiente imagen.
+
+.. dropdown:: Diseño objetivo en móvil, ambas versiones deben producir exactamente la misma imagen.
+   :color: primary
+   
+   .. figure:: ../img/ecoruta_objetivo_movil.png
+      :alt: Diseño objetivo de EcoRuta en móvil
+      :align: center
+
 ¿Qué hace el navegador cuando no le damos instrucciones de distribución?
 ------------------------------------------------------------------------
 
