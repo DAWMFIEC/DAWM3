@@ -40,6 +40,13 @@ A partir de esa página, deberás construir **dos versiones** sin modificar el H
 ¿Qué hace el navegador cuando no le damos instrucciones de distribución?
 ------------------------------------------------------------------------
 
+Paso 1. Haz un fork del repositorio en tu cuenta de GitHub y prepara tu Codespace
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Haz un fork del `repositorio EcoRuta <https://github.com/aavendan/ecoruta>`_ en tu cuenta de GitHub.
+2. Abre un Codespace en tu fork y explora el entorno de trabajo.
+3. Crea una rama llamada `flexbox` y otra llamada `grid` para trabajar en cada versión por separado.
+
 ¿Cómo alineamos y centramos elementos en uno o en dos ejes?
 -----------------------------------------------------------
 
