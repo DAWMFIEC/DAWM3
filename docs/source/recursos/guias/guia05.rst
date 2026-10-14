@@ -18,27 +18,20 @@ Actividades en clases
 Sitio original y diseño objetivo
 --------------------------------
 
-**EcoRuta** es un sitio ficticio de turismo sostenible que solo tiene colores, tipografía y espaciado. **No tiene ninguna regla de distribución de contenidos**, así que el navegador apila todos los elementos uno debajo de otro, en el flujo normal, como se muestra a continuación:
+**EcoRuta** es un sitio *ficticio* de turismo sostenible que solo tiene colores, tipografía y espaciado. **No tiene ninguna regla de distribución de contenidos**, como se muestra en la siguiente imagen. 
 
 
-.. collapsible:: Página original de EcoRuta sin reglas de distribución; todos los elementos aparecen apilados
-   :class: dropdown
+.. admonition:: Página original de EcoRuta sin reglas de distribución; todos los elementos aparecen apilados
+    :collapsible: closed
    
     .. figure:: ../img/ecoruta_inicial.png
         :alt: Página original de EcoRuta sin reglas de distribución; todos los elementos aparecen apilados
         :align: center
 
+A partir de esa página, deberás construir **dos versiones** sin modificar el HTML ni la hoja de estilos `base.css`. La meta es que **ambas versiones se vean exactamente iguales** al diseño objetivo. 
 
-A partir de esa página, deberás construir **dos versiones** sin modificar el HTML ni la hoja `base.css`:
-
-- `flexbox.html` + `css/flexbox.css`, que solo usa **Flexbox**.
-- `grid.html` + `css/grid.css`, que solo usa **Grid**.
-
-La meta es que **ambas versiones se vean exactamente iguales** al diseño objetivo. En cada actividad se resuelve la misma zona de la página primero con Flexbox y luego con Grid, y se comparan los resultados.
-
-
-.. collapsible:: Diseño objetivo en escritorio (1280 px). Ambas versiones, Flexbox y Grid, deben producir exactamente esta imagen.
-   :class: dropdown
+.. admonition:: Diseño objetivo en escritorio, ambas versiones deben producir exactamente la misma imagen.
+   :collapsible: closed
    
     .. figure:: ../img/ecoruta_objetivo.png
         :alt: Diseño objetivo de EcoRuta en escritorio, con cabecera, hero centrado, tres tarjetas, barra lateral, galería de 3 columnas y pie de 3 columnas
@@ -48,7 +41,6 @@ La meta es que **ambas versiones se vean exactamente iguales** al diseño objeti
 Referencias
 ============
 
-* Andrew, R. (2017). *The new CSS layout*. A Book Apart.
 * Andrew, R. (2021). *Learn CSS: Flexbox*. web.dev. https://web.dev/learn/css/flexbox
 * Andrew, R. (2021). *Learn CSS: Grid*. web.dev. https://web.dev/learn/css/grid
 * Coyier, C. (2013). *A complete guide to Flexbox*. CSS-Tricks. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
