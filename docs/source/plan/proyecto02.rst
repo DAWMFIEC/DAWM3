@@ -59,7 +59,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    * **Fuentes externas y derechos de autor:** Cuando se utilicen imágenes, textos, mapas, estadísticas u otros recursos que no hayan sido producidos por el grupo, deberá identificarse su procedencia y respetarse las condiciones de uso y autoría.
 
 .. dropdown:: Fase 4: Desarrollo
-   :color: warning
+   :color: info
 
    En esta fase, el grupo debe recopilar los datos de la actividad seleccionada mediante la aplicación de la entrevista o encuesta diseñada. Posteriormente, deberán analizar los resultados y presentarlos en un sitio web que cumpla con los requisitos de accesibilidad, usabilidad y diseño.
 
@@ -77,7 +77,11 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
 
    Finalmente, realizarán el despliegue de la landing page mediante GitHub Pages, verificando que el sitio publicado funcione correctamente y que sus contenidos, imágenes, enlaces y estilos se visualicen adecuadamente.
 
-   
+.. dropdown:: Fase 5: Entrega
+   :color: info
+
+   El grupo deberá entregar el proyecto en la fecha establecida, incluyendo el enlace al sitio web desarrollado y un informe que documente la problemática seleccionada, la metodología utilizada para recopilar los datos, los resultados obtenidos y las conclusiones del análisis. El informe debe presentarse en formato PDF y debe incluir capturas de pantalla del sitio web, así como cualquier otro material relevante.
+
 
 Referencias
 ===========
