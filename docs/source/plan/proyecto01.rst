@@ -49,7 +49,7 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    **Estructura del perfil.**
 
-   Diseña un esquema del ``README.md`` indicando el orden de las secciones. Por ejemplo:
+   Diseña un esquema del ``README.md`` indicando el orden de las secciones, por ejemplo:
 
    * Presentación.
    * Sobre mí.
@@ -63,13 +63,11 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    **Estrategia de commits.**
 
-   Define cómo registrarás los cambios. Evita concentrar todo el trabajo en un único commit. Cada cambio importante debe quedar registrado mediante un mensaje descriptivo, por ejemplo:
+   Define cómo registrarás los cambios. Evita concentrar todo el trabajo en un único commit. Cada cambio importante debe quedar registrado mediante un mensaje descriptivo ("Commits Convencionales", n.d.), por ejemplo:
 
-   * ``docs: agrega presentación personal``
-   * ``docs: incorpora sección de habilidades``
-   * ``docs: agrega proyectos destacados``
-   * ``docs: mejora información de contacto``
-   * ``docs: corrige accesibilidad de imágenes``
+   * ``docs: agrega presentación personal e incorpora sección de habilidades``
+   * ``fix: corrige errores de ortografía en README.md``
+   * ``feat: agrega proyecto destacado con enlace a demo``
 
    **Diseño del contenido.**
 
@@ -99,8 +97,8 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    **Repositorio principal**
 
-   Crea un repositorio público con el nombre de usuario de GitHub. Este repositorio contendrá el archivo ``README.md`` que se mostrará en tu perfil.
-   
+   Crea un **repositorio especial** (Freecodecamp, 2021) con tu nombre de usuario de GitHub, por ejemplo, ``github.com/usuario``. Este repositorio contendrá únicamente el archivo ``README.md`` que se mostrará en tu perfil.
+
    **Construcción incremental.**
 
    Implementa el perfil sección por sección. Después de completar una modificación significativa:
@@ -193,4 +191,6 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 Referencias
 ===========
 
-- Abhisheknaiidu. (n.d.). Abhisheknaiidu/awesome-github-profile-readme: 😎 A curated list of awesome GitHub Profile which updates in real time. GitHub. Retrieved September 28, 2026 from https://github.com/abhisheknaiidu/awesome-github-profile-readme
+* Abhisheknaiidu. (n.d.). Abhisheknaiidu/awesome-github-profile-readme: 😎 A curated list of awesome GitHub Profile which updates in real time. GitHub. Retrieved September 28, 2026 from https://github.com/abhisheknaiidu/awesome-github-profile-readme
+* Freecodecamp. (2021). How to Use the .github Repository. FreeCodeCamp.org. https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/.
+* Commits Convencionales. (n.d.). Commits Convencionales. https://www.conventionalcommits.org/es/v1.0.0-beta.2/.
