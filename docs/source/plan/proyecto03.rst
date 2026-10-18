@@ -24,11 +24,12 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
 
 .. dropdown:: Fase 2: Planificación
    :color: info
+   :disabled: true
 
    Para este proyecto, es importante que los integrantes del grupo comprendan qué es un dashboard y qué información debe contener. Un dashboard es una herramienta visual que permite a los usuarios monitorear y analizar datos de manera rápida y efectiva. Debe presentar información clave de manera clara y concisa, utilizando gráficos, tablas y otros elementos visuales para facilitar la interpretación de los datos.
 
 
-.. dropdown:: Fase 2: Diseño
+.. dropdown:: Fase 3: Diseño
    :disabled: true
    :color: info
 
