@@ -10,9 +10,22 @@ Plan de desarrollo
 En grupos de dos integrantes trabajará de manera colaborativa durante todas las fases del proyecto, desde el análisis y diseño hasta la implementación, pruebas y presentación del dashboard.
 
 .. dropdown:: Fase 1: Análisis
+   :color: warning
+
+   En esta fase, se ha identificado la necesidad de desarrollar las habilidades de programación con JavaScript y TypeScript, así como la comprensión de conceptos clave relacionados con el desarrollo de dashboards interactivos. Se ha investigado sobre las tecnologías web modernas y se ha analizado la importancia de presentar información de manera clara y concisa.
+
+   **JavaScript**
+
+   Esta actividad requiere del uso de JavaScript en el desarrollo de soluciones web interactivas, especialmente en la manipulación del DOM, la gestión de eventos y la comunicación asincrónica, lo que es esencial para construir un dashboard interactivo.
+
+   **TypeScript**
+
+   Con esta actividad, se busca que los integrantes del grupo comprendan la importancia de utilizar TypeScript en el desarrollo de aplicaciones web, ya que proporciona tipado estático y características avanzadas que mejoran la calidad del código y facilitan el mantenimiento del proyecto.
+
+.. dropdown:: Fase 2: Planificación
    :color: info
 
-   
+   Para este proyecto, es importante que los integrantes del grupo comprendan qué es un dashboard y qué información debe contener. Un dashboard es una herramienta visual que permite a los usuarios monitorear y analizar datos de manera rápida y efectiva. Debe presentar información clave de manera clara y concisa, utilizando gráficos, tablas y otros elementos visuales para facilitar la interpretación de los datos.
 
 
 .. dropdown:: Fase 2: Diseño
