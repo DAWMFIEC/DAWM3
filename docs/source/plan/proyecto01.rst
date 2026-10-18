@@ -42,44 +42,8 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    **Evidencia:** Genera una tabla comparativa de perfiles, la lista de verificación de proyectos, el diagnóstico de tus repositorios y los requisitos definidos.
 
-.. dropdown:: Fase 2: Planificación
-   :color: primary
-
-   En esta fase, transforma los requisitos identificados en un conjunto organizado de tareas. El objetivo es definir qué vas a construir, en qué orden y cómo registrarás el avance en GitHub.
-
-   **Organización del trabajo.**
-
-   Divide el desarrollo del perfil en tareas pequeñas y verificables. Por ejemplo:
-
-   * Crear el repositorio del perfil.
-   * Preparar la estructura inicial del ``README.md``.
-   * Redactar una presentación personal breve.
-   * Incorporar formación, intereses y áreas de trabajo.
-   * Seleccionar las habilidades técnicas que se mostrarán.
-   * Seleccionar los proyectos que se destacarán.
-   * Mejorar la documentación de los repositorios seleccionados.
-   * Incorporar información de contacto.
-   * Revisar accesibilidad y visualización en diferentes dispositivos.
-
-   Organiza las tareas mediante Issues o un tablero de proyecto. Para cada tarea, define una descripción breve y un criterio que permita determinar cuándo está terminada.
-
-   **Estrategia de commits.**
-
-   Define cómo registrarás los cambios. Evita concentrar todo el trabajo en un único commit. Cada cambio importante debe quedar registrado mediante un mensaje descriptivo.
-
-   Ejemplos:
-
-   * ``docs: agrega presentación personal``
-   * ``docs: incorpora sección de habilidades``
-   * ``docs: agrega proyectos destacados``
-   * ``docs: mejora información de contacto``
-   * ``docs: corrige accesibilidad de imágenes``
-
-   **Evidencia:** Genera la lista de tareas, su organización y el plan inicial de commits que utilizarás durante el desarrollo.
-
-
-.. dropdown:: Fase 3: Diseño
-   :color: warning
+.. dropdown:: Fase 2: Planificación y Diseño
+   :color: info
 
    En esta fase, define cómo se organizará la información antes de construir la versión final del perfil. El objetivo es tomar decisiones sobre estructura, jerarquía y contenido.
 
@@ -96,6 +60,16 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
    * Contacto.
 
    No es obligatorio utilizar todas estas secciones. Selecciona únicamente aquellas que aporten información relevante.
+
+   **Estrategia de commits.**
+
+   Define cómo registrarás los cambios. Evita concentrar todo el trabajo en un único commit. Cada cambio importante debe quedar registrado mediante un mensaje descriptivo, por ejemplo:
+
+   * ``docs: agrega presentación personal``
+   * ``docs: incorpora sección de habilidades``
+   * ``docs: agrega proyectos destacados``
+   * ``docs: mejora información de contacto``
+   * ``docs: corrige accesibilidad de imágenes``
 
    **Diseño del contenido.**
 
@@ -116,18 +90,17 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
    * Enlace al repositorio.
    * Enlace a demostración, cuando exista.
 
-   **Accesibilidad.**
-
-   Revisa desde el diseño aspectos como texto alternativo de imágenes, contraste, claridad de los enlaces y dependencia de recursos externos.
-
    **Evidencia:** Genera un esquema o boceto de la estructura del perfil y la propuesta de contenido de cada sección y proyecto destacado.
 
-
-.. dropdown:: Fase 4: Implementación
-   :color: success
+.. dropdown:: Fase 3: Implementación
+   :color: warning
 
    En esta fase, convierte el diseño en un perfil funcional utilizando Markdown y las características disponibles en GitHub.
 
+   **Repositorio principal**
+
+   Crea un repositorio público con el nombre de usuario de GitHub. Este repositorio contendrá el archivo ``README.md`` que se mostrará en tu perfil.
+   
    **Construcción incremental.**
 
    Implementa el perfil sección por sección. Después de completar una modificación significativa:
@@ -137,30 +110,16 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
    * Realiza un commit descriptivo.
    * Verifica el cambio directamente en GitHub antes de continuar.
 
-   **Proyectos destacados.**
-
-   Actualiza también los repositorios que seleccionaste durante el análisis. Cuando corresponda:
-
-   * Mejora la descripción del repositorio.
-   * Agrega topics.
-   * Organiza el ``README.md``.
-   * Documenta instalación y uso.
-   * Agrega capturas o ejemplos.
-   * Incluye ``.gitignore``.
-   * Verifica la licencia.
-   * Organiza los archivos y carpetas.
-
-   No agregues tecnologías, experiencia o proyectos que no puedas justificar mediante evidencia.
-
    **Historial del desarrollo.**
 
    Mantén commits pequeños y relacionados con cambios concretos. El historial debe permitir reconstruir cómo evolucionó el perfil desde su primera versión hasta la versión actual.
 
-   **Evidencia:** Perfil implementado, repositorios seleccionados actualizados e historial de commits que muestre el desarrollo incremental.
+   **Evidencia:** Perfil implementado, con historial de commits que muestre el desarrollo incremental.
 
 
 .. dropdown:: Fase 5: Verificación
-   :color: danger
+   :disabled: True
+   :color: info
 
    En esta fase, comprueba que el perfil cumple los requisitos definidos durante el análisis y que puede ser comprendido por una persona que lo visita por primera vez.
 
@@ -202,6 +161,7 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
 
 .. dropdown:: Fase 6: Publicación y mejora
+   :disabled: True
    :color: secondary
 
    En esta fase, prepara una versión estable del perfil y reflexiona sobre el proceso de desarrollo.
