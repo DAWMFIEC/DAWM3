@@ -138,75 +138,14 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    **Evidencia:** Perfil implementado, con historial de commits que muestre el desarrollo incremental.
 
+.. dropdown:: Fase 4: Publicación
+   :color: warning
 
-.. dropdown:: Fase 5: Verificación
-   :disabled: True
-   :color: info
+   En esta fase, el perfil debe estar completo y listo para ser compartido. Verifica que toda la información sea correcta, que los enlaces funcionen y que el formato sea legible en diferentes dispositivos.
 
-   En esta fase, comprueba que el perfil cumple los requisitos definidos durante el análisis y que puede ser comprendido por una persona que lo visita por primera vez.
-
-   **Revisión funcional.**
-
-   Verifica:
-
-   * Que todas las secciones previstas estén presentes.
-   * Que los enlaces funcionen.
-   * Que los proyectos destacados correspondan con los repositorios enlazados.
-   * Que las imágenes e insignias se carguen correctamente.
-   * Que la información de contacto sea correcta.
-
-   **Revisión de calidad.**
-
-   Comprueba además:
-
-   * Ortografía y redacción.
-   * Consistencia entre títulos y secciones.
-   * Claridad de las descripciones.
-   * Legibilidad.
-   * Uso adecuado del texto alternativo.
-   * Visualización en escritorio y dispositivo móvil.
-   * Ausencia de información personal que no quieras publicar.
-
-   **Validación entre pares.**
-
-   Solicita a un compañero que observe el perfil durante aproximadamente 10 segundos y responda:
-
-   * ¿Quién es este desarrollador?
-   * ¿Qué sabe hacer?
-   * ¿Qué proyecto llama primero tu atención?
-   * ¿Dónde buscarías evidencia de sus habilidades?
-   * ¿Qué información resulta difícil de encontrar o comprender?
-
-   Registra las observaciones recibidas y realiza las correcciones necesarias mediante nuevos commits.
-
-   **Evidencia:** Lista de verificación completada, resultados de la revisión entre pares, problemas identificados y commits de corrección.
-
-
-.. dropdown:: Fase 6: Publicación y mejora
-   :disabled: True
-   :color: secondary
-
-   En esta fase, prepara una versión estable del perfil y reflexiona sobre el proceso de desarrollo.
-
-   **Versión final.**
-
-   Verifica nuevamente el perfil y los repositorios destacados. Asegúrate de que el estado final disponible en GitHub corresponda con la versión que deseas presentar.
-
-   Selecciona el commit que representa la versión final del trabajo y registra su identificador SHA.
-
-   **Evaluación del proceso.**
-
-   Revisa el historial de commits y analiza cómo evolucionó el producto:
-
-   * ¿Qué cambió entre la primera y la última versión?
-   * ¿Qué decisiones del análisis inicial se mantuvieron?
-   * ¿Qué decisiones tuvieron que modificarse?
-   * ¿Qué observaciones de la verificación produjeron cambios?
-   * ¿Qué mejorarías si desarrollaras nuevamente el perfil?
-
-   **Mantenimiento.**
-
-   El perfil de GitHub no debe considerarse un producto terminado. Define qué información necesitará actualizarse cuando desarrolles nuevos proyectos, aprendas nuevas tecnologías o cambien tus intereses profesionales.
+   **GitHub Pages.** 
+   
+   Verifica que el repositorio principal esté correctamente configurado para mostrar el ``README.md`` en tu perfil. Asegúrate de que la visibilidad del repositorio sea pública.
 
    **Evidencia:** URL pública del perfil, URL de los repositorios destacados, SHA del commit correspondiente a la versión final y una breve reflexión sobre el proceso de desarrollo.
 

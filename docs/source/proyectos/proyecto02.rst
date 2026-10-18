@@ -16,7 +16,7 @@ Proyecto 02: Explorando la cultura con la web
 
     Como desarrollador, explica ¿Qué es una landing page?
 
-.. figure:: ./respuestas/proyecto03-respuesta01.png
+.. figure:: ./respuestas/proyecto02-respuesta01.png
    :alt: Respuesta a la pregunta 1
    :align: center
 
