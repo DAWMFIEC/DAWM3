@@ -7,7 +7,7 @@
 Plan de desarrollo
 ==================
 
-En grupos de dos integrantes trabajará de manera colaborativa durante todas las fases del proyecto, desde el análisis y diseño hasta la implementación, pruebas y presentación del dashboard.
+En grupos de dos integrantes trabajará de manera colaborativa durante todas las fases del proyecto, desde el análisis, planificación y diseño hasta la implementación y presentación del dashboard.
 
 .. dropdown:: Fase 1: Análisis
    :color: warning
