@@ -99,6 +99,30 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    Crea un **repositorio especial** (Freecodecamp, 2021) con tu nombre de usuario de GitHub, por ejemplo, ``github.com/usuario``. Este repositorio contendrá únicamente el archivo ``README.md`` que se mostrará en tu perfil.
 
+   **Marcado y formato.**
+
+   Utiliza Markdown (Markdown Guide, n.d.) para dar formato al contenido. Emplea títulos, listas, tablas, enlaces e imágenes según lo definido en la fase de diseño. Evita el uso de HTML y CSS, ya que no son compatibles con el perfil de GitHub.
+
+   .. code-block:: markdown
+
+      # Título
+      ## Subtítulo
+
+      **Negrita** y *cursiva*.
+
+      - Lista
+      1. Lista numerada
+
+      ### Subsubtítulo
+
+      En la siguiente tabla se muestran las características destacadas:
+
+      | Columna 1 | Columna 2 |
+      |-----------|-----------|
+
+      En este [Enlace](https://www.ejemplo.com) es posible incluir referencias externas.
+
+   
    **Construcción incremental.**
 
    Implementa el perfil sección por sección. Después de completar una modificación significativa:
@@ -194,3 +218,4 @@ Referencias
 * Abhisheknaiidu. (n.d.). Abhisheknaiidu/awesome-github-profile-readme: 😎 A curated list of awesome GitHub Profile which updates in real time. GitHub. Retrieved September 28, 2026 from https://github.com/abhisheknaiidu/awesome-github-profile-readme
 * Freecodecamp. (2021). How to Use the .github Repository. FreeCodeCamp.org. https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/.
 * Commits Convencionales. (n.d.). Commits Convencionales. https://www.conventionalcommits.org/es/v1.0.0-beta.2/.
+* Markdown Guide. (n.d.). Retrieved October 19, 2026 from https://www.markdownguide.org/
