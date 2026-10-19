@@ -402,20 +402,20 @@ Preguntas guía y de reflexión
       :widths: 35 30 35
 
       * - Elemento observado
-        - Resultado obtenido
         - ¿Cuál es el propósito?
+        - Referencias
       * - ``chrome.storage.onChanged.addListener((changes, areaName) => { ... })``
         -
-        -
+        - (Storage.onChanged - Mozilla | MDN, n.d.)
       * - ``chrome.storage.local.get(["secciones"], function (result) { ... })``
         -
-        -
+        - (Storage.local - Mozilla | MDN, n.d.)
       * - ``const secciones = seccionesTexto.split(", ").map(sec => `<li>${sec}</li>`).join("");``
         -
-        -
+        - (Array.prototype.map() - JavaScript | MDN, n.d.) (Array.prototype.join() - JavaScript | MDN, n.d.)
       * - ``document.getElementById("secciones").innerHTML = secciones;``
         -
-        -
+        - (Element: innerHTML property - Web APIs | MDN, n.d.)
 
 Referencias
 ===========
@@ -423,3 +423,8 @@ Referencias
 * Chrome extensions documentation. (n.d.). Chrome for Developers. Retrieved October 18, 2026 from https://developer.chrome.com/docs/extensions/
 * Document: querySelector() method. (n.d.). MDN Web Docs. Retrieved October 18, 2026 from https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 * Ramez, C. (2023). NodeList vs Array - DEV Community. DEV Community. https://dev.to/cesar_ramez/nodelist-vs-array-87.
+* Storage.onChanged - Mozilla | MDN. (n.d.). Retrieved October 19, 2026 from https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/onChanged
+* Storage.local - Mozilla | MDN. (n.d.). Retrieved October 19, 2026 from https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local
+* Array.prototype.map() - JavaScript | MDN. (n.d.). Retrieved October 19, 2026 from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+* Array.prototype.join() - JavaScript | MDN. (n.d.). Retrieved October 19, 2026 from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+* Element: InnerHTML property - Web APIs | MDN. (n.d.). Retrieved October 19, 2026 from https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
