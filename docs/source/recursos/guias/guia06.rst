@@ -272,7 +272,7 @@ Preguntas guía y de reflexión
 #. Actualice el contenido de `content.js` por el siguiente código. 
 
    .. code-block:: javascript
-      :emphasize-lines: 3, 19, 23-25
+      :emphasize-lines: 3, 17, 19, 21-22
 
       (() => {
 
@@ -290,15 +290,16 @@ Preguntas guía y de reflexión
         let obtenerSecciones = () => {
             const secciones = document.querySelectorAll("h2");
             secciones.forEach((seccion, index) => {
-                if (estaVisible(seccion)) {
+                if (estaVisible(seccion) && !seccionesVisibles.includes(seccion.textContent)) {
                     console.log(`Sección ${index + 1} visible:`, seccion.textContent);
                     seccionesVisibles.push(seccion.textContent);
+
+                    let seccionesText = seccionesVisibles.map(sec => sec.textContent).join(", ");
+                    chrome.storage.local.set({ "secciones": seccionesText });
+
                 }
             });
-            
-            chrome.storage.local.set({ "seccionesVisibles": seccionesVisibles }, function() {
-                console.log("Secciones visibles almacenadas:", seccionesVisibles);
-            });
+
         };
 
         console.log("WikiTracker está activo");
@@ -319,6 +320,8 @@ Preguntas guía y de reflexión
         });
 
       })();
+
+#. Recargue la extensión desde ``chrome://extensions``, actualice el artículo de Wikipedia y observe la consola mientras hace scroll en la ventana del navegador. 
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
