@@ -38,10 +38,14 @@ Actividades en clases
    En la misma carpeta, cree el archivo `content.js`:
 
    .. code-block:: javascript
+    
+      () => {
 
-      console.log("WikiTracker está activo");
-      console.log("Título:", document.title);
-      console.log("Dirección:", location.href);
+        console.log("WikiTracker está activo");
+        console.log("Título:", document.title);
+        console.log("Dirección:", location.href);
+      
+      }();
 
 #. Abra ``chrome://extensions``, active **Modo desarrollador** y seleccione **Cargar descomprimida** para elegir la carpeta `wikitracker`. 
 #. Abra `Javascript - Wikipedia <https://es.wikipedia.org/wiki/JavaScript>`_ y examine la pestaña **Console** de las herramientas para desarrolladores. Compare lo observado con el contenido de `content.js`.
@@ -56,28 +60,34 @@ Preguntas guía y de reflexión
 #. ¿Qué observa al abrir una página que no pertenece a Wikipedia?
 #. ¿Qué conclusiones puede sacar sobre el uso de **JavaScript**?
 #. ¿Cuál es la utilidad de los objetos `console`, `document` y `location`?
+#. ¿Qué asegura la función anónima autoejecutable `()=> {}()` en `content.js`?
 
 ¿Cómo puede Chrome reconocer el título y los subtítulos de un artículo de Wikipedia?
 ------------------------------------------------------------------------------------
 
-#. Reemplace el contenido de `content.js` por el siguiente código. 
+#. Actualice el contenido de `content.js` por el siguiente código. 
 
    .. code-block:: javascript
+      :emphasize-lines: 7-8, 10, 11-14
 
-      const titulo = document.querySelector("h1");
+      () => {
 
-      console.log("Artículo:", titulo?.textContent ?? "Sin título");
+        console.log("WikiTracker está activo");
+        console.log("Título:", document.title);
+        console.log("Dirección:", location.href);
 
-      const subtitulos = document.getElementsByTagName("h2");
+        const titulo = document.querySelector("h1");
+        
+        console.log("Artículo:", titulo?.textContent ?? "Sin título");
 
-      if( subtitulos.length > 0 ) {
-        console.log("Subtítulos:");
-        for (let i = 0; i < subtitulos.length; i++) {
-          console.log(`- ${subtitulos[i].textContent}`);
-        }
-      } else {
-        console.log("No hay subtítulos");
-      }
+        let clics = 0;
+
+        document.addEventListener("click", function () {
+            clics = clics + 1;
+            console.log("Clics registrados:", clics);
+        });
+
+      }();
 
 #. Recargue la extensión desde ``chrome://extensions``, actualice el artículo de Wikipedia y observe la consola.
 
