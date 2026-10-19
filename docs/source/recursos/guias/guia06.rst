@@ -114,6 +114,7 @@ Preguntas guía y de reflexión
 
 #. ¿Qué relación encuentra entre un clic del usuario, la ejecución de una función y el cambio del contador?
 #. Además de los clics, ¿qué otros eventos podría registrar la extensión en Chrome? ¿Cómo podría hacerlo?
+#. Investigue qué es un `callback` y cómo se diferencia de una función normal (Chrome extensions documentation, n.d.). ¿Qué ventajas ofrece cada uno?
 
 ¿Cómo acceder a las secciones de un artículo de Wikipedia?
 ----------------------------------------------------------
@@ -157,7 +158,7 @@ Preguntas guía y de reflexión
 #. ¿Qué diferencia existe entre `document.querySelector` y `document.querySelectorAll`?
 #. Investigue qué es un `NodeList` y cómo se diferencia de un `Array` (Ramez, 2023). ¿Qué métodos de iteración puede utilizar con cada uno?
 
-¿Qué está visible en un artículo de Wikipedia?
+¿Qué está visible en la ventana del navegador?
 ----------------------------------------------
 
 #. Actualice el contenido de `content.js` por el siguiente código. 
@@ -201,7 +202,69 @@ Preguntas guía y de reflexión
         obtenerSecciones();
 
       })();
-    
+
+#. Recargue la extensión desde ``chrome://extensions``, actualice el artículo de Wikipedia y observe la consola.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. ¿Qué diferencia existe entre `window.innerHeight` y `document.documentElement.clientHeight`? Investigue qué es un `DOMRect` y cómo se diferencia de un `ClientRect` (Document: querySelector() method, n.d.). ¿Qué propiedades puede utilizar con cada uno?
+#. ¿Cuál es la diferencia entre `function` y `arrow function`? 
+
+¿Qué pasa cuando se hace scroll en la ventana del navegador?
+------------------------------------------------------------
+
+#. Actualice el contenido de `content.js` por el siguiente código. 
+
+   .. code-block:: javascript
+      :emphasize-lines: 34-36
+
+      (() => {
+
+        function estaVisible(elemento) {
+            const rect = elemento.getBoundingClientRect();
+
+            return (
+                rect.top >= 0 &&
+                rect.bottom <= window.innerHeight
+            );
+        }
+
+        let obtenerSecciones = () => {
+            const secciones = document.querySelectorAll("h2");
+            secciones.forEach((seccion, index) => {
+                if (estaVisible(seccion)) {
+                    console.log(`Sección ${index + 1} visible:`, seccion.textContent);
+                }
+            });
+        };
+
+        console.log("WikiTracker está activo");
+        console.log("Título:", document.title);
+        console.log("Dirección:", location.href);
+
+        const titulo = document.querySelector("h1");
+        console.log("Artículo:", titulo?.textContent ?? "Sin título");
+
+        let clics = 0;
+        document.addEventListener("click", function () {
+            clics = clics + 1;
+            console.log("Clics registrados:", clics);
+        });
+
+        window.addEventListener("scrollend", function() {
+           obtenerSecciones();
+        });
+
+      })();
+
+#. Recargue la extensión desde ``chrome://extensions``, actualice el artículo de Wikipedia y observe la consola mientras hace scroll en la ventana del navegador.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Investigue el uso del evento `scrollend` en JavaScript y cómo se diferencia del evento `scroll`.
+
 Referencias
 ===========
 
