@@ -39,13 +39,13 @@ Actividades en clases
 
    .. code-block:: javascript
     
-      () => {
+      (() => {
 
         console.log("WikiTracker está activo");
         console.log("Título:", document.title);
         console.log("Dirección:", location.href);
       
-      }();
+      })();
 
 #. Abra ``chrome://extensions``, active **Modo desarrollador** y seleccione **Cargar descomprimida** para elegir la carpeta `wikitracker`. 
 #. Abra `Javascript - Wikipedia <https://es.wikipedia.org/wiki/JavaScript>`_ y examine la pestaña **Console** de las herramientas para desarrolladores. Compare lo observado con el contenido de `content.js`.
@@ -68,26 +68,24 @@ Preguntas guía y de reflexión
 #. Actualice el contenido de `content.js` por el siguiente código. 
 
    .. code-block:: javascript
-      :emphasize-lines: 7-8, 10, 11-14
+      :emphasize-lines: 7-8, 10-14
 
-      () => {
+      (() => {
 
         console.log("WikiTracker está activo");
         console.log("Título:", document.title);
         console.log("Dirección:", location.href);
 
         const titulo = document.querySelector("h1");
-        
         console.log("Artículo:", titulo?.textContent ?? "Sin título");
 
         let clics = 0;
-
         document.addEventListener("click", function () {
             clics = clics + 1;
             console.log("Clics registrados:", clics);
         });
 
-      }();
+      })();
 
 #. Recargue la extensión desde ``chrome://extensions``, actualice el artículo de Wikipedia y observe la consola.
 
