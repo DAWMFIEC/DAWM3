@@ -54,9 +54,61 @@ Preguntas guía y de reflexión
 #. ¿Dónde aparecen los mensajes generados al visitar el artículo?
 #. ¿Qué sucede cuando visita otro artículo de Wikipedia?
 #. ¿Qué observa al abrir una página que no pertenece a Wikipedia?
-#. ¿Qué preguntas le surgen sobre la relación entre la extensión y la página visitada?
-#. ¿Qué conclusiones puede sacar sobre el uso de **JavaScript** en el contexto de las extensiones de Chrome?
+#. ¿Qué conclusiones puede sacar sobre el uso de **JavaScript**?
+#. ¿Cuál es la utilidad de los objetos `console`, `document` y `location`?
 
+¿Cómo acceder a los elementos del documento?
+--------------------------------------------
+
+#. Reemplace el contenido de `content.js` por el siguiente código. 
+
+   .. code-block:: javascript
+
+      const titulo = document.querySelector("h1");
+
+      console.log("Artículo:", titulo?.textContent ?? "Sin título");
+
+      const subtitulos = document.getElementsByTagName("h2");
+
+      if( subtitulos.length > 0 ) {
+        console.log("Subtítulos:");
+        for (let i = 0; i < subtitulos.length; i++) {
+          console.log(`- ${subtitulos[i].textContent}`);
+        }
+      } else {
+        console.log("No hay subtítulos");
+      }
+
+#. Recargue la extensión desde ``chrome://extensions``, actualice el artículo de Wikipedia y observe la consola.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Complete la tabla con observaciones de las dos versiones y de las interacciones realizadas.
+
+   .. list-table:: Registro de observaciones
+      :header-rows: 1
+      :widths: 35 30 35
+
+      * - Elemento observado
+        - Resultado obtenido
+        - ¿Qué pregunta plantea?
+      * - ``document.querySelector("h1")``
+        -
+        -
+      * - ``titulo?.textContent``
+        -
+        -
+      * - ``document.getElementsByTagName("h2")``
+        -
+        -
+      * - ``subtitulos.length``
+        -
+        -
+      * - ``subtitulos[i].textContent``
+        -
+        -
+    
 Referencias
 ===========
 
