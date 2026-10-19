@@ -266,6 +266,65 @@ Preguntas guía y de reflexión
 #. Investigue el uso del evento `scrollend` en JavaScript y cómo se diferencia del evento `scroll`.
 #. ¿Qué cambio debería realizar en el código para que se registre la visibilidad de las secciones mientras se hace scroll en la ventana del navegador **por una sola vez**?
 
+¿Cómo se puede almacenar las secciones visibles en el almacenamiento local de Chrome?
+--------------------------------------------------------------------------
+
+#. Actualice el contenido de `content.js` por el siguiente código. 
+
+   .. code-block:: javascript
+      :emphasize-lines: 3, 19, 23-25
+
+      (() => {
+
+        let seccionesVisibles = [];
+
+        function estaVisible(elemento) {
+            const rect = elemento.getBoundingClientRect();
+
+            return (
+                rect.top >= 0 &&
+                rect.bottom <= window.innerHeight
+            );
+        }
+
+        let obtenerSecciones = () => {
+            const secciones = document.querySelectorAll("h2");
+            secciones.forEach((seccion, index) => {
+                if (estaVisible(seccion)) {
+                    console.log(`Sección ${index + 1} visible:`, seccion.textContent);
+                    seccionesVisibles.push(seccion.textContent);
+                }
+            });
+            
+            chrome.storage.local.set({ "seccionesVisibles": seccionesVisibles }, function() {
+                console.log("Secciones visibles almacenadas:", seccionesVisibles);
+            });
+        };
+
+        console.log("WikiTracker está activo");
+        console.log("Título:", document.title);
+        console.log("Dirección:", location.href);
+
+        const titulo = document.querySelector("h1");
+        console.log("Artículo:", titulo?.textContent ?? "Sin título");
+
+        let clics = 0;
+        document.addEventListener("click", function () {
+            clics = clics + 1;
+            console.log("Clics registrados:", clics);
+        });
+
+        window.addEventListener("scrollend", function() {
+           obtenerSecciones();
+        });
+
+      })();
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. 
+
 Referencias
 ===========
 
