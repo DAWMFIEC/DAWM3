@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ===========================================
-Guía 01: WikiTracker
+Guía 06: WikiTracker
 ===========================================
 
 .. topic:: Objetivo específico
