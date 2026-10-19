@@ -57,8 +57,8 @@ Preguntas guía y de reflexión
 #. ¿Qué conclusiones puede sacar sobre el uso de **JavaScript**?
 #. ¿Cuál es la utilidad de los objetos `console`, `document` y `location`?
 
-¿Cómo acceder a los elementos del documento?
---------------------------------------------
+¿Cómo puede Chrome reconocer el título y los subtítulos de un artículo de Wikipedia?
+------------------------------------------------------------------------------------
 
 #. Reemplace el contenido de `content.js` por el siguiente código. 
 
@@ -84,7 +84,7 @@ Preguntas guía y de reflexión
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Complete la tabla con observaciones de las dos versiones y de las interacciones realizadas.
+#. Complete la tabla con las observaciones realizadas.
 
    .. list-table:: Registro de observaciones
       :header-rows: 1
@@ -92,7 +92,7 @@ Preguntas guía y de reflexión
 
       * - Elemento observado
         - Resultado obtenido
-        - ¿Qué pregunta plantea?
+        - ¿Cuál es el propósito?
       * - ``document.querySelector("h1")``
         -
         -
