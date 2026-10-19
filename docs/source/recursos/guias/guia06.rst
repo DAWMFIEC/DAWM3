@@ -55,7 +55,8 @@ Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. ¿Qué archivo permite a Chrome identificar la carpeta como una extensión?
-#. ¿Qué diferencias observa entre el contenido de `manifest.json` y el de `content.js`?
+#. ¿Qué diferencias observa entre el contenido de `manifest.json` y el de `content.js`? 
+#. ¿Cuál es la diferencia entre un archivo `.json` y `.js`?
 #. ¿Dónde aparecen los mensajes generados al visitar el artículo?
 #. ¿Qué sucede cuando visita otro artículo de Wikipedia?
 #. ¿Qué observa al abrir una página que no pertenece a Wikipedia?
@@ -269,6 +270,26 @@ Preguntas guía y de reflexión
 ¿Cómo se puede almacenar las secciones visibles en el almacenamiento local de Chrome?
 --------------------------------------------------------------------------
 
+#. Actualice el contenido de `manifest.json` por el siguiente código. 
+
+   .. code-block:: json
+      :emphasize-lines: 6
+
+      {
+        "manifest_version": 3,
+        "name": "WikiTracker",
+        "version": "1.0",
+        "description": "Registro de interacciones en Wikipedia",
+        "permissions": ["storage"],
+        "content_scripts": [
+          {
+            "matches": ["https://*.wikipedia.org/wiki/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+          }
+        ]
+      }
+
 #. Actualice el contenido de `content.js` por el siguiente código. 
 
    .. code-block:: javascript
@@ -321,12 +342,14 @@ Preguntas guía y de reflexión
 
       })();
 
-#. Recargue la extensión desde ``chrome://extensions``, actualice el artículo de Wikipedia y observe la consola mientras hace scroll en la ventana del navegador. 
+#. Recargue la extensión desde ``chrome://extensions``, actualice el artículo de Wikipedia y observe la consola. 
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. 
+#. Investigue la entrada de `"permissions": ["storage"]`, en el archivo `manifest.json` y explique su propósito.
+#. Explique el propósito de la variable `seccionesVisibles` y cómo se utiliza para evitar duplicados en el almacenamiento local.
+#. Explique cómo se almacena la información de las secciones visibles en el almacenamiento local de Chrome, en `chrome.storage.local`
 
 Referencias
 ===========
