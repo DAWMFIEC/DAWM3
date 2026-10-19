@@ -311,9 +311,9 @@ Preguntas guía y de reflexión
         let obtenerSecciones = () => {
             const secciones = document.querySelectorAll("h2");
             secciones.forEach((seccion, index) => {
-                if (estaVisible(seccion) && !seccionesVisibles.includes(seccion.textContent)) {
+                if (estaVisible(seccion) && !seccionesVisibles.includes(seccion)) {
                     console.log(`Sección ${index + 1} visible:`, seccion.textContent);
-                    seccionesVisibles.push(seccion.textContent);
+                    seccionesVisibles.push(seccion);
 
                     let seccionesText = seccionesVisibles.map(sec => sec.textContent).join(", ");
                     chrome.storage.local.set({ "secciones": seccionesText });
