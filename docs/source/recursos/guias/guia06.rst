@@ -163,7 +163,7 @@ Preguntas guía y de reflexión
 #. Actualice el contenido de `content.js` por el siguiente código. 
 
    .. code-block:: javascript
-      :emphasize-lines: 3-11, 28-30
+      :emphasize-lines: 3-10, 15-17
 
       (() => {
 
@@ -181,8 +181,6 @@ Preguntas guía y de reflexión
             secciones.forEach((seccion, index) => {
                 if (estaVisible(seccion)) {
                     console.log(`Sección ${index + 1} visible:`, seccion.textContent);
-                } else {
-                    console.log(`Sección ${index + 1} no visible:`, seccion.textContent);
                 }
             });
         };
