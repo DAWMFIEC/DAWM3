@@ -121,9 +121,16 @@ Preguntas guía y de reflexión
 #. Actualice el contenido de `content.js` por el siguiente código. 
 
    .. code-block:: javascript
-      :emphasize-lines: 16-19
+      :emphasize-lines: 3-8, 23
 
       (() => {
+
+        let obtenerSecciones = () => {
+            const secciones = document.querySelectorAll("h2");
+            secciones.forEach((seccion, index) => {
+                console.log(`Sección ${index + 1}:`, seccion.textContent);
+            });
+        };
 
         console.log("WikiTracker está activo");
         console.log("Título:", document.title);
@@ -138,10 +145,7 @@ Preguntas guía y de reflexión
             console.log("Clics registrados:", clics);
         });
 
-        const secciones = document.querySelectorAll("h2");
-        secciones.forEach((seccion, index) => {
-                console.log(`Sección ${index + 1}:`, seccion.textContent);
-        });
+        obtenerSecciones();
 
       })();
 
@@ -163,7 +167,6 @@ Preguntas guía y de reflexión
 
       (() => {
 
-        // Función para determinar si un elemento está visible
         function estaVisible(elemento) {
             const rect = elemento.getBoundingClientRect();
 
@@ -172,6 +175,17 @@ Preguntas guía y de reflexión
                 rect.bottom <= window.innerHeight
             );
         }
+
+        let obtenerSecciones = () => {
+            const secciones = document.querySelectorAll("h2");
+            secciones.forEach((seccion, index) => {
+                if (estaVisible(seccion)) {
+                    console.log(`Sección ${index + 1} visible:`, seccion.textContent);
+                } else {
+                    console.log(`Sección ${index + 1} no visible:`, seccion.textContent);
+                }
+            });
+        };
 
         console.log("WikiTracker está activo");
         console.log("Título:", document.title);
@@ -186,12 +200,7 @@ Preguntas guía y de reflexión
             console.log("Clics registrados:", clics);
         });
 
-        const secciones = document.querySelectorAll("h2");
-        secciones.forEach((seccion, index) => {
-            if (estaVisible(seccion)) {
-                console.log(`Sección ${index + 1}:`, seccion.textContent);
-            }
-        });
+        obtenerSecciones();
 
       })();
     
