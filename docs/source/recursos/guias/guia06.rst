@@ -268,7 +268,7 @@ Preguntas guía y de reflexión
 #. ¿Qué cambio debería realizar en el código para que se registre la visibilidad de las secciones mientras se hace scroll en la ventana del navegador **por una sola vez**?
 
 ¿Cómo se puede almacenar las secciones visibles en el almacenamiento local de Chrome?
---------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
 #. Actualice el contenido de `manifest.json` por el siguiente código. 
 
@@ -350,6 +350,72 @@ Preguntas guía y de reflexión
 #. Investigue la entrada de `"permissions": ["storage"]`, en el archivo `manifest.json` y explique su propósito.
 #. Explique el propósito de la variable `seccionesVisibles` y cómo se utiliza para evitar duplicados en el almacenamiento local.
 #. Explique cómo se almacena la información de las secciones visibles en el almacenamiento local de Chrome, en `chrome.storage.local`
+
+¿Cómo puedo mostrar la información de las secciones visibles en la ventana emergente?
+-------------------------------------------------------------------------------------
+
+#. Modifique el contenido de `manifest.json` por el siguiente código. 
+
+   .. code-block:: json
+      :emphasize-lines: 7-10
+
+      {
+        "manifest_version": 3,
+        "name": "WikiTracker",
+        "version": "1.0",
+        "description": "Registro de interacciones en Wikipedia",
+        "permissions": ["storage"],
+        "action": {
+            "default_title": "WikiTracker",
+            "default_popup": "popup.html"
+        },
+        "content_scripts": [
+          {
+            "matches": ["https://*.wikipedia.org/wiki/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+          }
+        ]
+      }
+
+#. Descargue :download:`popup <./codigo/popup.zip>`, descomprima los archivos y colóquelos en la carpeta `wikitracker`, con la siguiente estructura:
+
+   .. code-block:: text
+
+      wikitracker/
+      ├── manifest.json
+      ├── content.js
+      ├── popup.html
+      ├── popup.css
+      └── popup.js
+
+#. Recargue la extensión desde ``chrome://extensions`` y actualice el artículo de Wikipedia.
+#. Haga clic en el ícono de la extensión y observe la ventana emergente.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Complete la tabla con las observaciones realizadas.
+
+   .. list-table:: Registro de observaciones
+      :header-rows: 1
+      :widths: 35 30 35
+
+      * - Elemento observado
+        - Resultado obtenido
+        - ¿Cuál es el propósito?
+      * - ``chrome.storage.onChanged.addListener((changes, areaName) => { ... })``
+        -
+        -
+      * - ``chrome.storage.local.get(["secciones"], function (result) { ... })``
+        -
+        -
+      * - ``const secciones = seccionesTexto.split(", ").map(sec => `<li>${sec}</li>`).join("");``
+        -
+        -
+      * - ``document.getElementById("secciones").innerHTML = secciones;``
+        -
+        -
 
 Referencias
 ===========
