@@ -264,6 +264,7 @@ Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Investigue el uso del evento `scrollend` en JavaScript y cómo se diferencia del evento `scroll`.
+#. ¿Qué cambio debería realizar en el código para que se registre la visibilidad de las secciones mientras se hace scroll en la ventana del navegador **por una sola vez**?
 
 Referencias
 ===========
