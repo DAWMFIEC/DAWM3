@@ -209,7 +209,7 @@ Preguntas guía y de reflexión
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. ¿Qué diferencia existe entre `window.innerHeight` y `document.documentElement.clientHeight`? Investigue qué es un `DOMRect` y cómo se diferencia de un `ClientRect` (Document: querySelector() method, n.d.). ¿Qué propiedades puede utilizar con cada uno?
+#. Investigue qué es un `DOMRect` y cómo se diferencia de un `ClientRect` ¿Qué propiedades puede utilizar con cada uno?
 #. ¿Cuál es la diferencia entre `function` y `arrow function`? 
 
 ¿Qué pasa cuando se hace scroll en la ventana del navegador?
