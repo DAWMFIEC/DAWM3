@@ -10,11 +10,10 @@ Guía 06: TubeTrack
 .. topic:: Objetivo específico
    :class: objetivo
     
-    Desarrollar una aplicación con una lista de reproducción de canciones para la comprensión de los fundamentos Typescript y su aplicación en una solución interactiva.
+   Desarrollar una aplicación con una lista de reproducción de canciones para la comprensión de los fundamentos Typescript y su aplicación en una solución interactiva.
  
 Actividades en clases
 ====================
-
 
 ¿Cómo creo y ejecuto un proyecto TypeScript en StackBlitz?
 -------------------------------------------------------------
@@ -46,32 +45,174 @@ Preguntas guía y de reflexión
       * - ``tsconfig.json``
         -
 
-¿ST?
+¿Cómo personalizo la presentación del proyecto?
 -------------------------------------------------------------
 
-#. Elimine `src/counter.ts` y `assets` del proyecto. 
 .. #. Abra `tsconfig.json` y busque `"strict": true` dentro de `compilerOptions`. Si no aparece, agréguelo.
-#. Reemplace todo el contenido de `main.ts` por:
+#. Elimine `src/counter.ts` y `assets` del proyecto. 
+#. Reeemplace todo el contenido de `src/style.css` por:
 
-.. code-block:: typescript
+.. dropdown:: style.css
 
-    import { Song } from "./song";
-    import { Playlist } from "./playlist";
+   .. code-block:: css
 
-    const playlist = new Playlist();
+      /* ==============================
+        Estilos generales
+      ============================== */
 
-    const song1 = new Song("Song 1", "Artist 1", 180);
-    const song2 = new Song("Song 2", "Artist 2", 200);
-    const song3 = new Song("Song 3", "Artist 3", 220);
+      * {
+        box-sizing: border-box;
+      }
 
-    playlist.addSong(song1);
-    playlist.addSong(song2);
-    playlist.addSong(song3);
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #222;
+      }
 
-    console.log("Playlist:");
-    playlist.getSongs().forEach((song) => {
-        console.log(`${song.title} by ${song.artist} (${song.duration} seconds)`);
-    });
+      /* ==============================
+        Cabecera
+      ============================== */
+
+      header {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+
+      header h1 {
+        margin-bottom: 8px;
+      }
+
+      header p {
+        margin: 0;
+        color: #cccccc;
+      }
+
+      /* ==============================
+        Contenido principal
+      ============================== */
+
+      main {
+        width: 90%;
+        max-width: 800px;
+        margin: 30px auto;
+      }
+
+      /* ==============================
+        Buscador
+      ============================== */
+
+      .buscador {
+        margin-bottom: 30px;
+      }
+
+      .buscador label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+
+      #buscar {
+        width: 100%;
+        padding: 12px;
+
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+
+        font-size: 16px;
+      }
+
+      #buscar:focus {
+        outline: 2px solid #555555;
+      }
+
+      /* ==============================
+        Lista de canciones
+      ============================== */
+
+      #lista-canciones {
+        display: grid;
+        gap: 15px;
+      }
+
+      .cancion {
+        background-color: white;
+
+        padding: 18px;
+
+        border-radius: 10px;
+
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .cancion h3 {
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+
+      .artista {
+        font-weight: bold;
+        margin: 5px 0;
+      }
+
+      .genero {
+        color: #666666;
+        margin: 5px 0;
+      }
+
+      /* ==============================
+        Mensaje sin resultados
+      ============================== */
+
+      #sin-resultados {
+        display: none;
+
+        text-align: center;
+        padding: 20px;
+
+        color: #666666;
+      }
+
+#. Reemplace todo el contenido de `src/main.ts` por:
+
+.. dropdown:: main.ts
+
+   .. code-block:: typescript
+
+        import './style.css';
+        
+        const titulo = 'PlayList - TypeScript';
+        const descripcion = 'Explora y busca tus canciones favoritas';
+
+        const appDiv: HTMLElement = document.getElementById('app');
+
+        if (appDiv) {
+            appDiv.innerHTML = `
+            <header>
+                <h1>🎵 ${titulo}</h1>
+                <p>${descripcion}</p>
+            </header>
+            <main>
+                <section class="buscador">
+                    <label for="buscar">Buscar canción</label>
+
+                    <input
+                    type="text"
+                    id="buscar"
+                    placeholder="Escribe una canción, artista o género..."
+                    />
+                </section>
+
+                <section>
+                    <h2>Lista de canciones</h2>
+
+                    <div id="lista-canciones"></div>
+                </section>
+            </main>`;
+        }
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
