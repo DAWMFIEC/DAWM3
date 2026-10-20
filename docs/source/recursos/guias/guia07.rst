@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ==================
-Guía 06: TubeTrack 
+Guía 07: TubeTrack 
 ==================
 
 .. topic:: Objetivo específico
@@ -53,6 +53,7 @@ Preguntas guía y de reflexión
 #. Reeemplace todo el contenido de `src/style.css` por:
 
 .. dropdown:: style.css
+   :color: success
 
    .. code-block:: css
 
@@ -179,12 +180,13 @@ Preguntas guía y de reflexión
 #. Reemplace todo el contenido de `src/main.ts` por:
 
 .. dropdown:: main.ts
+   :color: success 
 
    .. code-block:: typescript
 
         import './style.css';
         
-        const titulo = 'PlayList - TypeScript';
+        const titulo = 'TubeTrack - TypeScript';
         const descripcion = 'Explora y busca tus canciones favoritas';
 
         const appDiv: HTMLElement = document.getElementById('app');
