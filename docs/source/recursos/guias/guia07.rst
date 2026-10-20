@@ -33,7 +33,7 @@ Preguntas guía y de reflexión
       :widths: 25 75
 
       * - Archivo
-        - Para qué sirve
+        - ¿Para qué sirve?
       * - ``index.html``
         -
       * - ``src/main.ts``
@@ -52,169 +52,169 @@ Preguntas guía y de reflexión
 #. Elimine `src/counter.ts` y `assets` del proyecto. 
 #. Reeemplace todo el contenido de `src/style.css` por:
 
-.. dropdown:: style.css
-   :color: success
+   .. dropdown:: style.css
+      :color: success
 
-   .. code-block:: css
+      .. code-block:: css
 
-      /* ==============================
-        Estilos generales
-      ============================== */
+          /* ==============================
+            Estilos generales
+          ============================== */
 
-      * {
-        box-sizing: border-box;
-      }
+          * {
+            box-sizing: border-box;
+          }
 
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        color: #222;
-      }
+          body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+          }
 
-      /* ==============================
-        Cabecera
-      ============================== */
+          /* ==============================
+            Cabecera
+          ============================== */
 
-      header {
-        background-color: #222;
-        color: white;
-        text-align: center;
-        padding: 30px;
-      }
+          header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+          }
 
-      header h1 {
-        margin-bottom: 8px;
-      }
+          header h1 {
+            margin-bottom: 8px;
+          }
 
-      header p {
-        margin: 0;
-        color: #cccccc;
-      }
+          header p {
+            margin: 0;
+            color: #cccccc;
+          }
 
-      /* ==============================
-        Contenido principal
-      ============================== */
+          /* ==============================
+            Contenido principal
+          ============================== */
 
-      main {
-        width: 90%;
-        max-width: 800px;
-        margin: 30px auto;
-      }
+          main {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+          }
 
-      /* ==============================
-        Buscador
-      ============================== */
+          /* ==============================
+            Buscador
+          ============================== */
 
-      .buscador {
-        margin-bottom: 30px;
-      }
+          .buscador {
+            margin-bottom: 30px;
+          }
 
-      .buscador label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 8px;
-      }
+          .buscador label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+          }
 
-      #buscar {
-        width: 100%;
-        padding: 12px;
+          #buscar {
+            width: 100%;
+            padding: 12px;
 
-        border: 1px solid #cccccc;
-        border-radius: 8px;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
 
-        font-size: 16px;
-      }
+            font-size: 16px;
+          }
 
-      #buscar:focus {
-        outline: 2px solid #555555;
-      }
+          #buscar:focus {
+            outline: 2px solid #555555;
+          }
 
-      /* ==============================
-        Lista de canciones
-      ============================== */
+          /* ==============================
+            Lista de canciones
+          ============================== */
 
-      #lista-canciones {
-        display: grid;
-        gap: 15px;
-      }
+          #lista-canciones {
+            display: grid;
+            gap: 15px;
+          }
 
-      .cancion {
-        background-color: white;
+          .cancion {
+            background-color: white;
 
-        padding: 18px;
+            padding: 18px;
 
-        border-radius: 10px;
+            border-radius: 10px;
 
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      }
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+          }
 
-      .cancion h3 {
-        margin-top: 0;
-        margin-bottom: 8px;
-      }
+          .cancion h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+          }
 
-      .artista {
-        font-weight: bold;
-        margin: 5px 0;
-      }
+          .artista {
+            font-weight: bold;
+            margin: 5px 0;
+          }
 
-      .genero {
-        color: #666666;
-        margin: 5px 0;
-      }
+          .genero {
+            color: #666666;
+            margin: 5px 0;
+          }
 
-      /* ==============================
-        Mensaje sin resultados
-      ============================== */
+          /* ==============================
+            Mensaje sin resultados
+          ============================== */
 
-      #sin-resultados {
-        display: none;
+          #sin-resultados {
+            display: none;
 
-        text-align: center;
-        padding: 20px;
+            text-align: center;
+            padding: 20px;
 
-        color: #666666;
-      }
+            color: #666666;
+          }
 
 #. Reemplace todo el contenido de `src/main.ts` por:
 
-.. dropdown:: main.ts
-   :color: success 
+   .. dropdown:: main.ts
+      :color: success 
 
-   .. code-block:: typescript
+      .. code-block:: typescript
 
-        import './style.css';
-        
-        const titulo = 'TubeTrack - TypeScript';
-        const descripcion = 'Explora y busca tus canciones favoritas';
+            import './style.css';
+            
+            const titulo = 'TubeTrack - TypeScript';
+            const descripcion = 'Explora y busca tus canciones favoritas';
 
-        const appDiv: HTMLElement = document.getElementById('app');
+            const appDiv: HTMLElement = document.getElementById('app');
 
-        if (appDiv) {
-            appDiv.innerHTML = `
-            <header>
-                <h1>🎵 ${titulo}</h1>
-                <p>${descripcion}</p>
-            </header>
-            <main>
-                <section class="buscador">
-                    <label for="buscar">Buscar canción</label>
+            if (appDiv) {
+                appDiv.innerHTML = `
+                <header>
+                    <h1>🎵 ${titulo}</h1>
+                    <p>${descripcion}</p>
+                </header>
+                <main>
+                    <section class="buscador">
+                        <label for="buscar">Buscar canción</label>
 
-                    <input
-                    type="text"
-                    id="buscar"
-                    placeholder="Escribe una canción, artista o género..."
-                    />
-                </section>
+                        <input
+                        type="text"
+                        id="buscar"
+                        placeholder="Escribe una canción, artista o género..."
+                        />
+                    </section>
 
-                <section>
-                    <h2>Lista de canciones</h2>
+                    <section>
+                        <h2>Lista de canciones</h2>
 
-                    <div id="lista-canciones"></div>
-                </section>
-            </main>`;
-        }
+                        <div id="lista-canciones"></div>
+                    </section>
+                </main>`;
+            }
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
