@@ -196,6 +196,7 @@ Preguntas guía y de reflexión
                 <header>
                     <h1>🎵 ${titulo}</h1>
                     <p>${descripcion}</p>
+                    <h4> canciones en la lista de canciones </h4>
                 </header>
                 <main>
                     <section class="buscador">
@@ -273,24 +274,25 @@ Preguntas guía y de reflexión
 
     .. code-block:: typescript
 
-        export type Genero = 'rock' | 'pop' | 'salsa' | 'reggaeton' | 'bolero';
+       export type Genero = 'rock' | 'pop' | 'salsa' | 'reggaeton' | 'bolero';
 
-        export interface Cancion {
-            id: number;
-            titulo: string;
-            artista: string;
-            anio: number;
-            genero: Genero;
-            duracion: number; // en segundos
-            album?: string; // propiedad opcional
-        }
+       export interface Cancion {
+          id: number;
+          titulo: string;
+          artista: string;
+          anio: number;
+          genero: Genero;
+          duracion: number; // en segundos
+          album?: string; // propiedad opcional
+       }
 
 #. Cree el archivo `src/canciones.ts`, con el código:
 
     .. code-block:: typescript
+       
        import type { Cancion } from './tipos';
 
-        export const canciones: Cancion[] = [
+       export const canciones: Cancion[] = [
           { id: 0,  titulo: 'Adiós',                   artista: 'Gustavo Cerati',         anio: 2006, genero: 'rock alternativo',   duracion: 233, album: 'Ahí Vamos' },
           { id: 1,  titulo: 'Bohemian Rhapsody',       artista: 'Queen',                  anio: 1975, genero: 'rock',               duracion: 355, album: 'A Night at the Opera' },
           { id: 2,  titulo: 'Billie Jean',             artista: 'Michael Jackson',        anio: 1982, genero: 'pop',                duracion: 294, album: 'Thriller' },
@@ -304,7 +306,7 @@ Preguntas guía y de reflexión
           { id: 10, titulo: 'Bésame mucho',            artista: 'Consuelo Velázquez',     anio: 1940, genero: 'bolero',             duracion: 200 },
           { id: 11, titulo: 'Smells Like Teen Spirit', artista: 'Nirvana',                anio: 1991, genero: 'rock',               duracion: 301, album: 'Nevermind' },
           { id: 12, titulo: 'La bicicleta',            artista: 'Carlos Vives y Shakira', anio: 2016, genero: 'pop',                duracion: 230 },
-        ];
+       ];
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
