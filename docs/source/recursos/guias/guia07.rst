@@ -390,8 +390,8 @@ Preguntas guía y de reflexión
 #. Importe (Viktorsson, 2025) la lista de canciones desde `src/canciones.ts` en `src/main.ts`.
 #. Cree una función `mostrarCanciones` que reciba un arreglo de canciones y genere el HTML correspondiente para mostrarlas en la sección `#lista-canciones`. Asegúrese de que cada canción se muestre con su título, artista, año, género y duración.
    
-   - Importe la interfaz `Cancion` desde `src/tipos.ts` para tipar el parámetro de la función.
-   - Importe la lista de canciones desde `src/canciones.ts`
+   - Importe la interfaz `Cancion` desde `src/tipos.ts` y la lista de canciones desde `src/canciones.ts`
+   - Asigne el valor de la longitud del arreglo de canciones a la variable `cantidad`.
    - Implementa una función llamada `mostrarCanciones` que reciba como parámetro un arreglo de objetos de tipo Cancion. Mapee los atributos de cada canción a un bloque de HTML y los agregue al contenedor `#lista-canciones`.
    - Llame a la función `mostrarCanciones` pasando la lista de canciones como argumento.
 
@@ -399,6 +399,8 @@ Preguntas guía y de reflexión
       
       import { ... } from './canciones';
       import type { ... } from './tipos';
+
+      let cantidad = ...;
 
       if (appDiv) {
         
@@ -422,10 +424,13 @@ Preguntas guía y de reflexión
        :color: success
 
        .. code-block:: typescript
-          :emphasize-lines: 1,2,7-17, 19
+          :emphasize-lines: 1,2,9-19, 21
 
           import { canciones } from './canciones';
           import type { Cancion } from './tipos';
+
+          ...
+          let cantidad = canciones.length;
 
           if (appDiv) {
             
