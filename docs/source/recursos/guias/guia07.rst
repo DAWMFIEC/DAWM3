@@ -515,25 +515,28 @@ Preguntas guía y de reflexión
        :color: success
 
        .. code-block:: typescript
-           :emphasize-lines: 1,7-9,11-18
+           :emphasize-lines: 1,10-12,14-21
             
            import { filtrarCanciones } from './utilidades';
 
            ... 
 
-           mostrarCanciones(canciones);
+           if (appDiv) {
 
-           const buscarInput: HTMLInputElement = document.getElementById(
-              'buscar'
-           ) as HTMLInputElement;
+              mostrarCanciones(canciones);
 
-           if (buscarInput) {
-             buscarInput.addEventListener('input', () => {
-                const busqueda = buscarInput.value;
+              const buscarInput: HTMLInputElement = document.getElementById(
+                  'buscar'
+              ) as HTMLInputElement;
 
-                const cancionesFiltradas = filtrarCanciones(canciones, busqueda);
-                mostrarCanciones(cancionesFiltradas);
-             });
+              if (buscarInput) {
+                buscarInput.addEventListener('input', () => {
+                    const busqueda = buscarInput.value;
+
+                    const cancionesFiltradas = filtrarCanciones(canciones, busqueda);
+                    mostrarCanciones(cancionesFiltradas);
+                });
+              }
            }
 
 Preguntas guía y de reflexión
