@@ -417,6 +417,11 @@ Preguntas guía y de reflexión
         -
         - (Element: innerHTML property - Web APIs | MDN, n.d.)
 
+Solución
+========
+
+Descargue el archivo con la :download:`solución <./codigo/wikitracker.zip>`.
+
 Referencias
 ===========
 
