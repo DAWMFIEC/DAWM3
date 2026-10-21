@@ -188,6 +188,7 @@ Preguntas guía y de reflexión
             
             const titulo = 'TubeTrack - TypeScript';
             const descripcion = 'Explora y busca tus canciones favoritas';
+            let cantidad = 0;
 
             const appDiv: HTMLElement = document.getElementById('app');
 
@@ -196,7 +197,7 @@ Preguntas guía y de reflexión
                 <header>
                     <h1>🎵 ${titulo}</h1>
                     <p>${descripcion}</p>
-                    <h4> canciones en la lista de canciones </h4>
+                    <h4>${cantidad} canciones en la lista de canciones </h4>
                 </header>
                 <main>
                     <section class="buscador">
@@ -382,6 +383,99 @@ Preguntas guía y de reflexión
 #. ¿Qué ventajas ofrece TypeScript al definir tipos y estructuras de datos en comparación con JavaScript?
 #. ¿Cómo ayuda la definición de tipos de datos en el desarrollo de software?
 #. ¿Cuál es la utilidad de la palabra clave `export` en TypeScript y cómo se relaciona con la modularidad del código?
+
+¿Cómo muestro la lista de canciones en la página?
+-------------------------------------------------
+
+#. Importe (Viktorsson, 2025) la lista de canciones desde `src/canciones.ts` en `src/main.ts`.
+#. Cree una función `mostrarCanciones` que reciba un arreglo de canciones y genere el HTML correspondiente para mostrarlas en la sección `#lista-canciones`. Asegúrese de que cada canción se muestre con su título, artista, año, género y duración.
+   
+   - Importe la interfaz `Cancion` desde `src/tipos.ts` para tipar el parámetro de la función.
+   - Importe la lista de canciones desde `src/canciones.ts`
+   - Implementa una función llamada `mostrarCanciones` que reciba como parámetro un arreglo de objetos de tipo Cancion. Mapee los atributos de cada canción a un bloque de HTML y los agregue al contenedor `#lista-canciones`.
+   - Llame a la función `mostrarCanciones` pasando la lista de canciones como argumento.
+
+   .. code-block:: typescript
+      
+      import { ... } from './canciones';
+      import type { ... } from './tipos';
+
+      if (appDiv) {
+        
+        appDiv.innerHTML = ` ... `; 
+
+        let mostrarCanciones = (canciones: Cancion[]): void => {
+          ...
+          if (listaDiv) {
+            listaDiv.innerHTML = canciones
+              .map(
+                (cancion) => `...`
+              )
+              .join('');
+          }
+        };
+
+        mostrarCanciones(canciones);
+      }
+
+   .. dropdown:: Solución
+       :color: success
+
+       .. code-block:: typescript
+          :emphasize-lines: 1,2,7-17, 19
+
+          import { canciones } from './canciones';
+          import type { Cancion } from './tipos';
+
+          if (appDiv) {
+            
+            appDiv.innerHTML = ` ... `; 
+
+            let mostrarCanciones = (canciones: Cancion[]): void => {
+              const listaDiv = document.getElementById('lista-canciones');
+              if (listaDiv) {
+                listaDiv.innerHTML = canciones
+                  .map(
+                    (cancion) => `
+                          <article class="cancion">
+                              <h3>${cancion.titulo}</h3>
+                              <p class="artista">Artista: ${cancion.artista}</p>
+                              <p class="anio">Año: ${cancion.anio}</p>
+                              <p class="genero">Género: ${cancion.genero}</p>
+                              <p class="duracion">Duración: ${cancion.duracion} segundos</p>
+                          </article>
+                      `
+                  )
+                  .join('');
+              }
+            };
+
+            mostrarCanciones(canciones);
+          }
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. 
+
+¿Cómo describo una canción para que TypeScript la entienda?
+-------------------------------------------------------------
+
+#.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. 
+
+¿Cómo describo una canción para que TypeScript la entienda?
+-------------------------------------------------------------
+
+#.
+
+Preguntas guía y de reflexión
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. 
 
 Referencias
 ===========
