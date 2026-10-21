@@ -20,7 +20,7 @@ Actividades en clases
 
 #. Ingrese a `Stackblitz <https://stackblitz.com>`_ e inicie sesión con su cuenta de `GitHub <https://github.com>`_.
 #. Cree un proyecto nuevo desde `New project` → `vanilla-ts`, o también puede abrir directamente `Vanilla Ts <https://vite.new/vanilla-ts>`_.
-#. Pulse **Fork** (o **Save**) para guardar el proyecto en su cuenta y cámbiele el nombre a *tube-track*.
+#. Pulse **Fork** (o **Save**) para guardar el proyecto en su cuenta y cámbiele el nombre a *tubetrack*.
 
 
 Preguntas guía y de reflexión
@@ -48,7 +48,7 @@ Preguntas guía y de reflexión
 ¿Cómo personalizo la presentación del proyecto?
 -------------------------------------------------------------
 
-.. #. Abra `tsconfig.json` y busque `"strict": true` dentro de `compilerOptions`. Si no aparece, agréguelo.
+#. Abra `tsconfig.json` y busque `"strict": true` dentro de `compilerOptions`. Si no aparece, agréguelo.
 #. Elimine `src/counter.ts` y `assets` del proyecto. 
 #. Reeemplace todo el contenido de `src/style.css` por:
 
@@ -220,18 +220,19 @@ Preguntas guía y de reflexión
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. ¿Cuál es la función de la propiedad `"strict": true` en el archivo `tsconfig.json`?
-#. Revisa la advertencia en `const appDiv: HTMLElement = document.getElementById('app')`, ¿por qué TypeScript obliga a comprobar la existencia de un elemento HTML antes de utilizarlo?
+#. ¿Cuál es la función de la propiedad *"strict": true* en el archivo `tsconfig.json`?
+#. ¿Por qué aparece la advertencia *"Object is possibly 'null'"* en `const appDiv: HTMLElement = document.getElementById('app')`? 
 
    **Nota**: Corrija la advertencia agregando una verificación con 
    `const appDiv: HTMLElement = document.getElementById('app') as HTMLElement;`
 
-#. ¿Qué relación hay entre TypeScript y JavaScript? ¿Qué significa que TypeScript sea un *superconjunto* de JavaScript?
+#. ¿Qué relación hay entre TypeScript y JavaScript? (TypeScript: JavaScript With Syntax For Types, n.d.)
+#. ¿Qué significa que TypeScript sea un *superconjunto* de JavaScript? (Chacón, 2021)
 
 ¿Cómo describo una canción para que TypeScript la entienda?
 -------------------------------------------------------------
 
-#. Antes de escribir código, acuerde en clase qué datos tiene una canción y de qué tipo es cada uno:
+#. Antes de escribir código, qué datos tiene una canción y de qué tipo es cada uno:
 
    .. list-table:: Propiedades de una canción
       :header-rows: 1
@@ -239,75 +240,141 @@ Preguntas guía y de reflexión
 
       * - Propiedad
         - Tipo
-        - ¿Obligatoria?
+        - ¿Obligatoria? (Sí/No)
         - Ejemplo
       * - ``id``
-        - ``number`` (no se puede cambiar)
-        - Sí
-        - ``1``
+        - 
+        - 
+        - 
       * - ``titulo``
-        - ``string``
-        - Sí
-        - ``'Bohemian Rhapsody'``
+        - 
+        - 
+        - 
       * - ``artista``
-        - ``string``
-        - Sí
-        - ``'Queen'``
+        - 
+        - 
+        - 
       * - ``anio``
-        - ``number``
-        - Sí
-        - ``1975``
+        - 
+        - 
+        - 
       * - ``genero``
-        - Uno de: ``rock``, ``pop``, ``salsa``, ``reggaeton``, ``bolero``
-        - Sí
-        - ``'rock'``
+        - 
+        - 
+        - `
       * - ``duracion``
-        - ``number`` (en segundos)
-        - Sí
-        - ``355``
+        - 
+        - 
+        - 
       * - ``album``
-        - ``string``
-        - **No**
-        - ``'A Night at the Opera'``
+        - 
+        - 
+        - 
+
+    .. dropdown:: Tipos de datos en TypeScript
+       :color: success
+
+       .. list-table:: Propiedades de una canción
+          :header-rows: 1
+          :widths: 15 40 15 30
+
+          * - Propiedad
+            - Tipo
+            - ¿Obligatoria? (Sí/No)
+            - Ejemplo
+          * - ``id``
+            - ``number`` (no se puede cambiar)
+            - Sí
+            - ``1``
+          * - ``titulo``
+            - ``string``
+            - Sí
+            - ``'Bohemian Rhapsody'``
+          * - ``artista``
+            - ``string``
+            - Sí
+            - ``'Queen'``
+          * - ``anio``
+            - ``number``
+            - Sí
+            - ``1975``
+          * - ``genero``
+            - Uno de: ``rock``, ``pop``, ``salsa``, ``reggaeton``, ``bolero``
+            - Sí
+            - ``'rock'``
+          * - ``duracion``
+            - ``number`` (en segundos)
+            - Sí
+            - ``355``
+          * - ``album``
+            - ``string``
+            - **No**
+            - ``'A Night at the Opera'``
 
 #. Cree el archivo `src/tipos.ts`, con el código:
 
+    - Tipo literal de cadena para género (Geeksforgeeks, 2022), con las opciones: ``rock``, ``pop``, ``salsa``, ``reggaeton``, ``bolero``.
+    - Interfaz para describir una canción, con las propiedades: ``id``, ``titulo``, ``artista``, ``anio``, ``genero``, ``duracion`` y ``album`` (opcional).
+
     .. code-block:: typescript
 
-       export type Genero = 'rock' | 'pop' | 'salsa' | 'reggaeton' | 'bolero';
+       export type Genero = ... ;
 
        export interface Cancion {
-          id: number;
-          titulo: string;
-          artista: string;
-          anio: number;
-          genero: Genero;
-          duracion: number; // en segundos
-          album?: string; // propiedad opcional
+          ...
        }
+    
+    .. dropdown:: Solución
+       :color: success
+
+       .. code-block:: typescript
+
+          export type Genero = 'rock' | 'pop' | 'salsa' | 'reggaeton' | 'bolero';
+
+          export interface Cancion {
+              id: number;
+              titulo: string;
+              artista: string;
+              anio: number;
+              genero: Genero;
+              duracion: number; // en segundos
+              album?: string; // propiedad opcional
+          }
 
 #. Cree el archivo `src/canciones.ts`, con el código:
+
+    - Una lista de canciones, con al menos 10 canciones, usando la interfaz `Cancion` y el tipo literal `Genero`. Algunas canciones pueden no tener álbum.
 
     .. code-block:: typescript
        
        import type { Cancion } from './tipos';
 
-       export const canciones: Cancion[] = [
-          { id: 0,  titulo: 'Adiós',                   artista: 'Gustavo Cerati',         anio: 2006, genero: 'rock alternativo',   duracion: 233, album: 'Ahí Vamos' },
-          { id: 1,  titulo: 'Bohemian Rhapsody',       artista: 'Queen',                  anio: 1975, genero: 'rock',               duracion: 355, album: 'A Night at the Opera' },
-          { id: 2,  titulo: 'Billie Jean',             artista: 'Michael Jackson',        anio: 1982, genero: 'pop',                duracion: 294, album: 'Thriller' },
-          { id: 3,  titulo: 'Despacito',               artista: 'Luis Fonsi',             anio: 2017, genero: 'reggaeton',          duracion: 229 },
-          { id: 4,  titulo: 'Pedro Navaja',            artista: 'Rubén Blades',           anio: 1978, genero: 'salsa',              duracion: 441, album: 'Siembra' },
-          { id: 5,  titulo: 'Nuestro juramento',       artista: 'Julio Jaramillo',        anio: 1957, genero: 'bolero',             duracion: 174 },
-          { id: 6,  titulo: 'Hotel California',        artista: 'Eagles',                 anio: 1976, genero: 'rock',               duracion: 391, album: 'Hotel California' },
-          { id: 7,  titulo: 'Vivir mi vida',           artista: 'Marc Anthony',           anio: 2013, genero: 'salsa',              duracion: 252, album: '3.0' },
-          { id: 8,  titulo: "Hips Don't Lie",          artista: 'Shakira',                anio: 2006, genero: 'pop',                duracion: 218 },
-          { id: 9,  titulo: 'Gasolina',                artista: 'Daddy Yankee',           anio: 2004, genero: 'reggaeton',          duracion: 192, album: 'Barrio Fino' },
-          { id: 10, titulo: 'Bésame mucho',            artista: 'Consuelo Velázquez',     anio: 1940, genero: 'bolero',             duracion: 200 },
-          { id: 11, titulo: 'Smells Like Teen Spirit', artista: 'Nirvana',                anio: 1991, genero: 'rock',               duracion: 301, album: 'Nevermind' },
-          { id: 12, titulo: 'La bicicleta',            artista: 'Carlos Vives y Shakira', anio: 2016, genero: 'pop',                duracion: 230 },
-       ];
+       export const canciones: Cancion[] = [ ... ];
 
+
+    .. dropdown: Solución
+       :color: success
+
+       .. code-block:: typescript
+       
+          import type { Cancion } from './tipos';
+
+          export const canciones: Cancion[] = [
+              { id: 0,  titulo: 'Adiós',                   artista: 'Gustavo Cerati',         anio: 2006, genero: 'rock',   duracion: 233, album: 'Ahí Vamos' },
+              { id: 1,  titulo: 'Bohemian Rhapsody',       artista: 'Queen',                  anio: 1975, genero: 'rock',               duracion: 355, album: 'A Night at the Opera' },
+              { id: 2,  titulo: 'Billie Jean',             artista: 'Michael Jackson',        anio: 1982, genero: 'pop',                duracion: 294, album: 'Thriller' },
+              { id: 3,  titulo: 'Despacito',               artista: 'Luis Fonsi',             anio: 2017, genero: 'reggaeton',          duracion: 229 },
+              { id: 4,  titulo: 'Pedro Navaja',            artista: 'Rubén Blades',           anio: 1978, genero: 'salsa',              duracion: 441, album: 'Siembra' },
+              { id: 5,  titulo: 'Nuestro juramento',       artista: 'Julio Jaramillo',        anio: 1957, genero: 'bolero',             duracion: 174 },
+              { id: 6,  titulo: 'Hotel California',        artista: 'Eagles',                 anio: 1976, genero: 'rock',               duracion: 391, album: 'Hotel California' },
+              { id: 7,  titulo: 'Vivir mi vida',           artista: 'Marc Anthony',           anio: 2013, genero: 'salsa',              duracion: 252, album: '3.0' },
+              { id: 8,  titulo: "Hips Don't Lie",          artista: 'Shakira',                anio: 2006, genero: 'pop',                duracion: 218 },
+              { id: 9,  titulo: 'Gasolina',                artista: 'Daddy Yankee',           anio: 2004, genero: 'reggaeton',          duracion: 192, album: 'Barrio Fino' },
+              { id: 10, titulo: 'Bésame mucho',            artista: 'Consuelo Velázquez',     anio: 1940, genero: 'bolero',             duracion: 200 },
+              { id: 11, titulo: 'Smells Like Teen Spirit', artista: 'Nirvana',                anio: 1991, genero: 'rock',               duracion: 301, album: 'Nevermind' },
+              { id: 12, titulo: 'La bicicleta',            artista: 'Carlos Vives y Shakira', anio: 2016, genero: 'pop',                duracion: 230 },
+          ];
+     
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -316,4 +383,6 @@ Preguntas guía y de reflexión
 Referencias
 ===========
 
-*
+* Chacón, J. L. (2021). TypeScript: Qué es, diferencias con JavaScript y por qué aprenderlo. Profile Software Services. Retrieved October 21, 2026 from https://profile.es/blog/que-es-typescript-vs-javascript/
+* TypeScript: JavaScript With Syntax for Types. (n.d.). Retrieved October 21, 2026 from https://www.typescriptlang.org/
+* Geeksforgeeks. (2022). What are string literal types in TypeScript ? - GeeksforGeeks. GeeksforGeeks. https://www.geeksforgeeks.org/typescript/what-are-string-literal-types-in-tpescript/.
