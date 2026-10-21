@@ -490,7 +490,7 @@ Preguntas guía y de reflexión
    - Agregue un *event listener* al campo de búsqueda (`#buscar`) que escuche el evento `input`. Cada vez que el usuario escriba algo, se debe llamar a la función `filtrarCanciones` pasando la lista completa de canciones y el valor del campo de búsqueda. Luego, se debe llamar a la función `mostrarCanciones` con el resultado filtrado.
 
    .. code-block:: typescript
-       :emphasize-lines: 1,10-12,14-21
+       :emphasize-lines: 1,9-11,13-20
         
        import { filtrarCanciones } from './utilidades';
 
@@ -518,7 +518,7 @@ Preguntas guía y de reflexión
        :color: success
 
        .. code-block:: typescript
-           :emphasize-lines: 1,10-12,14-21
+           :emphasize-lines: 1,9-11,13-20
             
            import { filtrarCanciones } from './utilidades';
 
