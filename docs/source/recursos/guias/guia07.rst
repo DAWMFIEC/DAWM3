@@ -424,7 +424,7 @@ Preguntas guía y de reflexión
        :color: success
 
        .. code-block:: typescript
-          :emphasize-lines: 1,2,9-19, 21
+          :emphasize-lines: 1,2,5,11-27, 29
 
           import { canciones } from './canciones';
           import type { Cancion } from './tipos';
@@ -448,8 +448,7 @@ Preguntas guía y de reflexión
                               <p class="anio">Año: ${cancion.anio}</p>
                               <p class="genero">Género: ${cancion.genero}</p>
                               <p class="duracion">Duración: ${cancion.duracion} segundos</p>
-                          </article>
-                      `
+                          </article>`
                   )
                   .join('');
               }
