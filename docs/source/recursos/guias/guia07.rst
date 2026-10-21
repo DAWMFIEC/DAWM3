@@ -460,29 +460,91 @@ Preguntas guía y de reflexión
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. ¿Qué sucede si la lista de canciones está vacía? ¿Cómo podrías manejar ese caso en la función `mostrarCanciones`?
-#. ¿Cómo podrías mejorar la presentación de la lista de canciones, por ejemplo, agregando estilos CSS o mostrando un mensaje cuando no se encuentren resultados?
-#. 
+#. Qué diferencia existe entre `import { canciones }` e `import type { Cancion }`? ¿Por qué se utiliza type en la segunda importación?
+#. ¿Qué valor almacena cantidad después de ejecutar `canciones.length`? ¿Qué tipo de dato infiere TypeScript para esta variable?
+#. ¿Qué significa `(canciones: Cancion[]): void` en la declaración de la función **mostrarCanciones**?
+#. ¿Qué hace el método `map()` sobre el arreglo canciones y qué devuelve en cada iteración? ¿Por qué es necesario utilizar `.join('')` después de `map()`?
+#. ¿Qué función cumple `innerHTML` y cómo permite mostrar las canciones sin escribir manualmente cada elemento HTML?
 
 ¿Cómo encuentro una canción escribiendo parte de su nombre?
 -------------------------------------------------------------
 
-#.
+#. Cree el archivo `src/utilidades.ts`, con el código:
+
+   .. code-block:: typescript
+
+      import type { Cancion } from './tipos';
+
+      export const filtrarCanciones = (canciones: Cancion[], busqueda: string): Cancion[] => {
+          const busquedaMinuscula = busqueda.toLowerCase();
+          return canciones.filter((cancion) =>
+              cancion.titulo.toLowerCase().includes(busquedaMinuscula)
+          );
+      };
+
+
+#. Modifique el archivo `src/main.ts` para agregar la funcionalidad de búsqueda de canciones:
+
+   - Importe la función `filtrarCanciones` desde `src/utilidades.ts`.
+   - Obtenga el elemento de entrada de búsqueda (`#buscar`).
+   - Agregue un *event listener* al campo de búsqueda (`#buscar`) que escuche el evento `input`. Cada vez que el usuario escriba algo, se debe llamar a la función `filtrarCanciones` pasando la lista completa de canciones y el valor del campo de búsqueda. Luego, se debe llamar a la función `mostrarCanciones` con el resultado filtrado.
+
+   .. code-block:: typescript
+       :emphasize-lines: 1,7-9,11-18
+        
+       import { filtrarCanciones } from './utilidades';
+
+       ... 
+
+       mostrarCanciones(canciones);
+
+       const buscarInput: HTMLInputElement = document.getElementById(
+          ...
+       ) as HTMLInputElement;
+
+       if (buscarInput) {
+         buscarInput.addEventListener( ... , () => {
+          const busqueda = buscarInput.value;
+
+          const cancionesFiltradas = filtrarCanciones(... , ...);
+          mostrarCanciones(cancionesFiltradas);
+         });
+       }
+
+   .. dropdown:: Solución
+       :color: success
+
+       .. code-block:: typescript
+           :emphasize-lines: 1,7-9,11-18
+            
+           import { filtrarCanciones } from './utilidades';
+
+           ... 
+
+           mostrarCanciones(canciones);
+
+           const buscarInput: HTMLInputElement = document.getElementById(
+              'buscar'
+           ) as HTMLInputElement;
+
+           if (buscarInput) {
+             buscarInput.addEventListener('input', () => {
+                const busqueda = buscarInput.value;
+
+                const cancionesFiltradas = filtrarCanciones(canciones, busqueda);
+                mostrarCanciones(cancionesFiltradas);
+             });
+           }
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. 
-
-¿Cómo describo una canción para que TypeScript la entienda?
--------------------------------------------------------------
-
-#.
-
-Preguntas guía y de reflexión
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-#. 
+#. ¿Qué cambio debería realizarse en la función `filtrarCanciones` para que también busque por el artista y por género de la canción?
+#. ¿Por qué la función `filtrarCanciones()` recibe un arreglo de tipo `Cancion[]` y también devuelve un arreglo del mismo tipo?
+#. ¿Qué sucedería si eliminamos `toLowerCase()` de las comparaciones y buscamos **QUEEN** en mayúsculas?
+#. ¿Qué ocurre cuando el usuario elimina todo el texto del buscador? ¿Por qué vuelven a mostrarse todas las canciones?
+#. ¿Qué diferencia existe entre **HTMLInputElement** y **HTMLElement**? ¿Por qué necesitamos acceder a la propiedad value?
+#. ¿Por qué es conveniente implementar la lógica de filtrado en `utilidades.ts` y mantener la presentación de resultados en `main.ts`?
 
 Referencias
 ===========
