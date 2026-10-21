@@ -490,25 +490,28 @@ Preguntas guía y de reflexión
    - Agregue un *event listener* al campo de búsqueda (`#buscar`) que escuche el evento `input`. Cada vez que el usuario escriba algo, se debe llamar a la función `filtrarCanciones` pasando la lista completa de canciones y el valor del campo de búsqueda. Luego, se debe llamar a la función `mostrarCanciones` con el resultado filtrado.
 
    .. code-block:: typescript
-       :emphasize-lines: 1,7-9,11-18
+       :emphasize-lines: 1,10-12,14-21
         
        import { filtrarCanciones } from './utilidades';
 
        ... 
 
-       mostrarCanciones(canciones);
+       if (appDiv) {
 
-       const buscarInput: HTMLInputElement = document.getElementById(
-          ...
-       ) as HTMLInputElement;
+          mostrarCanciones(canciones);
 
-       if (buscarInput) {
-         buscarInput.addEventListener( ... , () => {
-          const busqueda = buscarInput.value;
+          const buscarInput: HTMLInputElement = document.getElementById(
+              ...
+          ) as HTMLInputElement;
 
-          const cancionesFiltradas = filtrarCanciones(... , ...);
-          mostrarCanciones(cancionesFiltradas);
-         });
+          if (buscarInput) {
+            buscarInput.addEventListener( ... , () => {
+              const busqueda = buscarInput.value;
+
+              const cancionesFiltradas = filtrarCanciones(... , ...);
+              mostrarCanciones(cancionesFiltradas);
+            });
+          }
        }
 
    .. dropdown:: Solución
