@@ -314,7 +314,7 @@ Preguntas guía y de reflexión
 #. Cree el archivo `src/tipos.ts`, con el código:
 
    - Tipo literal de cadena para género (Geeksforgeeks, 2022), con las opciones: ``rock``, ``pop``, ``salsa``, ``reggaeton``, ``bolero``.
-   - Interfaz para describir una canción, con las propiedades: ``id``, ``titulo``, ``artista``, ``anio``, ``genero``, ``duracion`` y ``album`` (opcional).
+   - Interfaz (Llamas, 2024) para describir una canción, con las propiedades: ``id``, ``titulo``, ``artista``, ``anio``, ``genero``, ``duracion`` y ``album`` (opcional).
 
    .. code-block:: typescript
 
@@ -341,8 +341,8 @@ Preguntas guía y de reflexión
 
 #. Cree el archivo `src/canciones.ts`, con el código:
 
-   - Importe la interfaz `Cancion` y el tipo literal `Genero` desde `src/tipos.ts`.
-   - Una lista de canciones, con al menos 10 canciones, usando la interfaz `Cancion` y el tipo literal `Genero`. Recuerde que algunas canciones pueden no tener álbum.
+   - Importe (Viktorsson, 2025) la interfaz `Cancion` y el tipo literal `Genero` desde `src/tipos.ts`.
+   - Una lista de canciones (Lists | TypeScript Guide by Convex, n.d.), con al menos 10 canciones, usando la interfaz `Cancion` y el tipo literal `Genero`. Recuerde que algunas canciones pueden no tener álbum.
    
    .. code-block:: typescript
 
@@ -381,6 +381,7 @@ Preguntas guía y de reflexión
 #. ¿Qué significa que la propiedad `album?` en la interfaz `Cancion`?
 #. ¿Qué ventajas ofrece TypeScript al definir tipos y estructuras de datos en comparación con JavaScript?
 #. ¿Cómo ayuda la definición de tipos de datos en el desarrollo de software?
+#. ¿Cuál es la utilidad de la palabra clave `export` en TypeScript y cómo se relaciona con la modularidad del código?
 
 Referencias
 ===========
@@ -388,3 +389,6 @@ Referencias
 * Chacón, J. L. (2021). TypeScript: Qué es, diferencias con JavaScript y por qué aprenderlo. Profile Software Services. Retrieved October 21, 2026 from https://profile.es/blog/que-es-typescript-vs-javascript/
 * TypeScript: JavaScript With Syntax for Types. (n.d.). Retrieved October 21, 2026 from https://www.typescriptlang.org/
 * Geeksforgeeks. (2022). What are string literal types in TypeScript ? - GeeksforGeeks. GeeksforGeeks. https://www.geeksforgeeks.org/typescript/what-are-string-literal-types-in-tpescript/.
+* Llamas, L. (2024). What are Interfaces and how to use them in TypeScript. Luis Llamas. https://www.luisllamas.es/en/typescript-interfaces/.
+* Viktorsson, R. (2025, January 10). TypeScript and ES Modules: Best Practices for Imports and Exports | by Robin Viktorsson | Medium. Retrieved October 21, 2026 from https://medium.com/@robinviktorsson/typescript-and-es-modules-best-practices-for-imports-and-exports-9ce200e75a88
+* Lists | TypeScript Guide by Convex. (n.d.). Retrieved October 21, 2026 from https://www.convex.dev/typescript/core-concepts/arrays-collections/typescript-list
