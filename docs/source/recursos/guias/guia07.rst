@@ -387,8 +387,7 @@ Preguntas guía y de reflexión
 ¿Cómo muestro la lista de canciones en la página?
 -------------------------------------------------
 
-#. Importe (Viktorsson, 2025) la lista de canciones desde `src/canciones.ts` en `src/main.ts`.
-#. Cree una función `mostrarCanciones` que reciba un arreglo de canciones y genere el HTML correspondiente para mostrarlas en la sección `#lista-canciones`. Asegúrese de que cada canción se muestre con su título, artista, año, género y duración.
+#. Modifique el archivo `src/main.ts` para mostrar la lista de canciones en la página web:
    
    - Importe la interfaz `Cancion` desde `src/tipos.ts` y la lista de canciones desde `src/canciones.ts`
    - Asigne el valor de la longitud del arreglo de canciones a la variable `cantidad`.
@@ -396,6 +395,7 @@ Preguntas guía y de reflexión
    - Llame a la función `mostrarCanciones` pasando la lista de canciones como argumento.
 
    .. code-block:: typescript
+      :emphasize-lines: 1,2,4,10-19, 21
       
       import { ... } from './canciones';
       import type { ... } from './tipos';
@@ -404,10 +404,10 @@ Preguntas guía y de reflexión
 
       if (appDiv) {
         
-        appDiv.innerHTML = ` ... `; 
+        appDiv.innerHTML = ... ; 
 
         let mostrarCanciones = (canciones: Cancion[]): void => {
-          ...
+          const listaDiv = document.getElementById( ... );
           if (listaDiv) {
             listaDiv.innerHTML = canciones
               .map(
@@ -456,12 +456,15 @@ Preguntas guía y de reflexión
 
             mostrarCanciones(canciones);
           }
+
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+#. ¿Qué sucede si la lista de canciones está vacía? ¿Cómo podrías manejar ese caso en la función `mostrarCanciones`?
+#. ¿Cómo podrías mejorar la presentación de la lista de canciones, por ejemplo, agregando estilos CSS o mostrando un mensaje cuando no se encuentren resultados?
 #. 
 
-¿Cómo describo una canción para que TypeScript la entienda?
+¿Cómo encuentro una canción escribiendo parte de su nombre?
 -------------------------------------------------------------
 
 #.
