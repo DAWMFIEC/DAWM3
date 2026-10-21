@@ -471,16 +471,33 @@ Preguntas guía y de reflexión
 
 #. Cree el archivo `src/utilidades.ts`, con el código:
 
+   - Importe la interfaz `Cancion` desde `src/tipos.ts`.
+   - Implemente la función `filtrarCanciones` que reciba un arreglo de canciones y un string de búsqueda. La función debe devolver un nuevo arreglo con las canciones cuyo título contenga el string de búsqueda, sin importar mayúsculas o minúsculas.
+
    .. code-block:: typescript
 
-      import type { Cancion } from './tipos';
+      import type { ... } from './tipos';
 
-      export const filtrarCanciones = (canciones: Cancion[], busqueda: string): Cancion[] => {
-          const busquedaMinuscula = busqueda.toLowerCase();
-          return canciones.filter((cancion) =>
-              cancion.titulo.toLowerCase().includes(busquedaMinuscula)
+      export const filtrarCanciones = (canciones: Cancion[], busqueda: string): ... => {
+          const busquedaMinuscula = busqueda. ... ();
+          return canciones. ... ((cancion) =>
+              cancion.titulo. ... (). ... (busquedaMinuscula)
           );
       };
+    
+   .. dropdown:: Solución
+       :color: success
+
+       .. code-block:: typescript
+
+          import type { Cancion } from './tipos';
+
+          export const filtrarCanciones = (canciones: Cancion[], busqueda: string): Cancion[] => {
+              const busquedaMinuscula = busqueda.toLowerCase();
+              return canciones.filter((cancion) =>
+                  cancion.titulo.toLowerCase().includes(busquedaMinuscula)
+              );
+          };
 
 
 #. Modifique el archivo `src/main.ts` para agregar la funcionalidad de búsqueda de canciones:
