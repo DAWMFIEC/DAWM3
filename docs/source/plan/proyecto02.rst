@@ -78,7 +78,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    Finalmente, realizarán el despliegue de la landing page mediante GitHub Pages, verificando que el sitio publicado funcione correctamente y que sus contenidos, imágenes, enlaces y estilos se visualicen adecuadamente.
 
 .. dropdown:: Fase 5: Entrega
-   :color: warning
+   :color: info
 
    El grupo deberá entregar el proyecto en la fecha establecida, incluyendo el enlace al sitio web desarrollado y un informe que documente la problemática seleccionada, la metodología utilizada para recopilar los datos, los resultados obtenidos y las conclusiones del análisis. El informe debe presentarse en formato PDF y debe incluir capturas de pantalla del sitio web, así como cualquier otro material relevante.
 

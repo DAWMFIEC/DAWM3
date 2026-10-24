@@ -91,7 +91,7 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
    **Evidencia:** Genera un esquema o boceto de la estructura del perfil y la propuesta de contenido de cada sección y proyecto destacado.
 
 .. dropdown:: Fase 3: Implementación
-   :color: warning
+   :color: info
 
    En esta fase, convierte el diseño en un perfil funcional utilizando Markdown y las características disponibles en GitHub.
 

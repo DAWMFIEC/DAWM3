@@ -22,16 +22,14 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
 
    Con esta actividad, se busca que los integrantes del grupo comprendan la importancia de utilizar TypeScript en el desarrollo de aplicaciones web, ya que proporciona tipado estático y características avanzadas que mejoran la calidad del código y facilitan el mantenimiento del proyecto.
 
+   **Fuente de datos**
+
+   Se ha identificado la necesidad de utilizar una fuente de datos confiable y actualizada para alimentar el dashboard. Esto implica investigar y seleccionar conjunto de datos que proporcione información relevante y precisa para el monitoreo en tiempo real.
+
 .. dropdown:: Fase 2: Planificación
-   :color: info
-   :disabled: true
+   :color: warning
 
    Para este proyecto, es importante que los integrantes del grupo comprendan qué es un dashboard y qué información debe contener. Un dashboard es una herramienta visual que permite a los usuarios monitorear y analizar datos de manera rápida y efectiva. Debe presentar información clave de manera clara y concisa, utilizando gráficos, tablas y otros elementos visuales para facilitar la interpretación de los datos.
-
-
-.. dropdown:: Fase 3: Diseño
-   :disabled: true
-   :color: info
 
    **Perfiles de referencia.** 
 
@@ -44,6 +42,13 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
    * **Datos financieros.** El grupo analiza métricas como ingresos, gastos y márgenes de beneficio para evaluar la salud financiera de una empresa.
 
    **Evidencia:** Generen un párrafo que justifique la elección del conjunto de métricas seleccionadas.
+
+
+.. dropdown:: Fase 3: Diseño
+   :disabled: true
+   :color: info
+
+   En esta fase, se ha diseñado la estructura y el diseño del dashboard, definiendo los elementos visuales que se utilizarán para presentar la información de manera efectiva. Se ha considerado la disposición de los gráficos, tablas y otros componentes, así como la selección de colores y estilos que mejoren la legibilidad y la experiencia del usuario.
 
 Referencias
 ===========
