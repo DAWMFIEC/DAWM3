@@ -11,7 +11,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
 
 
 .. dropdown:: Fase 1: Análisis
-   :color: info
+   :color: success
 
    **Perfiles de referencia.** 
 
@@ -31,17 +31,17 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    * Actividades artísticas: `Semanartte <https://www.instagram.com/semanartte/>`_ y `Plaza Guayarte <https://www.instagram.com/plazaguyarte/>`_.
    * Actividades culturales: `Museo Nahim Isaías <https://www.instagram.com/museonahimisaias/>`_, `Museo Presley Norton <https://www.instagram.com/m.presleynorton/>`_, `Museo del Cacao <https://www.instagram.com/museocacao/>`_, `Museo Antropológico y de Arte Contemporáneo <https://www.instagram.com/maacec/>`_, `Red de museos de la Dirección de Cultura <https://www.instagram.com/museos.gye/>`_ y `Teatro Centro de Arte <https://www.instagram.com/tcagye/>`_.
 
-   **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada.
+   .. **Evidencia:** Generen un párrafo que justifique la elección de la actividad seleccionada.
 
 .. dropdown:: Fase 2: Diseño
-   :color: info
+   :color: success
 
    En esta fase, el grupo debe diseñar la entrevista o encuesta que se aplicará a los participantes de la actividad seleccionada. La entrevista o encuesta debe contener preguntas abiertas y cerradas, y debe ser diseñada de manera que permita recopilar información relevante sobre la actividad (Oas.org/juridico/PDFs/mesicic4_ven_rec_gen_rea_entrev.pdf, n.d.).
 
-   **Evidencia:** Contextualice la plantilla de la entrevista o encuesta diseñada, incluyendo las preguntas abiertas y cerradas, de acuerdo con su la actividad seleccionada.
+   .. **Evidencia:** Contextualice la plantilla de la entrevista o encuesta diseñada, incluyendo las preguntas abiertas y cerradas, de acuerdo con su la actividad seleccionada.
 
 .. dropdown:: Fase 3: Planificación
-   :color: info
+   :color: success
 
    Durante la planificación deberán priorizar la seguridad, privacidad, dignidad y bienestar de las personas sobre la obtención de datos o evidencias para el proyecto. Para esto, deberán actuar de manera responsable, segura y ética, especialmente cuando las actividades involucren interacción con personas o espacios de la comunidad.
 
@@ -59,7 +59,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    * **Fuentes externas y derechos de autor:** Cuando se utilicen imágenes, textos, mapas, estadísticas u otros recursos que no hayan sido producidos por el grupo, deberá identificarse su procedencia y respetarse las condiciones de uso y autoría.
 
 .. dropdown:: Fase 4: Desarrollo
-   :color: info
+   :color: success
 
    En esta fase, el grupo debe recopilar los datos de la actividad seleccionada mediante la aplicación de la entrevista o encuesta diseñada. Posteriormente, deberán analizar los resultados y presentarlos en un sitio web que cumpla con los requisitos de accesibilidad, usabilidad y diseño.
 
@@ -78,7 +78,7 @@ En grupos de dos personas, seleccionen una problemática, manifestación cultura
    Finalmente, realizarán el despliegue de la landing page mediante GitHub Pages, verificando que el sitio publicado funcione correctamente y que sus contenidos, imágenes, enlaces y estilos se visualicen adecuadamente.
 
 .. dropdown:: Fase 5: Entrega
-   :color: info
+   :color: success
 
    El grupo deberá entregar el proyecto en la fecha establecida, incluyendo el enlace al sitio web desarrollado y un informe que documente la problemática seleccionada, la metodología utilizada para recopilar los datos, los resultados obtenidos y las conclusiones del análisis. El informe debe presentarse en formato PDF y debe incluir capturas de pantalla del sitio web, así como cualquier otro material relevante.
 

@@ -24,31 +24,18 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
 
    **Fuente de datos**
 
-   Se ha identificado la necesidad de utilizar una fuente de datos confiable y actualizada para alimentar el dashboard. Esto implica investigar y seleccionar conjunto de datos que proporcione información relevante y precisa para el monitoreo en tiempo real.
+   Se ha identificado la necesidad de utilizar una fuente de datos confiable y actualizada para alimentar el dashboard. Esto implica investigar y seleccionar conjunto de datos que proporcione información relevante y precisa para el monitoreo en tiempo real,considerando que contenga variables categóricas y numéricas que permitan realizar comparaciones, agrupaciones y visualizaciones estadísticas significativas.
 
 .. dropdown:: Fase 2: Planificación
    :color: warning
 
-   Para este proyecto, es importante que los integrantes del grupo comprendan qué es un dashboard y qué información debe contener. Un dashboard es una herramienta visual que permite a los usuarios monitorear y analizar datos de manera rápida y efectiva. Debe presentar información clave de manera clara y concisa, utilizando gráficos, tablas y otros elementos visuales para facilitar la interpretación de los datos.
-
-   **Perfiles de referencia.** 
-
-   Elijan un conjunto de métricas o indicadores que sean relevantes para el monitoreo en tiempo real y justifiquen su elección en un párrafo.
-
-   La selección de métricas debe ser de interés para los usuarios y debe permitir la recopilación de datos, como ejemplo:
-
-   * **Métricas de rendimiento del sitio web.** El grupo selecciona métricas como tiempo de carga, tasa de rebote y conversiones para analizar el rendimiento del sitio web.
-   * **Indicadores de redes sociales.** El grupo recopila datos sobre seguidores, interacciones y alcance en plataformas como Instagram, Twitter o Facebook.
-   * **Datos financieros.** El grupo analiza métricas como ingresos, gastos y márgenes de beneficio para evaluar la salud financiera de una empresa.
-
-   **Evidencia:** Generen un párrafo que justifique la elección del conjunto de métricas seleccionadas.
-
+   Para este proyecto, es importante que los integrantes del grupo identifiquen la información clave de manera clara y concisa, mediante métricas; además de su presentación, utilizando gráficos, tablas y otros elementos visuales para facilitar la interpretación de los datos.
 
 .. dropdown:: Fase 3: Diseño
-   :disabled: true
    :color: info
+   :color: warning
 
-   En esta fase, se ha diseñado la estructura y el diseño del dashboard, definiendo los elementos visuales que se utilizarán para presentar la información de manera efectiva. Se ha considerado la disposición de los gráficos, tablas y otros componentes, así como la selección de colores y estilos que mejoren la legibilidad y la experiencia del usuario.
+   Elabore un boceto de baja fidelidad y luego un prototipo (Figma, Excalidraw o papel digitalizado) de la vista en escritorio y en móvil. Ubique los indicadores, gráficos, tabla y filtros según su importancia para el usuario.
 
 Referencias
 ===========

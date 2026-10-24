@@ -10,7 +10,7 @@ Plan de desarrollo
 El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo que el historial de commits cuente cómo se construyó el perfil.
 
 .. dropdown:: Fase 1: Análisis
-   :color: info
+   :color: success
 
    En esta fase, observa antes de construir. Estudia cómo otros desarrolladores presentan su identidad en GitHub y qué características tiene un proyecto bien versionado, para decidir con criterio qué incluir en tu propio perfil y cómo documentar los proyectos que vas a destacar.
 
@@ -40,10 +40,10 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    Aplica la misma lista de verificación a tus repositorios que piensas destacar e identifica qué les falta.
 
-   **Evidencia:** Genera una tabla comparativa de perfiles, la lista de verificación de proyectos, el diagnóstico de tus repositorios y los requisitos definidos.
+   .. **Evidencia:** Genera una tabla comparativa de perfiles, la lista de verificación de proyectos, el diagnóstico de tus repositorios y los requisitos definidos.
 
 .. dropdown:: Fase 2: Planificación y Diseño
-   :color: info
+   :color: success
 
    En esta fase, define cómo se organizará la información antes de construir la versión final del perfil. El objetivo es tomar decisiones sobre estructura, jerarquía y contenido.
 
@@ -88,7 +88,7 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
    * Enlace al repositorio.
    * Enlace a demostración, cuando exista.
 
-   **Evidencia:** Genera un esquema o boceto de la estructura del perfil y la propuesta de contenido de cada sección y proyecto destacado.
+   .. **Evidencia:** Genera un esquema o boceto de la estructura del perfil y la propuesta de contenido de cada sección y proyecto destacado.
 
 .. dropdown:: Fase 3: Implementación
    :color: warning
@@ -136,7 +136,7 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    Mantén commits pequeños y relacionados con cambios concretos. El historial debe permitir reconstruir cómo evolucionó el perfil desde su primera versión hasta la versión actual.
 
-   **Evidencia:** Perfil implementado, con historial de commits que muestre el desarrollo incremental.
+   .. **Evidencia:** Perfil implementado, con historial de commits que muestre el desarrollo incremental.
 
 .. dropdown:: Fase 4: Publicación
    :color: warning
@@ -147,7 +147,7 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
    
    Verifica que el repositorio principal esté correctamente configurado para mostrar el ``README.md`` en tu perfil. Asegúrate de que la visibilidad del repositorio sea pública.
 
-   **Evidencia:** URL pública del perfil, URL de los repositorios destacados, SHA del commit correspondiente a la versión final y una breve reflexión sobre el proceso de desarrollo.
+   .. **Evidencia:** URL pública del perfil, URL de los repositorios destacados, SHA del commit correspondiente a la versión final y una breve reflexión sobre el proceso de desarrollo.
 
 
 
