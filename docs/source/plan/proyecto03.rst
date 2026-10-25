@@ -24,7 +24,7 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
 
    **Fuente de datos**
 
-   Se ha identificado la necesidad de utilizar una fuente de datos confiable y actualizada para alimentar el dashboard. Esto implica investigar y seleccionar conjunto de datos que proporcione información relevante y precisa para el monitoreo en tiempo real,considerando que contenga variables categóricas y numéricas que permitan realizar comparaciones, agrupaciones y visualizaciones estadísticas significativas.
+   Se ha identificado la necesidad de utilizar una fuente de datos confiable y actualizada para alimentar el dashboard. Esto implica investigar y seleccionar conjunto de datos que proporcione información relevante y precisa para el monitoreo en tiempo real, considerando que contenga variables categóricas y numéricas que permitan realizar comparaciones, agrupaciones y visualizaciones estadísticas significativas.
 
 .. dropdown:: Fase 2: Planificación
    :color: warning
