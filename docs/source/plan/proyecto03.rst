@@ -28,12 +28,13 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
 
 .. dropdown:: Fase 2: Planificación
    :color: warning
+   :disabled: true
 
    Para este proyecto, es importante que los integrantes del grupo identifiquen la información clave de manera clara y concisa, mediante métricas; además de su presentación, utilizando gráficos, tablas y otros elementos visuales para facilitar la interpretación de los datos.
 
 .. dropdown:: Fase 3: Diseño
-   :color: info
    :color: warning
+   :disabled: true
 
    Elabore un boceto de baja fidelidad y luego un prototipo (Figma, Excalidraw o papel digitalizado) de la vista en escritorio y en móvil. Ubique los indicadores, gráficos, tabla y filtros según su importancia para el usuario.
 
