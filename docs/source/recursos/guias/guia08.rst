@@ -748,7 +748,7 @@ Preguntas guía y de reflexión
 
       {
           ...
-          "homepage": "https://<username>.github.io/dashboard",
+          "homepage": "https://<username>.github.io/<nombre_del_repositorio>/",
           ...
           "scripts": {
               ...
@@ -763,7 +763,7 @@ Preguntas guía y de reflexión
       :emphasize-lines: 2
 
       export default defineConfig({
-          base: '/dashboard/',
+          base: '/<nombre_del_repositorio>/',
           plugins: [react()],
       })
 
@@ -776,14 +776,14 @@ Preguntas guía y de reflexión
    - De ser necesario, elimine, corrija o comente las secciones de código identificadas por el transpilador.
    - Vuelva a ejecutar el comando de despliegue.
 
-#. Compruebe el resultado en el navegador, con la URL: `https://<username>.github.io/dashboard`
+#. Compruebe el resultado en el navegador, con la URL: `https://<username>.github.io/<nombre_del_repositorio>/`
 
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. ¿Qué contiene la carpeta `dist` después de ejecutar `npm run build`? ¿Por qué se publica esa carpeta y no `src`?
 #. ¿Por qué el script `predeploy` se ejecuta automáticamente antes de `deploy`?
-#. ¿Qué ocurre con las rutas de los archivos JavaScript y CSS si se omite la opción `base: '/dashboard/'`?
+#. ¿Qué ocurre con las rutas de los archivos JavaScript y CSS si se omite la opción `base: '/<nombre_del_repositorio>/'`?
 #. ¿Por qué un error de tipos de TypeScript puede impedir el despliegue aunque la página funcione con `npm run dev`?
 #. ¿Qué decisiones de esta guía tomó usted y cuáles tomó a partir de sugerencias de una IA? ¿Cómo comprobó que el resultado es consistente, accesible y adaptable a distintos tamaños de pantalla?
 
