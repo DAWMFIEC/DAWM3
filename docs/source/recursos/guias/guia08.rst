@@ -785,7 +785,9 @@ Preguntas guía y de reflexión
 #. ¿Por qué el script `predeploy` se ejecuta automáticamente antes de `deploy`?
 #. ¿Qué ocurre con las rutas de los archivos JavaScript y CSS si se omite la opción `base: '/<nombre_del_repositorio>/'`?
 #. ¿Por qué un error de tipos de TypeScript puede impedir el despliegue aunque la página funcione con `npm run dev`?
-#. ¿Qué decisiones de esta guía tomó usted y cuáles tomó a partir de sugerencias de una IA? ¿Cómo comprobó que el resultado es consistente, accesible y adaptable a distintos tamaños de pantalla?
+#. ¿Qué diferencia existe entre la URL de Codespaces y la URL de GitHub Pages? ¿Qué ventajas tiene publicar el dashboard en GitHub Pages?
+#. ¿Qué decisiones de esta guía tomó usted y cuáles tomó a partir de sugerencias de una IA? 
+#. ¿Cómo comprobó que el resultado es consistente, accesible y adaptable a distintos tamaños de pantalla?
 
 Referencias
 ===========
