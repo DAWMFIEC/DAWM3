@@ -10,7 +10,7 @@ Plan de desarrollo
 En grupos de dos integrantes trabajará de manera colaborativa durante todas las fases del proyecto, desde el análisis, planificación y diseño hasta la implementación y presentación del dashboard.
 
 .. dropdown:: Fase 1: Análisis
-   :color: warning
+   :color: info
 
    En esta fase, se ha identificado la necesidad de desarrollar las habilidades de programación con JavaScript y TypeScript, así como la comprensión de conceptos clave relacionados con el desarrollo de dashboards interactivos. Se ha investigado sobre las tecnologías web modernas y se ha analizado la importancia de presentar información de manera clara y concisa.
 
@@ -26,15 +26,8 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
 
    Se ha identificado la necesidad de utilizar una fuente de datos confiable y actualizada para alimentar el dashboard. Esto implica investigar y seleccionar conjunto de datos que proporcione información relevante y precisa para el monitoreo en tiempo real, considerando que contenga variables categóricas y numéricas que permitan realizar comparaciones, agrupaciones y visualizaciones estadísticas significativas.
 
-.. dropdown:: Fase 2: Planificación
+.. dropdown:: Fase 2: Diseño
    :color: warning
-   :disabled: true
-
-   Para este proyecto, es importante que los integrantes del grupo identifiquen la información clave de manera clara y concisa, mediante métricas; además de su presentación, utilizando gráficos, tablas y otros elementos visuales para facilitar la interpretación de los datos.
-
-.. dropdown:: Fase 3: Diseño
-   :color: warning
-   :disabled: true
 
    Elabore un boceto de baja fidelidad y luego un prototipo (Figma, Excalidraw o papel digitalizado) de la vista en escritorio y en móvil. Ubique los indicadores, gráficos, tabla y filtros según su importancia para el usuario.
 
