@@ -139,7 +139,7 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
    .. **Evidencia:** Perfil implementado, con historial de commits que muestre el desarrollo incremental.
 
 .. dropdown:: Fase 4: Publicación
-   :color: warning
+   :color: success
 
    En esta fase, el perfil debe estar completo y listo para ser compartido. Verifica que toda la información sea correcta, que los enlaces funcionen y que el formato sea legible en diferentes dispositivos.
 
@@ -149,7 +149,10 @@ El trabajo avanza por fases; cada una deja evidencia en el repositorio, de modo 
 
    .. **Evidencia:** URL pública del perfil, URL de los repositorios destacados, SHA del commit correspondiente a la versión final y una breve reflexión sobre el proceso de desarrollo.
 
+.. dropdown:: Fase 5: Entrega
+   :color: success
 
+   En esta fase, entrega la evidencia del trabajo realizado. Asegúrate de que todos los archivos estén correctamente organizados y que la documentación sea clara y completa.
 
 Referencias
 ===========
