@@ -27,9 +27,14 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
    Se ha identificado la necesidad de utilizar una fuente de datos confiable y actualizada para alimentar el dashboard. Esto implica investigar y seleccionar conjunto de datos que proporcione información relevante y precisa para el monitoreo en tiempo real, considerando que contenga variables categóricas y numéricas que permitan realizar comparaciones, agrupaciones y visualizaciones estadísticas significativas.
 
 .. dropdown:: Fase 2: Diseño
-   :color: warning
+   :color: info
 
    Elabore un boceto de baja fidelidad y luego un prototipo (Figma, Excalidraw o papel digitalizado) de la vista en escritorio y en móvil. Ubique los indicadores, gráficos, tabla y filtros según su importancia para el usuario.
+
+.. dropdown:: Fase 3: Planificación
+   :color: warning
+
+   Al finalizar esta fase, cada equipo contará con una arquitectura de componentes React documentada, directamente relacionada con sus prototipos, que servirá como referencia para la siguiente fase de desarrollo del dashboard.
 
 Referencias
 ===========
