@@ -4,7 +4,7 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ====================================
-Guía extra: Conversión de CSV a JSON
+Conversión de CSV a JSON
 ====================================
 
 .. topic:: Objetivo específico
