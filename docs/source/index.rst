@@ -20,4 +20,4 @@ móviles cumpliendo con los estándares actuales y las buenas prácticas de prog
   :caption: Extras
   :glob:
 
-  guias/extras/*
+  recursos/extras/*
