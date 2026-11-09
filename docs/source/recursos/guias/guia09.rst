@@ -209,7 +209,7 @@ Preguntas guía y de reflexión
 Preguntas guía y de reflexión
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. En *TubeTrack* (Guía 07) se usó `buscarInput.addEventListener('input', ...)`. ¿Qué diferencia encuentra con asignar `onChange={handleChange}` directamente en JSX?
+#. En *TubeTrack* (Guía 07), con Javascript, se usó `buscarInput.addEventListener('input', ...)`. ¿Qué diferencia encuentra con asignar `onChange={handleChange}` directamente en JSX?
 #. ¿Qué es un *evento sintético* en React (Certidevs, n.d.)? ¿Qué propiedades del objeto `event` observó en la consola?
 #. ¿Por qué se escribe `onChange={handleChange}` y no `onChange={handleChange()}`? ¿Qué mensaje mostró el transpilador?
 #. ¿Qué aporta el tipo `SelectChangeEvent<string>`? ¿Qué tipo de dato tiene `event.target.value`?
@@ -339,7 +339,7 @@ Preguntas guía y de reflexión
 #. ¿Qué ocurre con el componente cada vez que se llama a `setCityInput`? ¿Por qué no basta con asignar `cityInput = event.target.value`?
 #. ¿Qué tipo de dato infiere TypeScript para `cityInput` a partir del valor inicial `''`? ¿Cómo lo declararía de forma explícita?
 #. ¿Qué diferencia existe entre un `Select` *controlado* (con `value={cityInput}`) y uno *no controlado*?
-#. ¿Cómo funciona la expresión `{cityInput && (...)}`? Compare esta forma de mostrar u ocultar contenido con el `display: none` del mensaje `#sin-resultados` en *TubeTrack*.
+#. ¿Cómo funciona la expresión `{cityInput && (...)}`? Compare esta forma de mostrar u ocultar contenido con el `display: none` del mensaje `#sin-resultados` mediante JavaScript y CSS.
 #. ¿Qué hace la propiedad `textTransform: 'capitalize'`? ¿Por qué se escribe `style={{ ... }}` con doble llave?
 #. ¿Qué cambio haría para que el componente `App` también conozca la ciudad seleccionada y pueda usarla en otras secciones del dashboard?
 

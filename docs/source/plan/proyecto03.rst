@@ -32,9 +32,18 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
    Elabore un boceto de baja fidelidad y luego un prototipo (Figma, Excalidraw o papel digitalizado) de la vista en escritorio y en móvil. Ubique los indicadores, gráficos, tabla y filtros según su importancia para el usuario.
 
 .. dropdown:: Fase 3: Planificación
-   :color: warning
+   :color: info
 
    Al finalizar esta fase, cada equipo contará con una arquitectura de componentes React documentada, directamente relacionada con sus prototipos, que servirá como referencia para la siguiente fase de desarrollo del dashboard.
+
+.. dropdown:: Fase 4: Implementación
+   :color: info
+
+   En esta fase, cada equipo implementará su dashboard utilizando React y TypeScript, siguiendo la arquitectura de componentes previamente definida. Se espera que los integrantes del grupo apliquen buenas prácticas de desarrollo, como la modularidad, la reutilización de componentes y la gestión eficiente del estado de la aplicación.
+
+   **Sprint 1 – Transformación de un conjunto de datos CSV en JSON**
+
+   En este sprint, cada equipo se encargará de transformar su conjunto de datos en formato CSV a JSON. Esta tarea es fundamental para preparar los datos que se utilizarán en el dashboard, asegurando que estén estructurados de manera adecuada para su posterior visualización y análisis.
 
 Referencias
 ===========
