@@ -16,3 +16,4 @@ Guías
   ./guias/guia08.rst
   ./guias/guia09.rst
   ./guias/guia10.rst
+  ./guias/guia11.rst
