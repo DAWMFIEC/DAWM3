@@ -4,13 +4,13 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 =========================================================================
-Guía 12: React - Visualización de datos y comunicación entre componentes
+Guía 11: React - Visualización de datos y comunicación entre componentes
 =========================================================================
 
 .. topic:: Objetivo específico
    :class: objetivo
 
-   Incorporar componentes de gestión y visualización de datos de MUI X al dashboard del clima y comunicar los componentes mediante props, estado y un hook personalizado, para que la selección de una ciudad actualice los indicadores, la tabla y el gráfico con datos de la API de Open-Meteo.
+   Incorporar componentes de gestión y visualización de datos de MUI X al dashboard del clima mediante la comunicación de  componentes personalizados con la actualización dinámica del dashboard a partir de los datos del API de Open-Meteo.
 
 Actividades en clases
 =====================
