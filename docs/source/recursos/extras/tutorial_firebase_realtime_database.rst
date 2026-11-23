@@ -15,8 +15,8 @@ Tutorial: Consumo de datos con Firebase Realtime Database SDK en React
 Desarrollo del tutorial
 =======================
 
-Requisitos previos
-------------------
+Requisitos
+----------
 
 #. Verifique que tiene instalado Node.js (versión LTS) y npm:
 
@@ -97,7 +97,7 @@ Creación del proyecto en Firebase
 Creación de la base de datos en Realtime Database
 -------------------------------------------------
 
-#. En el menú lateral de Firebase console, acceda a **Compilación > Realtime Database** y haga clic en **Crear una base de datos**.
+#. En el menú lateral de Firebase console, acceda a **Bases de datos y almacenamiento > Realtime Database** y haga clic en **Crear una base de datos**.
 #. Seleccione la ubicación de la base de datos (por ejemplo, *Estados Unidos (us-central1)*).
 #. Seleccione **Comenzar en modo bloqueado** y finalice el asistente.
 #. Copie la URL de la base de datos que aparece en la parte superior de la pestaña **Datos**. Según la ubicación, tiene uno de estos formatos (Firebase, n.d.-b):
@@ -107,7 +107,7 @@ Creación de la base de datos en Realtime Database
       https://<ID-del-proyecto>-default-rtdb.firebaseio.com
       https://<ID-del-proyecto>-default-rtdb.<region>.firebasedatabase.app
 
-#. Cree en su computadora el archivo ``clima.json`` con los datos de ejemplo:
+#. Utilice el archivo en formato **JSON** con los datos de su aplicación. Por ejemplo, el archivo ``clima.json`` tiene el siguiente contenido:
 
    .. code-block:: json
 
@@ -132,7 +132,7 @@ Creación de la base de datos en Realtime Database
 
    Realtime Database almacena la información como un único árbol JSON. Cada nodo se identifica por su ruta; por ejemplo, ``clima/guayaquil`` contiene los datos de Guayaquil.
 
-#. En la pestaña **Reglas**, permita solo la lectura pública del nodo ``clima`` y publique los cambios:
+#. En la pestaña **Reglas**, permita solo la lectura pública del nodo ``clima`` y **publique** los cambios:
 
    .. code-block:: json
 
@@ -149,8 +149,11 @@ Creación de la base de datos en Realtime Database
 
       Las rutas que no aparecen en las reglas quedan denegadas por defecto. Con esta configuración, cualquier cliente puede leer ``clima``, pero ninguno puede modificarlo desde la aplicación.
 
-Instalación del SDK de Firebase
+Integración de Firebase con React
 -------------------------------
+
+Instalación del SDK de Firebase
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Instale el paquete ``firebase`` desde npm:
 
@@ -167,12 +170,12 @@ Instalación del SDK de Firebase
    El SDK web usa una API modular: cada servicio se importa desde su propio subpaquete con la forma ``firebase/<servicio>``. Vite agrupa solo las funciones importadas, lo que reduce el tamaño del sitio final (Firebase, n.d.-a).
 
 Inicialización de Firebase
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Cree el archivo ``src/firebase/firebase.ts``:
 
    - Importe ``initializeApp`` desde ``firebase/app`` y ``getDatabase`` desde ``firebase/database``.
-   - Pegue el objeto ``firebaseConfig`` copiado de la consola y agregue la propiedad ``databaseURL`` con la URL de su base de datos.
+   - Pegue el objeto ``firebaseConfig`` y agregue la propiedad ``databaseURL`` con la URL de su base de datos.
    - Inicialice la aplicación con ``initializeApp`` y exporte la instancia de la base de datos obtenida con ``getDatabase``.
 
    .. dropdown:: firebase.ts
@@ -208,9 +211,9 @@ Inicialización de Firebase
       La ``apiKey`` de una aplicación web identifica el proyecto ante Firebase y no es una credencial secreta. El acceso a los datos lo controlan las reglas de seguridad configuradas en la sección anterior.
 
 Definición del modelo de datos
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Cree el archivo ``src/types/Clima.ts`` con la interfaz ``Clima``, que describe la forma de cada nodo hijo de ``clima``:
+#. Utilice las interfaces de su aplicación para definir el modelo de datos. Por ejemplo, el archivo ``src/types/Clima.ts`` contiene la interfaz ``Clima``, que describe la forma de cada nodo hijo de ``clima``:
 
    .. dropdown:: Clima.ts
       :color: success
@@ -227,9 +230,9 @@ Definición del modelo de datos
    Las propiedades de la interfaz coinciden con las claves del JSON importado. Si agrega una nueva clave en la base de datos (por ejemplo, ``presion``), agregue también la propiedad correspondiente en la interfaz para que TypeScript la reconozca.
 
 Servicio de acceso a datos
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Cree el archivo ``src/services/climaService.ts`` con la función asincrónica ``obtenerClima``:
+#. Cree un archivo para el requerimiento de acceso a datos, por ejemplo, el archivo ``src/services/climaService.ts`` con la función asincrónica ``obtenerClima``:
 
    - Reciba como parámetro la ruta del nodo que se desea leer.
    - Cree una referencia al nodo con ``ref(database, ruta)``.
@@ -263,7 +266,7 @@ Servicio de acceso a datos
    Separar el acceso a datos en un servicio permite que los componentes de React no dependan directamente del SDK de Firebase.
 
 Hook personalizado para obtener los datos
------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Cree el archivo ``src/hooks/useFetchData.ts`` con el hook ``useFetchData``:
 
@@ -313,7 +316,7 @@ Hook personalizado para obtener los datos
       El parámetro se declara con el tipo primitivo ``string`` y no con el tipo envoltorio ``String``. La guarda ``if (!ciudad)`` evita que, con el valor inicial ``''``, se lea la ruta ``clima/``, que retornaría el nodo completo con todas las ciudades en lugar de un objeto ``Clima``.
 
 Integración en el componente App
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Modifique el archivo ``src/App.tsx``:
 
@@ -399,15 +402,15 @@ Integración en el componente App
       npm run dev
 
 Verificación del funcionamiento
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Abra la aplicación en el navegador y seleccione cada ciudad. Compruebe que los valores coinciden con los de la pestaña **Datos** de Firebase console.
 #. Abra las herramientas de desarrollador, acceda a la pestaña **Network** y filtre por **WS**. El SDK de Realtime Database se comunica con el servidor mediante una conexión WebSocket, no con peticiones HTTP individuales; los mensajes de cada lectura aparecen dentro de esa conexión.
 #. Modifique un valor en Firebase console (por ejemplo, la temperatura de Quito), vuelva a seleccionar la ciudad en la aplicación y compruebe que se muestra el nuevo valor.
 #. Si la consola del navegador muestra el mensaje ``permission_denied``, revise las reglas de seguridad del nodo ``clima``. Si los datos no llegan y no aparece ningún error, revise el valor de ``databaseURL`` en ``firebase.ts``.
 
-Suscripción a cambios en tiempo real
-------------------------------------
+Opcional: Suscripción a cambios en tiempo real
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 La función ``get`` lee los datos una sola vez. Para que la interfaz se actualice automáticamente cuando cambian los datos en la base, el SDK ofrece la función ``onValue``, que registra un observador sobre la ruta y lo ejecuta con cada cambio (Firebase, n.d.-c).
 
