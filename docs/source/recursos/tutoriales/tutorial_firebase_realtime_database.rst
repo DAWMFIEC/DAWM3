@@ -273,8 +273,7 @@ Hook personalizado para obtener los datos
       :color: success
 
       .. code-block:: typescript
-         :emphasize-lines: 5,11-13
-
+         
          import { useEffect, useState } from "react";
          import { obtenerClima } from "../services/climaService";
          import type { Clima } from "../types/Clima";
