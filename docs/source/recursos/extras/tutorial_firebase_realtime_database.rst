@@ -100,13 +100,6 @@ Creación de la base de datos en Realtime Database
 #. En el menú lateral de Firebase console, acceda a **Bases de datos y almacenamiento > Realtime Database** y haga clic en **Crear una base de datos**.
 #. Seleccione la ubicación de la base de datos (por ejemplo, *Estados Unidos (us-central1)*).
 #. Seleccione **Comenzar en modo bloqueado** y finalice el asistente.
-#. Copie la URL de la base de datos que aparece en la parte superior de la pestaña **Datos**. Según la ubicación, tiene uno de estos formatos (Firebase, n.d.-b):
-
-   .. code-block:: text
-
-      https://<ID-del-proyecto>-default-rtdb.firebaseio.com
-      https://<ID-del-proyecto>-default-rtdb.<region>.firebasedatabase.app
-
 #. Utilice el archivo en formato **JSON** con los datos de su aplicación. Por ejemplo, el archivo ``clima.json`` tiene el siguiente contenido:
 
    .. code-block:: json
@@ -175,14 +168,14 @@ Inicialización de Firebase
 #. Cree el archivo ``src/firebase/firebase.ts``:
 
    - Importe ``initializeApp`` desde ``firebase/app`` y ``getDatabase`` desde ``firebase/database``.
-   - Pegue el objeto ``firebaseConfig`` y agregue la propiedad ``databaseURL`` con la URL de su base de datos.
+   - Pegue el objeto ``firebaseConfig`` obtenido en la sección de creación del proyecto en Firebase.
    - Inicialice la aplicación con ``initializeApp`` y exporte la instancia de la base de datos obtenida con ``getDatabase``.
 
    .. dropdown:: firebase.ts
       :color: success
 
       .. code-block:: typescript
-         :emphasize-lines: 7
+         :emphasize-lines: 3, 11
 
          import { initializeApp } from "firebase/app";
 
@@ -190,7 +183,6 @@ Inicialización de Firebase
 
          const firebaseConfig = {
            apiKey: "<API_KEY>",
-           databaseURL: "https://<ID-del-proyecto>-default-rtdb.firebaseio.com",
            authDomain: "<ID-del-proyecto>.firebaseapp.com",
            projectId: "<ID-del-proyecto>",
            storageBucket: "<ID-del-proyecto>.firebasestorage.app",
