@@ -4,13 +4,13 @@
    SPDX-License-Identifier: CC-BY-SA-4.0
 
 ==========================================================================
-Tutorial: React - Consumo de datos con Firebase Realtime Database SDK
+Tutorial: Consumo de datos con Firebase Realtime Database SDK en React
 ==========================================================================
 
 .. topic:: Objetivo específico
    :class: objetivo
 
-   Integrar el SDK web de Firebase Realtime Database en una aplicación React 19.3.1 con TypeScript 6.0.3, mediante la inicialización del SDK, la definición de un modelo de datos, un servicio de acceso a datos y un hook personalizado que actualiza la interfaz según la ciudad seleccionada.
+   Integrar el SDK web de Firebase Realtime Database en una aplicación React, con TypeScript, mediante la inicialización del SDK, la definición de un modelo de datos, un servicio de acceso a datos y un hook personalizado que actualiza la interfaz según la ciudad seleccionada.
 
 Desarrollo del tutorial
 =======================
@@ -67,12 +67,32 @@ Requisitos previos
 Creación del proyecto en Firebase
 ---------------------------------
 
-#. Acceda a `Firebase console <https://console.firebase.google.com/>`_ con su cuenta de Google y seleccione **Crear un proyecto**.
+#. Acceda a `Firebase console <https://console.firebase.google.com/>`_ con su cuenta de Google y seleccione **Crear un proyecto de Firebase nuevo**.
 #. Ingrese un nombre para el proyecto (por ejemplo, *data-repository*). Firebase genera a partir de él un **ID de proyecto** único.
-#. Google Analytics es opcional; puede desactivarlo para este tutorial. Finalice la creación del proyecto.
-#. En la página de descripción general del proyecto, seleccione la plataforma **Web** (ícono ``</>``) para registrar la aplicación.
-#. Asigne un sobrenombre a la aplicación (por ejemplo, *clima-react*) y haga clic en **Registrar app**. No es necesario configurar Firebase Hosting.
-#. Copie el objeto ``firebaseConfig`` que muestra la consola. Lo usará en la sección de inicialización (Firebase, n.d.-a).
+#. *Asistencia de IA* y *Google Analytics* son opcionales; puede desactivarlo para este tutorial. Finalice la creación del proyecto.
+#. En **Configuración > General**, cree una aplicación **Web** (ícono ``</>``).
+   #. Asigne un sobrenombre a la aplicación (por ejemplo, *data-react*) y haga clic en **Registrar app**. No es necesario configurar Firebase Hosting.
+   #. Copie el código de configuración de Firebase. Lo usará en la sección de inicialización (Firebase, n.d.-a), similar a:
+
+   .. code-block:: javascript
+
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "firebase/app";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+         apiKey: "<API_KEY>",
+         authDomain: "<ID-del-proyecto>.firebaseapp.com",
+         projectId: "<ID-del-proyecto>",
+         storageBucket: "<ID-del-proyecto>.firebasestorage.app",
+         messagingSenderId: "<SENDER_ID>",
+         appId: "<APP_ID>"
+      };
+      
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
 
 Creación de la base de datos en Realtime Database
 -------------------------------------------------

@@ -55,15 +55,9 @@ En grupos de dos integrantes trabajará de manera colaborativa durante todas las
 
    Configurarán Firebase Realtime Database, almacenarán los registros transformados y establecerán la conexión con su aplicación React.
 
-   Utilizarán `useEffect` para ejecutar la consulta inicial y `useState` para conservar los registros recuperados y controlar los estados de carga y error. Finalmente, reemplazarán los datos de ejemplo de algunos componentes por información obtenida desde Firebase.
+   Utilizarán `useEffect` para ejecutar la consulta inicial y `useState` para conservar los registros recuperados y controlar los estados de carga y error. Finalmente, reemplazarán los datos de ejemplo en los indicadores, los gráficos y la tabla de datos, respetando las decisiones establecidas en los prototipos.
 
-   **Sprint 4 – Registros en visualizaciones estadísticas**
-
-   Procesarán los registros obtenidos de Firebase para calcular indicadores y construir visualizaciones relacionadas con las necesidades de información identificadas en la fase de análisis.
-
-   Implementarán al menos tres KPI, tres gráficos y una tabla de datos, respetando las decisiones establecidas en los prototipos.
-
-   **Sprint 5 – Filtros y actualización de visualizaciones**
+   **Sprint 4 – Filtros y actualización de visualizaciones**
 
    Integrarán las funcionalidades desarrolladas durante los sprints anteriores para construir un dashboard interactivo.
 
