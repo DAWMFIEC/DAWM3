@@ -205,7 +205,7 @@ Inicialización de Firebase
 Definición del modelo de datos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Utilice las interfaces de su aplicación para definir el modelo de datos. Por ejemplo, el archivo ``src/types/Clima.ts`` contiene la interfaz ``Clima``, que describe la forma de cada nodo hijo de ``clima``:
+#. Utilice las interfaces de su aplicación para definir el modelo de datos; por ejemplo, el archivo ``src/types/Clima.ts`` contiene la interfaz ``Clima``, que describe la forma de cada nodo hijo de ``clima``:
 
    .. dropdown:: Clima.ts
       :color: success
@@ -224,7 +224,7 @@ Definición del modelo de datos
 Servicio de acceso a datos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Cree un archivo para el requerimiento de acceso a datos, por ejemplo, el archivo ``src/services/climaService.ts`` con la función asincrónica ``obtenerClima``:
+#. Cree un archivo para el requerimiento de acceso a datos; por ejemplo, el archivo ``src/services/climaService.ts`` con la función asincrónica ``obtenerClima``:
 
    - Reciba como parámetro la ruta del nodo que se desea leer.
    - Cree una referencia al nodo con ``ref(database, ruta)``.
@@ -260,7 +260,7 @@ Servicio de acceso a datos
 Hook personalizado para obtener los datos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Cree el archivo ``src/hooks/useFetchData.ts`` con el hook ``useFetchData``:
+#. Cree un archivo para representar el hook personalizado; por ejemplo, el archivo ``src/hooks/useFetchData.ts`` con el hook ``useFetchData``:
 
    - Reciba como parámetro el identificador de la ciudad (``ciudad``), de tipo ``string``.
    - Declare la variable de estado ``clima`` (de tipo ``Clima`` o ``null``, con valor inicial ``null``).
@@ -310,7 +310,7 @@ Hook personalizado para obtener los datos
 Integración en el componente App
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Modifique el archivo ``src/App.tsx``:
+#. Utilice el hook personalizado en el componente ``App``; modifique el archivo ``src/App.tsx``:
 
    - Declare la variable de estado ``cityInput`` (valor inicial ``''``) para la ciudad seleccionada.
    - Llame al hook ``useFetchData`` con ``cityInput`` y desestructure la propiedad ``clima``.

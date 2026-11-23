@@ -17,7 +17,7 @@ móviles cumpliendo con los estándares actuales y las buenas prácticas de prog
 
 .. toctree::
   :maxdepth: 1
-  :caption: Extras
+  :caption: Tutoriales
   :glob:
 
-  recursos/extras/*
+  recursos/tutoriales/*
